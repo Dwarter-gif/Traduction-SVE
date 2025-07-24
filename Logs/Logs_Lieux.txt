@@ -1,0 +1,898 @@
+Notes d'avant lecture :
+
+*Liste des lieux qui ont été traduit ailleurs dans le fichier et que j'ai rectifier aux lignes concernés
+
+ - Aurora Vineyard => Vignoble d'Aurora (correction du nom anglais basée sur la traduction à la ligne 1700)
+
+ - Blue Moon Vineyard => Vignoble de la Lune Bleue (correction du nom anglais basée sur la traduction à la ligne 1986)
+
+ - Crimson Badlands => Les Terres Écarlates (correction du nom anglais basée sur la traduction à la ligne 1023)
+
+ - EmeraldFarm => Ferme Émeraude [OK] (correction du nom anglais basée sur la traduction à la ligne 1993)
+
+ - Gem Sea => Mer de Gemme (correction du nom anglais basée sur la traduction à la ligne 2270)
+
+ - Ginger Island => Île Gingembre (correction du nom anglais basée sur la traduction à la ligne 1214)
+
+ - GrandpasShed / Grandpa's Shed => Hangar de Grand-père [OK] (correction du nom anglais basée sur la traduction à la ligne 2010)
+
+ - Grenville Falls => Les Chutes de Greenville (correction du nom anglais basée sur la traduction à la ligne 2010)
+
+*Cas de la quête du Trio Légendaire : Pour garder une cohérence avec les quêtes du trio légendaire (lignes 927-945) et éviter d'avoir des lieux anglais et français, j'ai préféré tous les traduires
+
+- Castle Village => Village du Château
+
+- Highlands => Les Hautes Terres (ou Les Terres Hautes ?)
+
+- Marshlands => Les Marais [OK]
+
+*Liste des autres lieux que j'ai pris la liberté de traduire en plus
+
+- Cindersap Forest => Forêt Sève-Cendreuse (wiki)
+- Fable Reef => Récif des Fables
+- Forbidden Maze => Labyrinthe Interdit [OK]
+- Go Goat Ranch => Ranch des Chèvres [OK]
+- Joja Mart => Marché Joja (wiki)
+- Luau day => Fête Hawaïenne (wiki) [OK]
+- Pelican Town => Pelican Ville (wiki)
+
+*Lieux inchangés
+
+- Fireplace
+- Grampleton
+- Guilde First Slash
+- Pine-Mesa city
+- Shearwater
+- Sautine City
+- Zuzu City
+
+##############################################################################################################################################################
+
+Listes des lieux traduits dans les phrases en français ou noms de lieux simple qui reviennent souvent
+
+****[Aurora Vineyard => Vignoble d'Aurora]
+
+//unused - "Apples.6hearts2.09":
+Ligne 5821 : [...] "Les Junimos se dirigent vers Aurora Vineyard...",
+          => [...] "Les Junimos se dirigent vers le Vignoble d'Aurora...",
+
+Ligne 5837 : [...] "Qu'en pense Ami Apples ?#J'aimerais qu'Aurora Vineyard soit rénové. Amusez-vous bien à la maison.#Vous avez une maison ici et j'aime jouer avec vous !",
+          => [...] "Qu'en pense Ami Apples ?#J'aimerais que le Vignoble d'Aurora soit rénové. Amusez-vous bien à la maison.#Vous avez une maison ici et j'aime jouer avec vous !",
+
+//Aurora Dialogue for Andy
+Ligne 5855 : [...] "Aurora Vineyard a été réparé. Tu r'prends la main, fermier ?$0#$e#Difficile d'déplacer les produits là-bas. C'est l'une des raisons pour lesquelles Jerry et Elizabeth ont tant lutté.$0#$b#Tu aurais b'soin d'être un sorcier pour faire prospérer ces terres agricoles...$0#$e#J'devrais leur envoyer une carte postale avec une photo d'leur ancienne maison rénovée.$1",
+          => [...] "Le Vignoble d'Aurora a été réparé. Tu r'prends la main, fermier ?$0#$e#Difficile d'déplacer les produits là-bas. C'est l'une des raisons pour lesquelles Jerry et Elizabeth ont tant lutté.$0#$b#Tu aurais b'soin d'être un sorcier pour faire prospérer ces terres agricoles...$0#$e#J'devrais leur envoyer une carte postale avec une photo d'leur ancienne maison rénovée.$1",
+
+Ligne 5856 : [...] "Aurora Vineyard a été réparé. Tu r'prends la main, fermier ? J'avais l'habitude d'avoir d'bons amis qui vivaient là-bas.$0#$e#Difficile d'déplacer les produits là-bas. C'est l'une des raisons pour lesquelles Jerry et Elizabeth ont tant lutté.$0#$b#Tu aurais b'soin d'être un sorcier pour faire prospérer ces terres agricoles...$0#$e#J'devrais leur envoyer une carte postale avec une photo d'leur ancienne maison rénovée.$1",
+          => [...] "Le Vignoble d'Aurora a été réparé. Tu r'prends la main, fermier ? J'avais l'habitude d'avoir d'bons amis qui vivaient là-bas.$0#$e#Difficile d'déplacer les produits là-bas. C'est l'une des raisons pour lesquelles Jerry et Elizabeth ont tant lutté.$0#$b#Tu aurais b'soin d'être un sorcier pour faire prospérer ces terres agricoles...$0#$e#J'devrais leur envoyer une carte postale avec une photo d'leur ancienne maison rénovée.$1",
+
+//Andy comments on Aurora Vineyard being overgrown
+Ligne 6834 : [...] "Quelque chose est arrivé à Aurora Vineyard, fermier. Il est soudainement envahi par la végétation et mes affaires sont manquantes'!$2#$e#*soupir* Peut-être qu'il est temps pour moi de passer à autre chose...$8",
+          => [...] "Quelque chose est arrivé au Vignoble d'Aurora, fermier. Il est soudainement envahi par la végétation et mes affaires sont manquantes'!$2#$e#*soupir* Peut-être qu'il est temps pour moi de passer à autre chose...$8",
+
+//Buying Aurora Events
+Ligne 9694 && 9696 && 9697 && 9699 : [...] "Bonjour, @.$0#$b#Je voulais savoir si tu es intéressé par... L'achat d'Aurora Vineyard.$4", / "Suis-je intéressé par l'achat d'Aurora Vineyard ?#Oui#Non", / "Très bien. Je n'achète pas Aurora Vineyard. Je devrais en parler à Morris.", / "Très bien. Je vais acheter Aurora Vineyard. Je devrais informer Morris.",
+                                  => [...] "Bonjour, @.$0#$b#Je voulais savoir si tu es intéressé par... L'achat du Vignoble d'Aurora.$4", / "Suis-je intéressé par l'achat du Vignoble d'Aurora ?#Oui#Non", / "Très bien. Je n'achète pas le Vignoble d'Aurora. Je devrais en parler à Morris.", / "Très bien. Je vais acheter le Vignoble d'Aurora. Je devrais informer Morris.",
+
+Ligne 9700 : [...] "Ah, tu es intéressé par l'achat d'Aurora Vineyard ?$4#$b#Retrouve-moi au Marché Joja afin que nous puissions discuter des détails...$0#$e#Andy ne remplit malheureusement pas les prérequis et Sophia a déjà trop de travail.$0#$b#Susan ignore mes messages...$3",
+          => [...] "Ah, tu es intéressé par l'achat du Vignoble d'Aurora ?$4#$b#Retrouve-moi au Marché Joja afin que nous puissions discuter des détails...$0#$e#Andy ne remplit malheureusement pas les prérequis et Sophia a déjà trop de travail.$0#$b#Susan ignore mes messages...$3",
+
+Ligne 9702 : [...] "Ah, je vois. Tu as pris la décision d'acheter l'Aurora Vineyard.$0#$b#*Ahem* Cela demande un prix élevé... 5 000 000 g pour être exact.$0",
+          => [...] "Ah, je vois. Tu as pris la décision d'acheter le Vignoble d'Aurora.$0#$b#*Ahem* Cela demande un prix élevé... 5 000 000 g pour être exact.$0",
+
+//Buying Aurora Conversation Topics
+Ligne 9715 : [...] "J'ai eu vent que tu as acheté l'Aurora Vineyard. Mes vieux amis le possédaient.$0#$e#S'il y a quelqu'un dans cette vallée qui s'en sortira, c'est bien toi.$0",
+          => [...] "J'ai eu vent que tu as acheté le Vignoble d'Aurora. Mes vieux amis le possédaient.$0#$e#S'il y a quelqu'un dans cette vallée qui s'en sortira, c'est bien toi.$0",
+
+Ligne 9717 : [...] "Wow ! Tu possèdes plusieurs fermes maintenant ?$1#$e#Vas-tu rester fidèle à la marque Aurora Vineyard et y faire du vin ?$1",
+          => [...] "Wow ! Tu possèdes plusieurs fermes maintenant ?$1#$e#Vas-tu rester fidèle à la marque du Vignoble d'Aurora et y faire du vin ?$1",
+
+//Buying Aurora Conversation Topics
+Ligne 9726 : [...] "Bonjour, chou ! On m'a dit que tu avais acheté l'Aurora Vineyard.$0#$b#Si tu décidais de faire du vin là-bas, je serai la première à les acheter !$1",
+          => [...] "Bonjour, mon chou ! On m'a dit que tu avais acheté le Vignoble d'Aurora.$0#$b#Si tu décidais de faire du vin là-bas, je serai la première à les acheter !$1",
+
+//Clint Special Order
+Ligne 11927 && 11929 : [...] "Aurora Vineyard", / "Laisser les caramboles sur la plaque Junimo dans l'Aurora Vineyard.",
+                    => [...] "Vignoble d'Aurora", / "Laisser les caramboles sur la plaque Junimo dans le Vignoble d'Aurora.",
+
+//Apples Special Order & Junimo Scroll
+Ligne 11964 : [...] "Vous sentez que quelque chose s'est passé à Aurora Vineyard.",
+           => [...] "Vous sentez que quelque chose s'est passé au Vignoble d'Aurora.",
+
+##############################################################################################################################################################
+
+****[Blue Moon Vineyard => Vignoble de la Lune Bleue]
+
+//CONFIGS
+Ligne 23 : [...] "Shorter Path To Blue Moon Vineyard",
+        => [...] "Chemin plus court vers le Vignoble de la Lune Bleue",
+
+Ligne 49 : [...] "Config.ShorterPathToBlueMoonVineyard.description": "Pushes the warp point from Cindersap Forest > Blue Moon Vineyard closer to Fairhaven Farm, cutting down on travel time.",
+        => [...] "Config.ShorterPathToBlueMoonVineyard.description": "Rapproche le point de téléportation de la Forêt Sève-Cendreuse > Vignoble de la Lune Bleue plus proche de la Ferme Fairhaven, réduisant ainsi la durée du voyage.",
+
+//Locations
+Ligne 1022 : [...] "Vignoble Blue Moon",
+          => [...] "Vignoble de la Lune Bleue",
+
+//Lance
+Ligne 1084 : [...] "C'est un très bon vin vieilli... du « Vignoble Blue Moon », tu dis ? Merci !$1",
+          => [...] "C'est un très bon vin vieilli... du « Vignoble de la Lune Bleue », tu dis ? Merci !$1",
+
+//Olivia
+Ligne 1124 && 1125 : [...] "*surprise* Du vin de Blue Moon vieilli !? Chéri, il ne fallait pas ! Je te remercie énormément.$1", / "Oh bonté divine, une exquise bouteille de vin de Blue Moon ! Je vais l'ajouter à notre collection. Merci, très cher.$3",
+                  => [...] "*surprise* Du vin de la Lune Bleue vieilli !? Chéri, il ne fallait pas ! Je te remercie énormément.$1", / "Oh bonté divine, une exquise bouteille de vin de la Lune Bleue ! Je vais l'ajouter à notre collection. Merci, très cher.$3",
+
+//Objects
+Ligne 1696 && 1697 : [...] "Vin de Blue Moon vieilli", / "Vin vieilli du vignoble Blue Moon tenu par Sophia. Arrive avec un panier orné de feuilles et de bois brillant. Cela en fait un superbe cadeau !",
+                  => [...] "Vin de la Lune Bleue vieilli", / "Vin vieilli du vignoble de la Lune Bleue tenu par Sophia. Arrive avec un panier orné de feuilles et de bois brillant. Cela en fait un superbe cadeau !",
+
+Ligne 1710 && 1711 : [...] "Vin de Blue Moon", / "Vin fait-main par Sophia au vignoble de Blue Moon.",
+                  => [...] "Vin de la Lune Bleue", / "Vin fait-main par Sophia au vignoble de la Lune Bleue.",
+
+//VICTOR NPC
+Ligne 2104 : [...] "J'ai accidentellement laissé tomber un des vins de luxe de ma mère hier...$2#$b#J'ai dû dépenser une partie de mon allocation pour acheter une autre bouteille de qualité iridium au vignoble Blue Moon de Sophia.$6",
+          => [...] "J'ai accidentellement laissé tomber un des vins de luxe de ma mère hier...$2#$b#J'ai dû dépenser une partie de mon allocation pour acheter une autre bouteille de qualité iridium au Vignoble de la Lune Bleue de Sophia.$6",
+
+//VICTOR EVENT DIALOGUGE
+Ligne 2384 : [...] "Nous avons célébré le stage de Victor avec le meilleur vin vieilli de Blue Moon et avons énormément ri.",
+          => [...] "Nous avons célébré le stage de Victor avec le meilleur vin vieilli du Vignoble de la Lune Bleue et avons énormément ri.",
+
+//VICTOR DIALOGUE - MALE PLAYER MARRIED TO Olivia
+Ligne 2529 : [...] "Bonjour, père. Partage ce verre de vin Blue Moon avec moi !",
+          => [...] "Bonjour, père. Partage ce verre de vin du Vignoble de la Lune Bleue avec moi !",
+
+//VICTOR DIALOGUE - FEMALE PLAYER MARRIED TO Olivia
+Ligne 2549 : [...] "Bonjour, mère. Partage ce verre de vin Blue Moon avec moi !",
+          => [...] "Bonjour, mère. Partage ce verre de vin du Vignoble de la Lune Bleue avec moi !",
+
+//CLAIRE FESTIVALS
+Ligne 3980 : [...] "Ce jus de raisin artisanal du vignoble Blue Moon est tentant...$1",
+          => [...] "Ce jus de raisin artisanal du Vignoble de la Lune Bleue est tentant...$1",
+
+//Sophia NPC
+Ligne 4234 : [...] "Aaaah ! Un étranger !^Aaaah ! Une étrangère !$2#$e#A-attends. Tu es @ ? Le nouveau fermier de la ferme %farm ?^A-attends. Tu es @ ? La nouvelle fermière de la ferme %farm ?$0#$b#Dé-désolée. Je deviens un peu nerveuse avec les gens que je n'ai jamais rencontrés auparavant.$1#$b#Je m'appelle Sophia. Je suis la propriétaire du vignoble Blue Moon.$9#$e#Euh... Et bien, à la prochaine, je suppose.$1",
+          => [...] "Aaaah ! Un étranger !^Aaaah ! Une étrangère !$2#$e#A-attends. Tu es @ ? Le nouveau fermier de la ferme %farm ?^A-attends. Tu es @ ? La nouvelle fermière de la ferme %farm ?$0#$b#Dé-désolée. Je deviens un peu nerveuse avec les gens que je n'ai jamais rencontrés auparavant.$1#$b#Je m'appelle Sophia. Je suis la propriétaire du vignoble de la Lune Bleue.$9#$e#Euh... Et bien, à la prochaine, je suppose.$1",
+
+Ligne 4327 && 4329 : [...] "On devrait s'échanger nos secret de fermiers ! Il y a certains ingrédients spéciaux que j'utilise pour faire le vin de Blue Moon.$1", / "Je sais déjà ce que j'apporte à la fête de Luau demain. Du vin Blue Moon de qualité iridium !$1#$e#Je parie que le gouverneur va l'adorer.$9",
+                  => [...] "On devrait s'échanger nos secret de fermiers ! Il y a certains ingrédients spéciaux que j'utilise pour faire le vin de Lune Bleue.$1", / "Je sais déjà ce que j'apporte à la Fête Hawaïenne demain. Du vin Lune Bleue, qualité iridium !$1#$e#Je parie que le gouverneur va l'adorer.$9",
+
+Ligne 4349 : [...] "Parfois, j'aimerais pouvoir faire pousser des trucs qui ne sont pas des raisins, mais le vignoble Blue Moon ne serait pas... un vignoble.$0",
+          => [...] "Parfois, j'aimerais pouvoir faire pousser des trucs qui ne sont pas des raisins, mais le vignoble de la Lune Bleue ne serait pas... un vignoble.$0",
+
+Ligne 4416 : [...] "Hum. O-Ouais...?$2#$b#J'allais te donner une vieille bouteille de vin Blue Moon.$2#$b#Um. Eh bien, merci de m'aider.$1#$b#!!!$9",
+          => [...] "Hum. O-Ouais...?$2#$b#J'allais te donner une vieille bouteille de vin de la Lune Bleue.$2#$b#Um. Eh bien, merci de m'aider.$1#$b#!!!$9",
+
+Ligne 4434 : [...] "Tu sais ce que tu vas apporter aujourd'hui à la soupe pour Luau ?$1#$e#Je verserai du vin Blue Moon vieilli dans la marmite pour adultes !$1",
+          => [...] "Tu sais ce que tu vas apporter aujourd'hui à la soupe pour la Fête Hawaïenne ?$1#$e#Je verserai du vin de Lune Bleue vieilli dans la marmite pour adultes !$1",
+
+Ligne 4472 : [...] "Je pensais que ce serait difficile de gérer le vignoble Blue Moon mais ce n'est pas si mal.$1", / "Coucou, toi ! Tu veux boire un peu de vin Blue Moon ce soir ?$1",
+          => [...] "Je pensais que ce serait difficile de gérer le vignoble Lune Bleue mais ce n'est pas si mal.$1", / "Coucou, toi ! Tu veux boire un peu de vin Lune Bleue ce soir ?$1",
+
+Ligne 4475 && 4484 : [...] "Le vignoble Blue Moon se porte bien. C'est un peu difficile à gérer d'ici, mais ça ne me dérange pas.$1",
+                  => [...] "Le vignoble Lune Bleue se porte bien. C'est un peu difficile à gérer d'ici, mais ça ne me dérange pas.$1",
+
+//Sophia Festivals
+Ligne 4665 : [...] "Je présente mon meilleur vin vieilli de Blue Moon !#$e#J'ai travaillé dur pour le faire !$9#$e#Oh. Euuuh. Alors, qu'est-ce qu'il y a sur ton stand ?$1",
+          => [...] "Je présente mon meilleur vin vieilli de Lune Bleue !#$e#J'ai travaillé dur pour le faire !$9#$e#Oh. Euuuh. Alors, qu'est-ce qu'il y a sur ton stand ?$1",
+
+//OLIVIA NPC
+
+Ligne 4876 : [...] "Je veux partager avec toi la méthode secrète de fermentation du raisin de ma famille...$1#$b#C'est ce qui rend le vin du vignoble Blue Moon populaire dans la région...$1",
+          => [...] "Je veux partager avec toi la méthode secrète de fermentation du raisin de ma famille...$1#$b#C'est ce qui rend le vin du vignoble de la Lune Bleue populaire dans la région...$1",
+
+Ligne 4990 : [...] "Je me fais toujours plaisir avec un bon verre de vin le vendredi.$3#$b#Gus rapporte des millésimes rares et il a toujours du vin de Blue Moon en stock.$1",
+          => [...] "Je me fais toujours plaisir avec un bon verre de vin le vendredi.$3#$b#Gus rapporte des millésimes rares et il a toujours du vin de Lune Bleue en stock.$1",
+
+Ligne 5033 : [...] "Je visite le Vignoble Blue Moon demain pour commander plus de vin à Sophia.$3#$b#Parfois, Victor s'en va, et je vais voir la Gem Sea depuis la falaise. C'est une belle vue.$1#$e#J'aimerais y aller avec toi un jour.$3",
+          => [...] "Je visite le Vignoble de la Lune Bleue demain pour commander plus de vin à Sophia.$3#$b#Parfois, Victor s'en va, et je vais voir la Mer de Gemme depuis la falaise. C'est une belle vue.$1#$e#J'aimerais y aller avec toi un jour.$3",
+
+//Olivia Festival Dialogue
+Ligne 5381 : [...] "@. As-tu envisagé de transformer ta ferme %farm en vignoble, comme celle de Blue Moon ?$1",
+          => [...] "@. As-tu envisagé de transformer ta ferme %farm en vignoble, comme celle de Lune Bleue ?$1",
+
+//Dialogue
+Ligne 6249 : [...] "J'ai eu une semaine productive. Je peux prendre un verre de vin du vignoble Blue Moon au saloon.$1",
+          => [...] "J'ai eu une semaine productive. Je peux prendre un verre de vin du vignoble Lune Bleue au saloon.$1",
+
+// ANDY NPC
+Ligne 6699 : [...] "T'as déjà bu d'ce vin de Blue Moon ? J'aime pas particulièrement l'vin mais Sophia en fait un bon.$0",
+          => [...] "T'as déjà bu d'ce vin de Lune Bleue ? J'aime pas particulièrement l'vin mais Sophia en fait un bon.$0",
+
+//Susan Events
+Ligne 7493 : [...] "Je récolte mes raisins. J'utilise des fûts artisanaux pour les faire vieillir en vin.$0#$b#Pour le moment, je ne brasse que de petits lots, mais peut-être que la ferme Émeraude deviendra un vignoble à part entière comme celui de Blue Moon. Il y a beaucoup d'argent à se faire dans le vin !$1",
+          => [...] "Je récolte mes raisins. J'utilise des fûts artisanaux pour les faire vieillir en vin.$0#$b#Pour le moment, je ne brasse que de petits lots, mais peut-être que la ferme Émeraude deviendra un vignoble à part entière comme celui de la Lune Bleue. Il y a beaucoup d'argent à se faire dans le vin !$1",
+
+//MARLON NPC
+Ligne 7761 : [...] "Le Vignoble Blue Moon est un joli site sur notre quai.#$e#Je me souviens des premiers jours avant la construction du vignoble. Rien qu'un champ d'herbe avec des arbres.$0",
+          => [...] "Le Vignoble de la Lune Bleue est un joli site sur notre quai.#$e#Je me souviens des premiers jours avant la construction du vignoble. Rien qu'un champ d'herbe avec des arbres.$0",
+
+//Sandy Events
+Ligne 8205 : [...] "Hmm... Oui ! Il y a une énorme falaise au vignoble de Blue Moon. On peut voir des kilomètres et des kilomètres de mer là-haut !$1",
+          => [...] "Hmm... Oui ! Il y a une énorme falaise au vignoble de la Lune Bleue. On peut voir des kilomètres et des kilomètres de mer là-haut !$1",
+
+//.25 doesnt' exist
+Ligne 8216 : [...] "Carrément !  Tu peux voir Pélican Ville... La Cindersap Forest... Tu peux même voir là où nous étions, au Blue Moon Vineyard !$1",
+          => [...] "Carrément !  Tu peux voir Pélican Ville... La Forêt Sève-Cendreuse... Tu peux même voir là où nous étions, au Vignoble de la Lune Bleue !$1",
+
+Ligne 8230 : [...] "J'ai aimé visiter Stardew Valley ! J'ai adoré voir ta ferme, la plage, le Blue Moon Vineyard et le sommet.$1#$b#Tu dois bientôt visiter ma ville natale de Castle Village, @ ! C'est à portée de téléporteur, et je sais que tu sais t'en servir.$0",
+          => [...] "J'ai aimé visiter Stardew Valley ! J'ai adoré voir ta ferme, la plage, le Vignoble de la Lune Bleue et le sommet.$1#$b#Tu dois bientôt visiter ma ville natale le Village du Château, @ ! C'est à portée de téléporteur, et je sais que tu sais t'en servir.$0",
+
+//MATURE EVENTS
+Ligne 9611 && 9614 : [...] "Alors, qu'est-ce qui t'amène au vignoble Blue Moon ?$0", / "Blue Moon est l'un des plus grands vignobles de la République de Ferngill. Il a été créé il y a de nombreuses années et a toujours eu une grande réputation.$1",
+                  => [...] "Alors, qu'est-ce qui t'amène au vignoble Lune Bleue ?$0", / "Lune Bleue est l'un des plus grands vignobles de la République de Ferngill. Il a été créé il y a de nombreuses années et a toujours eu une grande réputation.$1",
+
+//MAIL
+Ligne 9804 : [...] "Hey toi,^^Merci de m'avoir aidé à restaurer la chambre de mes parents. Je n'aurais pas pu le faire sans toi, surtout avec les trucs lourds ! Je sais que c'est étrange, j'ai tout emballé et tout replacé ... Je suppose que j'ai changé d'avis.^Tu trouveras ci-joint une bouteille de mon meilleur vin Blue Moon vieilli. Merci !^^  -Sophia %item object ",
+          => [...] "Hey toi,^^Merci de m'avoir aidé à restaurer la chambre de mes parents. Je n'aurais pas pu le faire sans toi, surtout avec les trucs lourds ! Je sais que c'est étrange, j'ai tout emballé et tout replacé ... Je suppose que j'ai changé d'avis.^Tu trouveras ci-joint une bouteille de mon meilleur vin Lune Bleue vieilli. Merci !^^  -Sophia %item object ",
+
+//Backwoods, Busstop, and Forest
+Ligne 9839 : [...] "` {{FarmName}} Farm^> Pelican Town^> Marnie's Ranch^= Fairhaven Farm^= Blue Moon Vineyard",
+          => [...] "` Ferme de {{FarmName}}^> Pélican Ville^> Ranch de Marnie^= Ferme de Fairhaven^= Vignoble Lune Bleu",
+
+Ligne 9848 : [...] "` Pélican Ville^@ Ferme Fairhaven^> Vignoble Blue Moon^",
+          => [...] "` Pélican Ville^@ Ferme Fairhaven^> Vignoble Lune Bleu^",
+
+Ligne 9957 : [...] "@ Vignoble Blue Moon^> Plage",
+          => [...] "@ Vignoble Lune Bleu^> Plage",
+
+//BluemoonVineyard
+Ligne 10028 && 10029 && 10033 && 10040 : [...] "> Pélican Vile^@ Vignoble Blue Moon^@ Forêt Sève-Cendrée^= Plage", / "-Résidence de Sophia-^-Vignoble Blue Moon-", / "Le Vignoble Blue Moon transforme tous les raisins en vin.", / "'VIGNOBLE BLUE MOON'",
+                                      => [...] "> Pélican Vile^@ Vignoble Lune Bleu^@ Forêt Sève-Cendrée^= Plage", / "-Résidence de Sophia-^-Vignoble Lune Bleu-", / "Le Vignoble Lune Bleu transforme tous les raisins en vin.", / "'VIGNOBLE DE LA LUNE BLEU'",
+
+//"String.258":
+// (^.^ ) ) ) ) ) ) ) ) ( ( ( ( (  )     Like my caterpillar ? :D
+Ligne 10142 : [...] "C'est un manifeste du vignoble Blue Moon :^^\"MANIFESTE - VIGNOBLE DE LA BLUE MOON - 518.16.02-83\"^^\"DÉPENSES: 284,416G\"^\"RECETTES: 414,728G\"^\"BÉNÉFICES DU 83E TRIMESTRE: 130,312G\"",
+           => [...] "C'est un manifeste du vignoble Lune Bleu :^^\"MANIFESTE - VIGNOBLE DE LA BLUE MOON - 518.16.02-83\"^^\"DÉPENSES: 284,416G\"^\"RECETTES: 414,728G\"^\"BÉNÉFICES DU 83E TRIMESTRE: 130,312G\"",
+
+//SophiaCellar
+Ligne 10156 : [...] "Sophia produit le vin de raisin de qualité iridium du vignoble Blue Moon.",
+           => [...] "Sophia produit le vin de raisin de qualité iridium du vignoble Lune Bleu.",
+
+//JenkinsHouse
+Ligne 10276 : [...] "\"Succès du Vignoble Blue Moon - by Jason Taylor\"",
+           => [...] "\"Succès du Vignoble Lune Bleu - by Jason Taylor\"",
+
+//OliviaCellar
+Ligne 10377 : [...] "Il y a des épingles localisant chaque vignoble de la République de Ferngill. Le Vignoble Blue Moon Vineyard est marqué aussi.",
+           => [...] "Il y a des épingles localisant chaque vignoble de la République de Ferngill. Le Vignoble Lune Bleu est marqué aussi.",
+
+//"String.522":
+Ligne 10383 : [...] "\"Vin d'Iridium Vignoble Blue Moon - 750ML\"",
+           => [...] "\"Vin d'Iridium Vignoble Lune Bleu - 750ML\"",
+
+Ligne 10386 : [...] "\"MANIFESTE DE COMMANDE DE JENKINS - DATE 05-25-1998.1-05\"^^\"2 CARTONS - VIN IRIDIUM VIGNOBLE BLUE MOON\"^\"1 CARTON - VIN DE FRUIT A NOYAUX DES ILES FERN\"^\"4 BOUTEILLES - VIN DE PRUNE GRAMPLETON\"^\"3 BOUTEILLES - CIDRE DE CITROUILLE ÉPICÉ DE PIERRE\"",
+           => [...] "\"MANIFESTE DE COMMANDE DE JENKINS - DATE 05-25-1998.1-05\"^^\"2 CARTONS - VIN IRIDIUM VIGNOBLE LUNE BLEU\"^\"1 CARTON - VIN DE FRUIT A NOYAUX DES ILES FERN\"^\"4 BOUTEILLES - VIN DE PRUNE GRAMPLETON\"^\"3 BOUTEILLES - CIDRE DE CITROUILLE ÉPICÉ DE PIERRE\"",
+
+//Beach-Luau
+Ligne 10396 : [...] "Vous vous servez de jambon glacé, de salade de radis et de petits pains. Vous arrosez le tout avec du vin de raisin artisanal de qualité iridium de Blue Moon ! Miam !",
+           => [...] "Vous vous servez de jambon glacé, de salade de radis et de petits pains. Vous arrosez le tout avec du vin de raisin artisanal de qualité iridium de Lune Bleu ! Miam !",
+
+//Town-Fair
+Ligne 10441 : [...] "Sophia présente le vin vieilli de Blue Moon.",
+           => [...] "Sophia présente le vin vieilli de Lune Bleu.",
+
+//Community Day Dialogue here
+Ligne 11289 : [...] "J'ai fait don de quelques bouteilles de vin Blue Moon à la ville pour cet événement.$1#$b#Ce n'est pas beaucoup, mais j'espère que les gens l'apprécieront !$9",
+           => [...] "J'ai fait don de quelques bouteilles de vin Lune Bleu à la ville pour cet événement.$1#$b#Ce n'est pas beaucoup, mais j'espère que les gens l'apprécieront !$9",
+
+Le mot est aussi présent dans les autres fichiers Logs aux lignes suivants :
+//1.15 Scarlett Marriage Dialogue Fall Leave (Ligne 639)
+//Sophia funLeave/funReturn (Ligne 4558 - 4602 - 4615)
+
+##############################################################################################################################################################
+
+****[Castle Village => Village du Château]
+
+//Location Names
+Ligne 103 : [...] "Avant-poste de Castle Village",
+         => [...] "Avant-poste du Village du Château",
+
+//Music (Jukebox)
+Ligne 1004 : [...] "Musique de l'Avant-Poste de Castle Village",
+          => [...] "Musique de l'Avant-Poste du Village du Château",
+
+Ligne 1011 : [...] "Castle Village Outpost",
+          => [...] "Avant-poste du Village du Château",
+
+//Marlon
+Ligne 1237 : [...] "Il y a un homme nommé « Gideon » de Castle Village qui est aussi un éleveur de slimes. J'ai le pressentiment que vous pourriez faire la paire, vous deux.$0",
+          => [...] "Il y a un homme nommé « Gideon » au Village du Château qui est aussi un éleveur de slimes. J'ai le pressentiment que vous pourriez faire la paire, vous deux.$0",
+
+//VICTOR NPC
+Ligne 2141 : [...] "Marlon était avec plusieurs chasseurs de monstres de Castle Village l'autre jour.$0#$b#J'aurais pu jurer avoir aussi vu le sorcier avec eux.$1#$e#Je pense qu'ils avaient une réunion secrète ou quelque chose comme ça.$6",
+          => [...] "Marlon était avec plusieurs chasseurs de monstres au Village du Château l'autre jour.$0#$b#J'aurais pu jurer avoir aussi vu le sorcier avec eux.$1#$e#Je pense qu'ils avaient une réunion secrète ou quelque chose comme ça.$6",
+
+//VICTOR FESTIVAL
+Ligne 2520 : [...] "Ces monstres sont assez fascinants.$1#$e#J'essaierai peut-être de converser avec les aventuriers de Castle Village ce soir...$0#$b#Ils ont forcément des histoires d'aventures sympas à raconter.$3",
+          => [...] "Ces monstres sont assez fascinants.$1#$e#J'essaierai peut-être de converser avec les aventuriers au Village du Château ce soir...$0#$b#Ils ont forcément des histoires d'aventures sympas à raconter.$3",
+
+//LANCE NPC
+Ligne 2591 : [...] "Il y aura plusieurs endroits que je veux te montrer une fois que Camilla accepte de te laisser entrer à Castle Village.#$e#Je me demande si elle attend quelque chose. C'est peut-être une sorte de test bizarre...#6#$b#C'est exactement le genre de choses qu'elle pourrait faire.$5",
+          => [...] "Il y aura plusieurs endroits que je veux te montrer une fois que Camilla accepte de te laisser entrer au Village du Château.#$e#Je me demande si elle attend quelque chose. C'est peut-être une sorte de test bizarre...#6#$b#C'est exactement le genre de choses qu'elle pourrait faire.$5",
+
+Ligne 2606 : [...] "À Stardew Valley, les gens prennent les festivals avec beaucoup de sérieux. Tout le monde participe à la décoration à ce que je vois.$5#$e#On a nos propres festivals à Castle Village aussi. Peut-être que tu pourras nous rejoindre un jour.$0",
+          => [...] "À Stardew Valley, les gens prennent les festivals avec beaucoup de sérieux. Tout le monde participe à la décoration à ce que je vois.$5#$e#On a aussi nos propres festivals au Village du Château. Peut-être que tu pourras nous rejoindre un jour.$0",
+
+Ligne 2636 : [...] "Il y a une taverne très réputée à Castle Village, tenue par une dame au nom d'Eleanor.$0#$e#Ekon trouve toujours une opportunité d'y aller. J'imagine qu'il ressent quelque chose pour elle...$5",
+          => [...] "Il y a une taverne très réputée au Village du Château, tenue par une dame au nom d'Eleanor.$0#$e#Ekon trouve toujours une opportunité d'y aller. J'imagine qu'il ressent quelque chose pour elle...$5",
+
+Ligne 2668 : [...] "J'ai échangé ça a Castle Village juste pour toi. C'est une 'Âme Galactique'.[896]$0#$e#Ça te rendra plus fort.$1#$e#Aaah, contre quoi l'ai-je échangé ? C'est... Un secret.$1",
+          => [...] "J'ai échangé ça au Village du Château juste pour toi. C'est une 'Âme Galactique'.[896]$0#$e#Ça te rendra plus fort.$1#$e#Aaah, contre quoi l'ai-je échangé ? C'est... Un secret.$1",
+
+//LANCE EVENT DIALOGUE
+Ligne 2903 : [...] "Tu es le bienvenu pour te reposer à mon avant-poste, @. Tout le plaisir est pour moi.$1#$e#Toutes mes excuses pour l'état de celui-ci. Ma maison à Castle Village est en bien meilleur état.$0",
+          => [...] "Tu es le bienvenu pour te reposer à mon avant-poste, @. Tout le plaisir est pour moi.$1#$e#Toutes mes excuses pour l'état de celui-ci. Ma maison au Village du Château est en bien meilleur état.$0",
+
+Ligne 2920 : [...] "...$6#$b#Camilla t'a-t-elle déjà parlé de la visite de Castle Village ?$6",
+          => [...] "...$6#$b#Camilla t'a-t-elle déjà parlé de la visite au Village du Château ?$6",
+
+//Magnus NPC / Wizard NPC
+Ligne 3088 : [...] "Es-tu allé à Castle Village ? Je préfère de loin l'air ici. C'est plus propre, plus net et ne sent pas la magie.$0",
+          => [...] "Es-tu allé au Village du Château ? Je préfère de loin l'air ici. C'est plus propre, plus net et ne sent pas la magie.$0",
+
+Ligne 3125 : [...] "Je dois bientôt faire un voyage à Castle Village pour voir Camilla afin de discuter de certaines affaires du ministère. C'est certainement une femme intéressante.$0#$e#Elle t'approuve, tu sais.$0",
+          => [...] "Je dois bientôt faire un voyage au Village du Château pour voir Camilla afin de discuter de certaines affaires du ministère. C'est certainement une femme intéressante.$0#$e#Elle t'approuve, tu sais.$0",
+
+//Wizard dialogue additions
+Ligne 3174 : [...] "Je vais peut-être bientôt faire un long voyage à Castle Village. J'ai quelques reflexions auxquelles je dois m'atteler.$2#$e#Je n'ai vraiment pas grand chose à te dire en ce moment, @.$2",
+          => [...] "Je vais peut-être bientôt faire un long voyage au Village du Château. J'ai quelques reflexions auxquelles je dois m'atteler.$2#$e#Je n'ai vraiment pas grand chose à te dire en ce moment, @.$2",
+
+//Wizard funLeave + funReturn with specific dates
+Ligne 3233 : [...] "Les lumières utilisées pour la décoration de la Fête de l'Étoile sont fabuleuses, mais elles ont aussi une histoire fascinantes.$0#$b#Elles ont été inspirées par les lanternes magiques des sorcières et des magiciens invoquaient pour le festival.$0#$e#Castle Village les utilise encore aujourd'hui.$0",
+          => [...] "Les lumières utilisées pour la décoration de la Fête de l'Étoile sont fabuleuses, mais elles ont aussi une histoire fascinantes.$0#$b#Elles ont été inspirées par les lanternes magiques des sorcières et des magiciens invoquaient pour le festival.$0#$e#Le Village du Château les utilise encore aujourd'hui.$0",
+
+Ligne 3234 : [...] "Je dois bientôt faire un voyage à Castle Village pour voir Camilla afin de discuter de certaines affaires du ministère. C'est certainement une femme intéressante.$0#$e#Elle t'approuve, tu sais.$0|Je vais faire quelques courses particulières. Je rentrerais à temps pour le dîner, promis.$0",
+          => [...] "Je dois bientôt faire un voyage au Village du Château pour voir Camilla afin de discuter de certaines affaires du ministère. C'est certainement une femme intéressante.$0#$e#Elle t'approuve, tu sais.$0|Je vais faire quelques courses particulières. Je rentrerais à temps pour le dîner, promis.$0",
+
+// Wizard Magnus Event Dialogue
+Ligne 3404 : [...] "Camilla, la sorcière de Castle Village, est exceptionnellement talentueuse. Elle dirige l'avant-garde en combattant les hordes de monstres à Galdora.#$b#La barrière qu'elle supervise est la plus grande du monde et nécessite d'immenses quantités de mana pour être maintenue.",
+          => [...] "Camilla, la sorcière au Village du Château, est exceptionnellement talentueuse. Elle dirige l'avant-garde en combattant les hordes de monstres à Galdora.#$b#La barrière qu'elle supervise est la plus grande du monde et nécessite d'immenses quantités de mana pour être maintenue.",
+
+// CAMILLA NPC
+Ligne 6144 : [...] "Hello, très cher. Tu es venu apporter ton aide à Castle Village ?$0#$e#Il y a de plus en plus de monstres qui traînent dans le coin aujourd'hui...$2",
+          => [...] "Hello, très cher. Tu es venu apporter ton aide au Village du Château ?$0#$e#Il y a de plus en plus de monstres qui traînent dans le coin aujourd'hui...$2",
+
+//Alesia Events
+Ligne 6189 : [...] "Oh ! Tu dois être @, le nouvel aventurier dont Marlon m'a tant parlé.^Oh ! tu dois être @, la nouvelle aventurière dont Marlon m'a tant parlé.$1#$b#Mon nom est Alesia. Je viens de Castle Village.$0",
+          => [...] "Oh ! Tu dois être @, le nouvel aventurier dont Marlon m'a tant parlé.^Oh ! tu dois être @, la nouvelle aventurière dont Marlon m'a tant parlé.$1#$b#Mon nom est Alesia. Je viens du Village du Château.$0",
+
+Ligne 6196 : [...] "Castle Village abrite de nombreux chasseurs de monstres. Alesia dit qu'elle se sent à sa place.#$e#Dommage de ne pas l'avoir ici plus souvent, cependant.$2",
+          => [...] "Le Village du Château abrite de nombreux chasseurs de monstres. Alesia dit qu'elle se sent à sa place.#$e#Dommage de ne pas l'avoir ici plus souvent, cependant.$2",
+
+//Morris Festival Dialogue
+Ligne 6321 : [...] "Ces sentinelles de « Castle Village » sont chères à louer...$3#$e#La sécurité et le bien-être des citadins sont une priorité absolue.$0",
+          => [...] "Ces sentinelles du « Village du Château » sont chères à louer...$3#$e#La sécurité et le bien-être des citadins sont une priorité absolue.$0",
+
+// MORGAN NPC
+Ligne 7070 : [...] "Tu as déjà entendu parler d'un endroit appelé « Castle Village » ?$0#$b#Je ne suis pas autorisé à y aller avant d'être plus âgé...$8",
+          => [...] "Tu as déjà entendu parler d'un endroit appelé « Village du Château » ?$0#$b#Je ne suis pas autorisé à y aller avant d'être plus âgé...$8",
+
+// Morgan Events
+Ligne 7265 : [...] "Marlon dit parfois bonjour, mais c'est tout ce qu'il dit.$9#$b#Il y a des aventuriers d'autres clans qui veulent que Magnus rende leurs armes magiques...$9#$b#Et il y a cette sorcière de Castle Village, mais je fais de mon mieux pour rester loin d'elle.$8#$b#Elle me donne la chair de poule...$8",
+          => [...] "Marlon dit parfois bonjour, mais c'est tout ce qu'il dit.$9#$b#Il y a des aventuriers d'autres clans qui veulent que Magnus rende leurs armes magiques...$9#$b#Et il y a cette sorcière au Village du Château, mais je fais de mon mieux pour rester loin d'elle.$8#$b#Elle me donne la chair de poule...$8",
+
+// SUSAN NPC
+Ligne 7399 : [...] "La Fête des Esprits est demain, trésor.$1#$b#Le maire Lewis m'a dit que Marlon et un ami de Castle Village capturaient des monstres pour nous.$0#$e#Nous pourrons les regarder à travers des cages en acier. Si effrayant !$4",
+          => [...] "La Fête des Esprits est demain, trésor.$1#$b#Le maire Lewis m'a dit que Marlon et un ami du Village du Château capturaient des monstres pour nous.$0#$e#Nous pourrons les regarder à travers des cages en acier. Si effrayant !$4",
+
+//Brock NPC
+Ligne 7545 : [...] "%Brock: Gil vérifie des documents importants à propos de la cachette d'armes de Castle Village.",
+          => [...] "%Brock: Gil vérifie des documents importants à propos de la cachette d'armes au Village du Château.",
+
+//Edmund NPC
+Ligne 7563 : [...] "%Edmund: J'ai postulé pour vivre à Castle Village. J'espère que ma lettre de motivation convaincra Camilla.#$e#%Edmund: Le taux de réussite est bas. Environ... 25%. Pas beaucoup, hein ?",
+          => [...] "%Edmund: J'ai postulé pour vivre au Village du Château. J'espère que ma lettre de motivation convaincra Camilla.#$e#%Edmund: Le taux de réussite est bas. Environ... 25%. Pas beaucoup, hein ?",
+
+//MARLON NPC
+Ligne 7753 : [...] "J'aimerai te présenter des gens à Castle Village un jour, @. Les exploits que tu as accomplis sont impressionnants.$0#$e#Le village invite uniquement ceux qui ont fait leurs preuves dans le domaine du combat. Je vais parler à mes contacts et voir ce que je peux faire.$0",
+          => [...] "J'aimerai te présenter des gens au Village du Château un jour, @. Les exploits que tu as accomplis sont impressionnants.$0#$e#Le village invite uniquement ceux qui ont fait leurs preuves dans le domaine du combat. Je vais parler à mes contacts et voir ce que je peux faire.$0",
+
+Ligne 7766 && 7771 : [...] "Hey, @. Nous venons de recevoir un nouveau stock d'armes.#$e#Le forgeron de Castle Village est très talentueux.", / "Je dois rassembler mes affaires. Direction les mines avec un aventurier de Castle Village. Nous allons capturer des monstres pour le festival.$0#$e#La Fête des Esprits est une bonne occasion de montrer aux citadins à quel point les monstres sont dangereux.$0",
+                  => [...] "Hey, @. Nous venons de recevoir un nouveau stock d'armes.#$e#Le forgeron au Village du Château est très talentueux.", / "Je dois rassembler mes affaires. Direction les mines avec un aventurier du Village du Château. Nous allons capturer des monstres pour le festival.$0#$e#La Fête des Esprits est une bonne occasion de montrer aux citadins à quel point les monstres sont dangereux.$0",
+
+Ligne 7798 : [...] "Gil fait un voyage à Castle Village. Il y a beaucoup de choses à faire concernant les nouveaux aventuriers.$0#$e#Il ne sort plus autant de nos jours. C'est bon pour lui.$0",
+          => [...] "Gil fait un voyage au Village du Château. Il y a beaucoup de choses à faire concernant les nouveaux aventuriers.$0#$e#Il ne sort plus autant de nos jours. C'est bon pour lui.$0",
+
+//Marlon Festival Dialogue
+Ligne 7841 : [...] "Ça m'a pris beaucoup d'efforts pour attraper ces monstres.$2#$b#La majeure partie du crédit revient aux aventuriers de Castle Village.#$e#Ne t'approche pas trop de la cage.",
+          => [...] "Ça m'a pris beaucoup d'efforts pour attraper ces monstres.$2#$b#La majeure partie du crédit revient aux aventuriers du Village du Château.#$e#Ne t'approche pas trop de la cage.",
+
+//Marlon Event Dialogue
+Ligne 7909 : [...] "Tu as été jugé digne, @. C'est un véritable honneur.$2#$b#J'ai obtenu ma première arme galactique après une nuit de rudes batailles à Castle Village.#$b#Il y avait une lumière aveuglante violette alors qu'une épée tombait lentement entre mes mains. J'ai ressenti la puissance du cosmos pendant une brève seconde.#$b#Les sorciers et les érudits pensent que Yoba offre ces armes aux véritables gardiens de l'humanité.",
+          => [...] "Tu as été jugé digne, @. C'est un véritable honneur.$2#$b#J'ai obtenu ma première arme galactique après une nuit de rudes batailles au Village du Château.#$b#Il y avait une lumière aveuglante violette alors qu'une épée tombait lentement entre mes mains. J'ai ressenti la puissance du cosmos pendant une brève seconde.#$b#Les sorciers et les érudits pensent que Yoba offre ces armes aux véritables gardiens de l'humanité.",
+
+Ligne 7929 : [...] "Le hall de téléportation de Magnus a été construit pour faire de la téléportation longue distance - un vrai triomphe d'ingéniosité magique.#$b#C'est ce qui rend le voyage vers le Castle Village et d'autres endroits possible.#$e#Alors. Dis moi. À quel point il t'a été difficile de battre ce serpent du vide corrompu ?$1#$e#Ah. Hmm. Je vois.$2#$e#Ce tesson nous causera peut-être des problèmes dans le futur. J'espère que tout ira bien...$2#$e#Tu sais, je ne me souviens pas de la dernière fois où j'ai autant parlé.#$e#C'est un plaisir de parler avec toi, @. Continue ton bon travail.$0",
+          => [...] "Le hall de téléportation de Magnus a été construit pour faire de la téléportation longue distance - un vrai triomphe d'ingéniosité magique.#$b#C'est ce qui rend le voyage vers le Village du Château et d'autres endroits possible.#$e#Alors. Dis moi. À quel point il t'a été difficile de battre ce serpent du vide corrompu ?$1#$e#Ah. Hmm. Je vois.$2#$e#Ce tesson nous causera peut-être des problèmes dans le futur. J'espère que tout ira bien...$2#$e#Tu sais, je ne me souviens pas de la dernière fois où j'ai autant parlé.#$e#C'est un plaisir de parler avec toi, @. Continue ton bon travail.$0",
+
+//String fixes
+Ligne 8165 : [...] "C'est comme ça que je rentre à Castle Village, Emily.$0#$e#C'est juste de la magie de téléportation basique !$1",
+          => [...] "C'est comme ça que je rentre au Village du Château, Emily.$0#$e#C'est juste de la magie de téléportation basique !$1",
+
+//.25 doesnt' exist
+Ligne 8217 : [...] "Tu ne trouves pas de vue comme celle-ci à Castle Village.$2#$b#J'ai besoin de visiter la vallée plus souvent.$1",
+          => [...] "Tu ne trouves pas de vue comme celle-ci au Village du Château.$2#$b#J'ai besoin de visiter la vallée plus souvent.$1",
+
+Ligne 8225 : [...] "Il faut que je revisite la vallée bientôt. C'était amusant !$1#$b#@ ! Tu dois venir me rendre visite à Castle Village. Je te ferai visiter. Il y a des lieu unique là bas aussi - cependant, je préfère l'océan ici.$1",
+          => [...] "Il faut que je revisite la vallée bientôt. C'était amusant !$1#$b#@ ! Tu dois venir me rendre visite au Village du Château. Je te ferai visiter. Il y a des lieu unique là bas aussi - cependant, je préfère l'océan ici.$1",
+
+Ligne 8230 && 8231 : [...] "J'ai aimé visiter Stardew Valley ! J'ai adoré voir ta ferme, la plage, le Blue Moon Vineyard et le sommet.$1#$b#Tu dois bientôt visiter ma ville natale de Castle Village, @ ! C'est à portée de téléporteur, et je sais que tu sais t'en servir.$0", / "Salut, @. J'étais euh... Sur le point de rentrer chez moi à Castle Village.$0",
+                  => [...] "J'ai aimé visiter Stardew Valley ! J'ai adoré voir ta ferme, la plage, le Vignoble de la Lune Bleue et le sommet.$1#$b#Tu dois bientôt visiter ma ville natale le Village du Château, @ ! C'est à portée de téléporteur, et je sais que tu sais t'en servir.$0", / "Salut, @. J'étais euh... Sur le point de rentrer chez moi au Village du Château.$0",
+
+Ligne 8233 : [...] "Tu t'es aventuré dans la Caverne du Crâne. Être couvert de slime est un bon indice.$0#$b#C'est courageux de ta part de combattre les monstres là-bas. C'est quelque chose que je... Ne m'imaginerais jamais faire, malgré ma vie à Castle Village..$2",
+          => [...] "Tu t'es aventuré dans la Caverne du Crâne. Être couvert de slime est un bon indice.$0#$b#C'est courageux de ta part de combattre les monstres là-bas. C'est quelque chose que je... Ne m'imaginerais jamais faire, malgré ma vie au Village du Château..$2",
+
+Ligne 8237 : [...] "Tu as besoin d'une autorisation spéciale d'une sorcière nommée « Camilla » pour résider dans Castle Village.$0#$e#Oh. Comment je l'ai eu ? C'est en fait une drôle d'histoire ! Peut-être que je te dirai un jour...$1",
+          => [...] "Tu as besoin d'une autorisation spéciale d'une sorcière nommée « Camilla » pour résider dans le Village du Château.$0#$e#Oh. Comment je l'ai eu ? C'est en fait une drôle d'histoire ! Peut-être que je te dirai un jour...$1",
+
+//Clint Event Dialogue
+Ligne 8486 : [...] "Fiou ! Je termine une épée imprégnée d'iridium pour un chasseur de monstres de Castle Village. Tu as peut-être entendu parler de lui. Il s'appelle « SCYTHER ».$1#$b#Castle Village abrite les meilleurs tueurs de monstres et artisans de la région !$1#$b#J'ai des contrats avec différentes guildes de la République de Ferngill pour fournir des armes, des boucliers et des armures fabriqués sur mesure.$0",
+          => [...] "Fiou ! Je termine une épée imprégnée d'iridium pour un chasseur de monstres du Village du Château. Tu as peut-être entendu parler de lui. Il s'appelle « SCYTHER ».$1#$b#Le Village du Château abrite les meilleurs tueurs de monstres et artisans de la région !$1#$b#J'ai des contrats avec différentes guildes de la République de Ferngill pour fournir des armes, des boucliers et des armures fabriqués sur mesure.$0",
+
+//MAIL
+Ligne 9798 : [...] "@,^^Nous avons reçu une livraison supplémentaire de fournitures de Castle Village. Je pense que tu peux en faire bon usage. Bonne chance.^^  -Marlon %item object 286 10 %%[#]Supplies From Castle Village",
+          => [...] "@,^^Nous avons reçu une livraison supplémentaire de fournitures du Village du Château. Je pense que tu peux en faire bon usage. Bonne chance.^^  -Marlon %item object 286 10 %%[#]Supplies From Castle Village",
+
+Ligne 9800 : [...] "@,^^Camilla, la sorcière de Castle Village, a fourni 30 élixirs à la guilde. C'est l'une de ses meilleurs potions à ce jour. Je t'en envoie la moitié. Celles-ci t'aideront dans tes expéditions. Bonne chance.^^  -Marlon %item object 773 15 %%[#]Castle Village Elixirs",
+          => [...] "@,^^Camilla, la sorcière du Village du Château, a fourni 30 élixirs à la guilde. C'est l'une de ses meilleurs potions à ce jour. Je t'en envoie la moitié. Celles-ci t'aideront dans tes expéditions. Bonne chance.^^  -Marlon %item object 773 15 %%[#]Castle Village Elixirs",
+
+Ligne 9801 : [...] "@,^^La guilde a reçu une autre cargaison d'armes de Castle Village. Ces bombes ont du punch. Ne reste pas trop près d'elles une fois enflammée.^^  -Marlon %item object 288 10 %%[#]Castle Village Bombs",
+          => [...] "@,^^La guilde a reçu une autre cargaison d'armes du Village du Château. Ces bombes ont du punch. Ne reste pas trop près d'elles une fois enflammée.^^  -Marlon %item object 288 10 %%[#]Castle Village Bombs",
+
+//JenkinsHouse
+Ligne 10263 : [...] "\"Legends of Monsters - Contes de Castle Village\"^^Ce livre vous intéresse particulièrement. Vous jetez un œil à plusieurs pages ... Hmm. Il parle de nombreux aventuriers et de leurs exploits en tuant des monstres, protégeant les sables du désert.",
+           => [...] "\"Legends of Monsters - Contes du Village du Château\"^^Ce livre vous intéresse particulièrement. Vous jetez un œil à plusieurs pages ... Hmm. Il parle de nombreux aventuriers et de leurs exploits en tuant des monstres, protégeant les sables du désert.",
+
+//Spirits-Eve-Festival
+Ligne 10463 : [...] "Gil: \"Marlon et les aventuriers de Castle Village ont attrapé ces monstres. Ne vous approchez pas trop des cages.\"",
+           => [...] "Gil: \"Marlon et les aventuriers du Village du Château ont attrapé ces monstres. Ne vous approchez pas trop des cages.\"",
+
+Ligne 10466 : [...] "L'aventurier de Castle Village vous ignore...",
+           => [...] "L'aventurier du Village du Château vous ignore...",
+
+//AdventureGuildGuest
+Ligne 10498 : [...] "Brock: \"Gil vérifie la documentation importante concernant le cache d'armes de Castle Village.\"",
+           => [...] "Brock: \"Gil vérifie la documentation importante concernant le cache d'armes du Village du Château.\"",
+
+//CrimsonBadlands
+Ligne 10504 && 10505 && 10507 && 10510 : [...] "Sentinelle de Castle Village: \"Comment es-tu arrivé ici ? Es-tu un sorcier !? Oh. Tu as triché !?\"", / "Sentinelle de Castle Village: \"Castle Village est interdit aux étrangers. Je vous suggère de vous détourner.\"", / "Ce sont les restes d'un aventurier de Castle Village...", / "La barrière magique vous empêche d'entrer dans Castle Village.",
+                                      => [...] "Sentinelle du Village du Château: \"Comment es-tu arrivé ici ? Es-tu un sorcier !? Oh. Tu as triché !?\"", / "Sentinelle du Village du Château: \"Le Village du Château est interdit aux étrangers. Je vous suggère de vous détourner.\"", / "Ce sont les restes d'un aventurier du Village du Château...", / "La barrière magique vous empêche d'entrer au Village du Château.",
+
+//TreasureCave
+Ligne 10517 : [...] "Ce sont les restes d'un aventurier de Castle Village...",
+           => [...] "Ce sont les restes d'un aventurier du Village du Château...",
+
+//"String.772":
+Ligne 10676 && 10677 && 10682 : [...] "« Liste des aventuriers de Castle Village »", / "« Castle Village Requiem »", / "« Vers: Salle de guilde de Castle Village »",
+                             => [...] "« Liste des aventuriers du Village du Château »", / "« Requiem du Village du Château »", / "« Vers: Salle de guilde du Village du Château »",
+
+//GuntherRoom
+Ligne 10741 : [...] "'Origines des monstres - Résultats de Castle Village'",
+           => [...] "'Origines des monstres - Résultats du Village du Château'",
+
+//Enchanged Grove
+Ligne 11517 : [...] "Je suis Camilla, la sorcière de Castle Village.$5",
+           => [...] "Je suis Camilla, la sorcière du Village du Château.$5",
+
+Ligne 11526 : [...] "Eh bien, je suppose que je vais te ramener dans ton adorable ferme.$0#$b#La prochaine fois que tu ressentiras l'envie d'aventure, pense à prêter ton aide à Castle Village.$5",
+           => [...] "Eh bien, je suppose que je vais te ramener dans ton adorable ferme.$0#$b#La prochaine fois que tu ressentiras l'envie d'aventure, pense à prêter ton aide au Village du Château.$5",
+
+Ligne 11528 : [...] "Ah, Je vois que tu as fait la connaissance de Camilla, la sorcière de Castle Village.$0#$e#Galdora a de nombreuses merveilles et horreurs à l'intérieur de ses frontières. Camilla n'est que l'une d'entre elles.$0#$e#Informe-moi si tu trouves des 'Âmes du Vide' dans les Badlands. Elles m'aideraient énormément dans mes études arcaniques.$0",
+           => [...] "Ah, Je vois que tu as fait la connaissance de Camilla, la sorcière au Village du Château.$0#$e#Galdora a de nombreuses merveilles et horreurs à l'intérieur de ses frontières. Camilla n'est que l'une d'entre elles.$0#$e#Informe-moi si tu trouves des 'Âmes du Vide' dans les Badlands. Elles m'aideraient énormément dans mes études arcaniques.$0",
+
+Ligne 11542 : [...] "Eh bien, je suppose que je vais te ramener dans ton adorable ferme.$0#$b#La prochaine fois que tu ressentiras l'envie d'aventure, pense à prêter ton aide à Castle Village.$5",
+           => [...] "Eh bien, je suppose que je vais te ramener dans ton adorable ferme.$0#$b#La prochaine fois que tu ressentiras l'envie d'aventure, pense à prêter ton aide au Village du Château.$5",
+
+Ligne 11544 : [...] "Ah, je vois que tu as fait la connaissance de Camilla, la sorcière de Castle Village.$0#$e#Galdora a de nombreuses merveilles et horreurs à l'intérieur de ses frontières. Camilla n'est que l'une d'entre elles.$0#$e#Informe-moi si tu trouves des 'Âmes du Vide' dans les Badlands. Elles m'aideraient énormément dans mes études arcaniques.$0",
+           => [...] "Ah, Je vois que tu as fait la connaissance de Camilla, la sorcière au Village du Château.$0#$e#Galdora a de nombreuses merveilles et horreurs à l'intérieur de ses frontières. Camilla n'est que l'une d'entre elles.$0#$e#Informe-moi si tu trouves des 'Âmes du Vide' dans les Badlands. Elles m'aideraient énormément dans mes études arcaniques.$0",
+
+//Marlon Special Order
+Ligne 11890 : [...] "Ces bombes sont dans un état exceptionnel. Merci pour ton service, @.$1#$b#Un sorcier de Castle Village va arriver à tout moment pour les récupérer.$0",
+           => [...] "Ces bombes sont dans un état exceptionnel. Merci pour ton service, @.$1#$b#Un sorcier au Village du Château va arriver à tout moment pour les récupérer.$0",
+
+Ligne 11896 : [...] "Oui. Ces bombes serviront bien l'avant-garde de Castle Village.$1#$b#Fabrication irréprochable. Cela rivalise avec le travail de Bex.$0",
+           => [...] "Oui. Ces bombes serviront bien l'avant-garde du Village du Château.$1#$b#Fabrication irréprochable. Cela rivalise avec le travail de Bex.$0",
+
+//Apples Special Order & Junimo Scroll
+Ligne 11959 : [...] "...#$b#Elle a des choses importantes à gérer à Castle Village. Pardonne ses manières, @.$0",
+           => [...] "...#$b#Elle a des choses importantes a gérer au Village du Château. Pardonne ses manières, @.$0",
+
+Le mot est aussi présent dans les autres fichiers Logs aux lignes suivants :
+//1.15 Phone Calls (Ligne 768)
+//1.15 Henchman Dialogue (Ligne 795)
+//1.15 Legendary Trio Questline (Ligne 945)
+//Wizard random funReturn (Ligne 3289)
+
+##############################################################################################################################################################
+
+****[Cindersap Fores]
+
+//Locations
+Ligne 1038 : [...] "Ouest de la Forêt Sèvecendrée",
+          => [...] "Ouest de la Forêt Sève-Cendreuse",
+
+//Code\Locations\NPCMapLocationTracking
+Ligne 1987 : [...] "Forêt Sèvecendrée",
+          => [...] "Forêt Sève-Cendreuse",
+
+//SEASONAL DIALOGUE
+Ligne 5117 : [...] "Je veux peindre les feuilles en train de changer dans la Cindersap Forest. De cette façon, on pourrait se rappeler à quoi ressemble l'automne tout au long de l'année.$3#$e#C'est une excellente occasion d'apprendre à utiliser les couleurs avec plus de nuances. Et quelle belle peinture ce serait, si elle est bien faite !$1",
+          => [...] "Je veux peindre les feuilles en train de changer dans la Forêt Sève-Cendreuse. De cette façon, on pourrait se rappeler à quoi ressemble l'automne tout au long de l'année.$3#$e#C'est une excellente occasion d'apprendre à utiliser les couleurs avec plus de nuances. Et quelle belle peinture ce serait, si elle est bien faite !$1",
+
+// ANDY NPC
+Ligne 6620 : [...] "C'est une belle journée pour faire d'la cueillette. Tu peux t'faire pas mal d'argent.$0#$e#J'connais la Cindersap Forest comme l'dos d'ma main.$1",
+          => [...] "C'est une belle journée pour faire d'la cueillette. Tu peux t'faire pas mal d'argent.$0#$e#J'connais la Forêt Sève-Cendreuse comme l'dos d'ma main.$1",
+
+Ligne 6660 && 6677 : [...] "J'ai trouvé pas mal de cueillette dans la Cindersap Forest. Avec c'que j'ai trouvé, j'vais p't'être me faire un peu d'profit cette saison.$1#$e#Salut, fermier !$3", / "La Cindersap Forest est jolie à c'moment d'la saison. C'est l'une des raisons qui m'ont poussées à vivre ici et cultiver mon champ.$3#$e#Passe une bonne journée, fermier.$0",
+                  => [...] "J'ai trouvé pas mal de cueillette dans la Forêt Sève-Cendreuse. Avec c'que j'ai trouvé, j'vais p't'être me faire un peu d'profit cette saison.$1#$e#Salut, fermier !$3", / "La Forêt Sève-Cendreuse est jolie à c'moment d'la saison. C'est l'une des raisons qui m'ont poussées à vivre ici et cultiver mon champ.$3#$e#Passe une bonne journée, fermier.$0",
+
+// SUSAN NPC
+Ligne 7349 : [...] "On va vers le sud de la Cindersap Forest demain pour le festival de Danse des Fleurs. Tu nous y rejoindras ?$0#$e#Gus prépare la plupart de la nourriture !$1",
+          => [...] "On va vers le sud de la Forêt Sève-Cendreuse demain pour le festival de Danse des Fleurs. Tu nous y rejoindras ?$0#$e#Gus prépare la plupart de la nourriture !$1",
+
+Ligne 7412 : [...] "Les champignons apparaissent dans la Cindersap Forest à cette période de l'année. Je pourrais bientôt en chercher.$0#$e#Andy et Leah les prennent généralement tous, cependant...$3",
+          => [...] "Les champignons apparaissent dans la Forêt Sève-Cendreuse à cette période de l'année. Je pourrais bientôt en chercher.$0#$e#Andy et Leah les prennent généralement tous, cependant...$3",
+
+//Sandy Dialogue - Visits Valley
+Ligne 8159 : [...] "Hey bonjour, @.$1#$b#La Cindersap Forest est... Magnifique. Je ne vois pas souvent autant d'arbres en un seul endroit.",
+          => [...] "Hey bonjour, @.$1#$b#La Forêt Sève-Cendreuse est... Magnifique. Je ne vois pas souvent autant d'arbres en un seul endroit.",
+
+//.25 doesnt' exist
+Ligne 8216 : [...] "Carrément !  Tu peux voir Pélican Ville... La Cindersap Forest... Tu peux même voir là où nous étions, au Blue Moon Vineyard !$1",
+          => [...] "Carrément !  Tu peux voir Pélican Ville... La Forêt Sève-Cendreuse... Tu peux même voir là où nous étions, au Vignoble de la Lune Bleue !$1",
+
+//Lewis Event Dialogue
+Ligne 8259 : [...] "Je dois marcher jusqu'à la ferme Fairhaven et vérifier si Andy expédie quelque chose. Il a généralement de la cueillette de haute qualité de la Cindersap Forest.$1#$b#Ça doit être pratique de pouvoir se nourrir dans son jardin.$0#$b#Je te laisse à ton travail à la ferme.$1",
+          => [...] "Je dois marcher jusqu'à la Ferme Fairhaven et vérifier si Andy expédie quelque chose. Il a généralement de la cueillette de haute qualité de la Forêt Sève-Cendreuse.$1#$b#Ça doit être pratique de pouvoir se nourrir dans son jardin.$0#$b#Je te laisse à ton travail à la ferme.$1",
+
+//Willy Event Dialogue
+Ligne 8785 : [...] "Je reviens d'un coin de pêche au fond de la Cindersap Forest.$1#$b#Il y a une rivière remplie de « Saumon Royal » à cette période de l'année.$0#$b#Jette un œil à cette beauté !$1",
+          => [...] "Je reviens d'un coin de pêche au fond de la Forêt Sève-Cendreuse.$1#$b#Il y a une rivière remplie de « Saumon Royal » à cette période de l'année.$0#$b#Jette un œil à cette beauté !$1",
+
+//"CommunityDay.Dialogue.162":
+Ligne 11424 : [...] "Hmm... Je pense avoir vu un ours errer dans la Cindersap Forest l'autre jour. Je me demande s'il poserait pour une sculpture ?$7",
+           => [...] "Hmm... Je pense avoir vu un ours errer dans la Forêt Sève-Cendreuse l'autre jour. Je me demande s'il poserait pour une sculpture ?$7",
+
+//Apples Special Order & Junimo Scroll
+Ligne 11950 : [...] "Vous sentez quelque chose à l'ouest de la Cindersap Forest...", / "Un « Junimo » a élu domicile dans la cave d'un bâtiment abandonné à l'ouest de la Cindersap Forest.$0#$b#Iel demande 200 caramboles...$5#$b#Il semblerait que vous soyez sur le point de vous faire un nouvel ami, @.$1",
+           => [...] "Vous sentez quelque chose à l'ouest de la Forêt Sève-Cendreuse...", / "Un « Junimo » a élu domicile dans la cave d'un bâtiment abandonné à l'ouest de la Forêt Sève-Cendreuse.$0#$b#Iel demande 200 caramboles...$5#$b#Il semblerait que vous soyez sur le point de vous faire un nouvel ami, @.$1",
+
+Le mot est aussi présent dans les autres fichiers Logs aux lignes suivants :
+//1.15 Phone Calls (Ligne 774)
+//Claire funLeave + funReturn (Ligne 3872)
+
+##############################################################################################################################################################
+
+****[Crimson Badlands]
+
+//CONFIGS
+Ligne 53 : [...] "Dramatically increases monster spawns and difficulty traversing the Crimson Badlands - the adventurer's true test. This toggle is very resource intensive, so having a strong PC is recommended.",
+        => [...] "Augmente considérablement l'apparition des monstres et la difficulté de traverser les Terres Écarlates - le véritable test de l'aventurier. Ce paramètre nécessite beaucoup de ressources, il est donc recommandé d'avoir un PC costaud.",
+
+//Location Names
+Ligne 104 : [...] "Crimson Badlands",
+         => [...] "Les Terres Écarlates",
+
+//Marlon Event Dialogue
+Ligne 7914 : [...] "Un serpent du vide dans les Crimson Badlands ?",
+          => [...] "Un serpent du vide dans les Terres Écarlates ?",
+
+Ligne 7919 : [...] "@ a tué un serpent du vide dans les Crimson Badlands.$0#$b#Le monstre a fait tomber ça là où il se tenait auparavant.$1#$b#Je n'ai jamais vu ça de ma vie. Tu peux le déchiffrer, Magnus ?$2",
+          => [...] "@ a tué un serpent du vide dans les Terres Écarlates.$0#$b#Le monstre a fait tomber ça là où il se tenait auparavant.$1#$b#Je n'ai jamais vu ça de ma vie. Tu peux le déchiffrer, Magnus ?$2",
+
+//KROBUS NPC
+Ligne 9057 : [...] "Un puissant chaman de l'ombre veut la paix. Il peut utiliser la magie ancienne pour réparer \"wrongs\"... Je peux trouver ce qu'il veut dans les Crimson Badlands.",
+          => [...] "Un puissant chaman de l'ombre veut la paix. Il peut utiliser la magie ancienne pour réparer \"wrongs\"... Je peux trouver ce qu'il veut dans les Terres Écarlates.",
+
+//Enchanged Grove
+Ligne 11521 : [...] "Cet avant-poste borde les Crimson Badlands, un désert magique formé par les séquelles d'une ancienne magie noire.$0#$b#Chaleur torride le jour, nuits froides comme la glace, dunes de sables mouvants, tempêtes de sable foudroyantes, hordes de monstres, zones du vide...$1",
+           => [...] "Cet avant-poste borde les Terres Écarlates, un désert magique formé par les séquelles d'une ancienne magie noire.$0#$b#Chaleur torride le jour, nuits froides comme la glace, dunes de sables mouvants, tempêtes de sable foudroyantes, hordes de monstres, zones du vide...$1",
+
+Ligne 11537 : [...] "Cet avant-poste borde les Crimson Badlands, un désert magique formé par les séquelles d'une ancienne magie noire.$0#$b#Chaleur torride le jour, nuits froides comme la glace, dunes de sables mouvants, tempêtes de sable foudroyantes, hordes de monstres, zones du vide...$1",
+           => [...] "Cet avant-poste borde les Terres Écarlates, un désert magique formé par les séquelles d'une ancienne magie noire.$0#$b#Chaleur torride le jour, nuits froides comme la glace, dunes de sables mouvants, tempêtes de sable foudroyantes, hordes de monstres, zones du vide...$1",
+
+Ligne 11550 : [...] "Tu t'aventures dans les Crimson Badlands, @?#$b#Assure-toi que tu t'es bien préparé. Les sables pourpres sont impitoyables.$1",
+           => [...] "Tu t'aventures dans les Terres Écarlates, @?#$b#Assure-toi que tu t'es bien préparé. Les sables pourpres sont impitoyables.$1",
+
+Le mot est aussi présent dans les autres fichiers Logs aux lignes suivants :
+//1.15 Legendary Trio Questline (Lignes 929 - 932 et 936)
+//Marlon Event Dialogue (7880 et 7885)
+
+##############################################################################################################################################################
+
+****[Fable Reef]
+
+//Locations
+Ligne 1020 : [...] "Récif de Fable",
+          => [...] "Récif des Fables",
+
+//Lance
+Ligne 1088 : [...] "Je vois que tu protèges la Fable Reef des Truites Torpilles ! Je récupère cela volontier.$1",
+          => [...] "Je vois que tu protèges le Récif des Fables des Truites Torpilles ! Je récupère cela volontier.$1",
+
+//Schedule Dialogue
+Ligne 2726 : [...] "Hello, my love. What brings you to Fable Reef today?$1#$e#I need to replenish my mana potion supply.$0",
+          => [...] "Bonjour, mon amour. Qu'est-ce qui t'amène au Récif des Fables aujourd'hui ?$1#$e#Je dois refaire mes réserves de potions de mana.$0",
+
+//LANCE DYNAMIC SPOUSE DIALOGUE
+Ligne 2803 : [...] "Lance.funLeave.Wednesday.3": "Je devrais vraiment m'arrêter plus souvent à la maison de la plage.$0#$e#Peut-être pouvons-nous préparer un repas ensemble et profiter du coucher de soleil sur l'horizon de la Gem Sea.$4#$e#Eh bien, l'aventure nous attend. Je serai à Fable Reef.",
+          => [...] "Lance.funLeave.Wednesday.3": "Je devrais vraiment m'arrêter plus souvent à la maison de la plage.$0#$e#Peut-être pouvons-nous préparer un repas ensemble et profiter du coucher de soleil sur l'horizon de la Mer de Gemme.$4#$e#Eh bien, l'aventure nous attend. Je serai au Récif des Fables.",
+
+// Lance2heart3 - no dialogue
+Ligne 2969 - 2971 - 2977 - 2993 : [...] "Je te verrai à Fable Reef.$1", / "The First Slash est situé à Fable Reef, une île éloignée de la civilisation.$0", / "Pourquoi ne pas commencer par patrouiller Fable Reef.$1", / "J'avais hâte de passer la journée avec toi à Fable Reef.$2",
+                               => [...] "Je te verrai à Récif des Fables.$1", / "The First Slash est situé à Récif des Fables, une île éloignée de la civilisation.$0", / "Pourquoi ne pas commencer par patrouiller le Récif des Fables.$1", / "J'avais hâte de passer la journée avec toi au Récif des Fables.$2",
+
+##############################################################################################################################################################
+
+****[Gem Sea]
+
+//VICTOR NPC
+Ligne 2101 : [...] "Les méduses au clair de lune sont parmi les plus belles créatures de la Mer Gem.$3#$b#J'ai hâte de les voir chaque année.$1",
+          => [...] "Les méduses au clair de lune sont parmi les plus belles créatures de la Mer de Gemme.$3#$b#J'ai hâte de les voir chaque année.$1",
+
+//LANCE DYNAMIC SPOUSE DIALOGUE
+Ligne 2789 : [...] "The First Slash espère être la première guilde à utiliser une bulle magique capable d'explorer la « faille éthérée » au fond de la Gem Sea.$0#$b#Elle devrait résister à plus de 1700 bars de pression...$5#$e#Plusieurs sorciers de notre entourage, comme Magnus, peuvent en créer une.$0#$b#Mais elles ne sont capables de résister qu'à 250 bars de pression.$6",
+          => [...] "The First Slash espère être la première guilde à utiliser une bulle magique capable d'explorer la « faille éthérée » au fond de la Mer de Gemme.$0#$b#Elle devrait résister à plus de 1700 bars de pression...$5#$e#Plusieurs sorciers de notre entourage, comme Magnus, peuvent en créer une.$0#$b#Mais elles ne sont capables de résister qu'à 250 bars de pression.$6",
+
+Ligne 2803 : [...] "Lance.funLeave.Wednesday.3": "Je devrais vraiment m'arrêter plus souvent à la maison de la plage.$0#$e#Peut-être pouvons-nous préparer un repas ensemble et profiter du coucher de soleil sur l'horizon de la Gem Sea.$4#$e#Eh bien, l'aventure nous attend. Je serai à Fable Reef.",
+          => [...] "Lance.funLeave.Wednesday.3": "Je devrais vraiment m'arrêter plus souvent à la maison de la plage.$0#$e#Peut-être pouvons-nous préparer un repas ensemble et profiter du coucher de soleil sur l'horizon de la Mer de Gemme.$4#$e#Eh bien, l'aventure nous attend. Je serai au Récif des Fables.",
+
+// Lance2heart3 - no dialogue
+Ligne 2941 : [...] "Notre île est au centre de la Gem Sea, trop loin pour être atteinte sans runes de téléportation.",
+          => [...] "Notre île est au centre de la Mer de Gemme, trop loin pour être atteinte sans runes de téléportation.",
+
+//Wizard funLeave + funReturn with specific dates
+Ligne 3223 : [...] "Je suis particulièrement ravi d'un chapitre que je lis dans un tome. Il a été écrit par un autre sorcier de l'autre côté de la Gem Sea.$0#$e#Peut-être pourrons-nous en parler plus tard.$1",
+          => [...] "Je suis particulièrement ravi d'un chapitre que je lis dans un tome. Il a été écrit par un autre sorcier de l'autre côté de la Mer de Gemme.$0#$e#Peut-être pourrons-nous en parler plus tard.$1",
+
+//Sophia NPC
+Ligne 4352 : [...] "Les gens viennent assez souvent sur la falaise devant ma maison.$0#$e#La vue sur la Gem Sea est magnifique ici. C'est un bon lieu de rendez-vous.$1",
+          => [...] "Les gens viennent assez souvent sur la falaise devant ma maison.$0#$e#La vue sur la Mer de Gemme est magnifique ici. C'est un bon lieu de rendez-vous.$1",
+
+//OLIVIA NPC
+Ligne 5033 : [...] "Je visite le Vignoble Blue Moon demain pour commander plus de vin à Sophia.$3#$b#Parfois, Victor s'en va, et je vais voir la Gem Sea depuis la falaise. C'est une belle vue.$1#$e#J'aimerais y aller avec toi un jour.$3",
+          => [...] "Je visite le Vignoble de la Lune Bleue demain pour commander plus de vin à Sophia.$3#$b#Parfois, Victor s'en va, et je vais voir la Mer de Gemme depuis la falaise. C'est une belle vue.$1#$e#J'aimerais y aller avec toi un jour.$3",
+
+//Schedule Dialogue
+Ligne 5964 : [...] "J'adore la vue de la Gem Sea ici !$1",
+          => [...] "J'adore la vue de la Mer de Gemme ici !$1",
+
+//FakeScarlett Strings
+Ligne 5982 : [...] "J'adore la vue sur la Gem Sea ici !$1",
+          => [...] "J'adore la vue de la Mer de Gemme ici !$1",
+
+// ANDY NPC
+Ligne 6602 : [...] "%Andy regardement intensément la Gem Sea.",
+          => [...] "%Andy regardement intensément la Mer de Gemme.",
+
+// MARTIN NPC
+Ligne 6861 : [...] "Il y a un tas de jolis sites ici, en particulier la Gem Sea.$0#$e#J'ai juste une vue sur de vastes plaines ouvertes et des montagnes ennuyeuses chez moi.$4",
+          => [...] "Il y a un tas de jolis sites ici, en particulier la Mer de Gemme.$0#$e#J'ai juste une vue sur de vastes plaines ouvertes et des montagnes ennuyeuses chez moi.$4",
+
+//Sandy Events
+Ligne 8208 : [...] "Carrément ! La Gem Sea paraît magnifique vue d'ici.$1",
+          => [...] "Carrément ! La Mer de Gemme paraît magnifique vue d'ici.$1",
+
+//GUS NPC
+Ligne 8311 : [...] "Je profite de la vue sur la Gem Sea, bien sûr !$1",
+          => [...] "Je profite de la vue sur la Mer de Gemme, bien sûr !$1",
+
+//Elliott Event Dialogue
+Ligne 8605 : [...] "La Gem Sea est particulièrement inspirante à cette période de l'année. Peut-être qu'un jour je t'emmènerai avec moi pour que tu puisses pêcher pendant que j'écris mes romans... Tu pourrais être ma muse !$1",
+          => [...] "La Mer de Gemme est particulièrement inspirante à cette période de l'année. Peut-être qu'un jour je t'emmènerai avec moi pour que tu puisses pêcher pendant que j'écris mes romans... Tu pourrais être ma muse !$1",
+
+//WILLY NPC
+Ligne 8754 : [...] "Ohé. On jette un coup d'œil à la Gem Sea, n'est-ce pas ?$0",
+          => [...] "Ohé. On jette un coup d'œil à la Mer de Gemme, n'est-ce pas ?$0",
+
+//MATURE EVENTS
+Ligne 9610 : [...] "La vue sur la Gem Sea est incroyablement belle depuis cette hauteur !$1",
+          => [...] "La vue sur la Mer de Gemme est incroyablement belle depuis cette hauteur !$1",
+
+Le mot est aussi présent dans les autres fichiers Logs aux lignes suivants :
+//1.15 Animals (Ligne 452)
+//1.15 Scarlett Marriage Schedule Dialogue (Ligne 689)
+//LANCE DYNAMIC SPOUSE DIALOGUE (Ligne 2789)
+
+##############################################################################################################################################################
+
+****[GrandpasShed / Grandpa's Shed]
+
+//CONFIGS
+Ligne 14 : [...] "Supprimer les objets de GrandpasShed",
+        => [...] "Supprimer les objets du Hangar de Grand-père",
+
+//Location Names
+Ligne 61 : [...] "Remise de Grand-père",
+        => [...] "Hangar de Grand-père",
+
+//Locations
+Ligne 1022 : [...] "La Serre de Grand-père",
+          => [...] "La serre du Hangar de Grand-père",
+
+Ligne 1030 : [...] "Extérieur de la Serre de Grand-père",
+          => [...] "Extérieur de la Serre du Hangar de Grand-père",
+
+##############################################################################################################################################################
+
+****[Highland]
+
+//Location Names
+Ligne 99 : [...] "Highlands",
+        => [...] "Les Hautes Terres",
+
+Ligne 100 : [...] "Caverne des Highlands",
+         => [...] "Caverne des Hautes Terres",
+
+Ligne 112 : [...] "Avant-poste des Highlands",
+         => [...] "Avant-poste des Hautes Terres",
+
+//1.15 Objects
+Ligne 289 && 290 : [...] "Highlands Bass", / "A common fish found in the Highlands region.",
+                => [...] "Bar des Hautes Terres", / "Un poisson commun que l'on trouve dans la région des Hautes Terres.",
+
+//Music (Jukebox)
+Ligne 1012 && 1013 : [...] "Highlands", / "Highlands (Rainy)",
+                  => [...] "Les Hautes Terres", / "Les Hautes Terres (Pluvieux)",
+
+//Locations
+Ligne 1031 && 1033 : [...] "Caverne des Highlands", / "Highlands",
+          => [...] "Caverne des Hautes Terres", / "Les Hautes Terres",
+//Objects
+Ligne 1757 : [...] "LUN: Avant-poste de Galdoran\nMAR: Stardew Valley\nMER: Stardew Valley\nJEU: Ginger Island\nVEN: Ginger Island\nSAM: Highlands\nDIM: Highlands",
+          => [...] "LUN: Avant-poste de Galdoran\nMAR: Stardew Valley\nMER: Stardew Valley\nJEU: Île Gingembre\nVEN: Île Gingembre\nSAM: Les Hautes Terres\nDIM: Les Hautes Terres",
+
+//LANCE NPC
+Ligne 2593 : [...] "Je tiens un avant-poste bien plus loin au nord, dans les Highlands.$0#$e#Peut-être qu'un jour tu m'y rejoindras.$1",
+          => [...] "Je tiens un avant-poste bien plus loin au nord, dans les Hautes Terres.$0#$e#Peut-être qu'un jour tu m'y rejoindras.$1",
+
+Ligne 2629 : [...] "Les chutes de neige sont très forte par ici en hiver.$0#$b#Nous sommes dans les Highlands, après tout.$5",
+          => [...] "Les chutes de neige sont très forte par ici en hiver.$0#$b#Nous sommes dans les Hautes Terres, après tout.$5",
+
+Ligne 2632 : [...] "L'air est très léger dans les Highlands.$0",
+          => [...] "L'air est très léger dans les Hautes Terres.$0",
+
+Ligne 2670 : [...] "Cette maison est bien plus confortable que l'avant-poste dans les highlands.$0",
+          => [...] "Cette maison est bien plus confortable que l'avant-poste dans les Hautes Terres.$0",
+
+Ligne 2694 && 2695 : [...] "Je me demande si il pleut dans les Highlands aussi...$6#$e#L'avant-poste se gère tout seul. Mes barrières magiques tiennent les monstres à bonne distance.$0", / "Seuls les mages de haut rang ont le droit de faire des « Nexus ».$5#$e#Les Highlands, Stardew Valley, et la Ginger Island sont à peu près dans la même région, donc je n'en ai pas besoin.$0",
+                  => [...] "Je me demande si il pleut dans les Hautes Terres aussi...$6#$e#L'avant-poste se gère tout seul. Mes barrières magiques tiennent les monstres à bonne distance.$0", / "Seuls les mages de haut rang ont le droit de faire des « Nexus ».$5#$e#Les Hautes Terres, Stardew Valley, et l'Île Gingembre sont à peu près dans la même région, donc je n'en ai pas besoin.$0",
+
+//LANCE DYNAMIC SPOUSE DIALOGUE
+Ligne 2762 : [...] "Les monstres des Highlands changent de couleur. L'été arrive.$0",
+          => [...] "Les monstres des Hautes Terres changent de couleur. L'été arrive.$0",
+
+Ligne 2767 : [...] "*bâille*...$5#$b#J'explorais les montagnes des Highlands aujourd'hui.$0#$e#*bâille*...$5#$b#J'ai l'impression que je pourrais juste reposer ma tête sur tes genoux...$5#$e#%Lance s'assoupit.",
+          => [...] "*bâille*...$5#$b#J'explorais les montagnes des Hautes Terres aujourd'hui.$0#$e#*bâille*...$5#$b#J'ai l'impression que je pourrais juste reposer ma tête sur tes genoux...$5#$e#%Lance s'assoupit.",
+
+Ligne 2770 : [...] "J'observe des esprits de champignons monstres dans les Highlands ce matin.",
+          => [...] "J'observe des esprits de champignons monstres dans les Hautes Terres ce matin.",
+
+Ligne 2772 : [...] "L'automne souffle déjà dans l'air. Je peux le sentir.$5#$e#Je pars observer les changements de couleur des monstres des Highlands.$1",
+          => [...] "L'automne souffle déjà dans l'air. Je peux le sentir.$5#$e#Je pars observer les changements de couleur des monstres des Hautes Terres.$1",
+
+Ligne 2775 : [...] "J'ai très peu de motivation aujourd'hui, mais je dois me rendre dans les Highlands.$6",
+          => [...] "J'ai très peu de motivation aujourd'hui, mais je dois me rendre dans les Hautes Terres.$6",
+
+Ligne 2782 : [...] "J'observe des esprits de champignons monstres dans les Highlands ce matin.$0#$e#J'avoue qu'ils sont un peu mignons.$1#$e#Pas aussi mignon que toi cependant.$5#$e#*glousse*...$1#$e#Je finis mes préparatifs et puis je m'en vais.$0",
+          => [...] "J'observe des esprits de champignons monstres dans les Hautes Terres ce matin.$0#$e#J'avoue qu'ils sont un peu mignons.$1#$e#Pas aussi mignon que toi cependant.$5#$e#*glousse*...$1#$e#Je finis mes préparatifs et puis je m'en vais.$0",
+
+Ligne 2786 : [...] "Les Cavernes des Highlands sont périlleuses. Je suis facilement touché par les tireurs d'élite de l'ombre.$3",
+          => [...] "Les Cavernes des Hautes Terres sont périlleuses. Je suis facilement touché par les tireurs d'élite de l'ombre.$3",
+
+Ligne 2794 && 2795 : [...] "L'hiver se termine bientôt. Je dois mener une dernière enquête sur le terrain dans les Highlands pour terminer l'année.$0#$e#Je reviens ce soir.$1", / "Alors que le printemps approche à grands pas, les monstres des Highlands dégelent.$0#$e#Je me demande quelles découvertes je vais faire cette année...$5#$b#Et ce que tu accompliras.$1#$e#Quoi qu'il en soit, nous serons toujours à côté l'un de l'autre.$0",
+                  => [...] "L'hiver se termine bientôt. Je dois mener une dernière enquête sur le terrain dans les Hautes Terres pour terminer l'année.$0#$e#Je reviens ce soir.$1", / "Alors que le printemps approche à grands pas, les monstres des Hautes Terres dégelent.$0#$e#Je me demande quelles découvertes je vais faire cette année...$5#$b#Et ce que tu accompliras.$1#$e#Quoi qu'il en soit, nous serons toujours à côté l'un de l'autre.$0",
+
+Ligne 2812 && 2813 : [...] "Je me demande ce qui m'attend dans les Highlands aujourd'hui...$5#$e#Bonne chance, mon trésor. Je reviens ce soir.$1", / "Il y a beaucoup d'inconnues dans les Highlands. J'espère les démêler tous.$0#$e#*ricanne* Je pars bientôt. Tu sais où me trouver.$5",
+          => [...] "Je me demande ce qui m'attend dans les Hautes Terres aujourd'hui...$5#$e#Bonne chance, mon trésor. Je reviens ce soir.$1", / "Il y a beaucoup d'inconnues dans les Hautes Terres. J'espère les démêler tous.$0#$e#*ricanne* Je pars bientôt. Tu sais où me trouver.",
+
+Ligne 2815 && 2817 : [...] "Un aventurier prépare toujours des fournitures adéquates avant de s'aventurer dans l'inconnu.$0#$e#Je me demande ce qui m'attend dans les Highlands aujourd'hui...$1", / "Je pars dans les Highlands, mon trésor.$0#$e#J'espère que tu auras une journée productive. Je penserai à toi.$1",
+          => [...] "Un aventurier prépare toujours des fournitures adéquates avant de s'aventurer dans l'inconnu.$0#$e#Je me demande ce qui m'attend dans les Hautes Terres aujourd'hui...$1", / "Je pars dans les Hautes Terres, mon trésor.$0#$e#J'espère que tu auras une journée productive. Je penserai à toi.$1",
+
+//LANCE STRINGS FROM CONTENT.JSON
+Ligne 2868 : [...] "Cultivez des graines de récolte obtenues par des monstres dans les Highlands pour aider Lance dans ses recherches.",
+          => [...] "Cultivez des graines de récolte obtenues par des monstres dans les Hautes Terres pour aider Lance dans ses recherches.",
+
+//LANCE EVENT DIALOGUE
+Ligne 2892 : [...] "Mon avant-poste est peut-être petit, mais je vous assure qu'il a le punch nécessaire pour survivre dans les Highlands.$0#$b#Les flammes magiques agissent comme une forme de répulsif contre les monstres. Je les ai créés moi-même.$1",
+          => [...] "Mon avant-poste est peut-être petit, mais je vous assure qu'il a le punch nécessaire pour survivre dans les Hautes Terres.$0#$b#Les flammes magiques agissent comme une forme de répulsif contre les monstres. Je les ai créés moi-même.$1",
+
+Ligne 2896 && 2897 : [...] "Lance a partagé ses découvertes avec Marlon et moi. Il nous a demandé de chasser les monstres des Highlands pour obtenir leurs étranges graines de récolte et d'essayer de les cultiver.", / "Avant que je m'en rende compte, les heures s'étaient écoulées... Il est maintenant temps de rentrer à la maison. Je me demande ce qui m'attend dans les Highlands...",
+                  => [...] "Lance a partagé ses découvertes avec Marlon et moi. Il nous a demandé de chasser les monstres des Hautes Terres pour obtenir leurs étranges graines de récolte et d'essayer de les cultiver.", / "Avant que je m'en rende compte, les heures s'étaient écoulées... Il est maintenant temps de rentrer à la maison. Je me demande ce qui m'attend dans les Hautes Terres...",
+
+// Lance2heart3 - no dialogue
+Ligne 2958 : [...] "Voici... Des récoltes monstrueuses des Highlands !$1",
+          => [...] "Voici... Des récoltes monstrueuses des Hautes Terres !$1",
+
+Ligne 2963 : [...] "Mon maître et mon chef de guilde sont satisfaits de ma performance. Merci, @.$1#$e#Ces cultures monstres aideront à faire progresser notre compréhension des golems sauvages, des slimes, des esprits champignons et des hommes de l'ombre...$5#$e#Il y a encore du travail à faire aux Highlands ! Nous ne faisons que commencer.$0",
+          => [...] "Mon maître et mon chef de guilde sont satisfaits de ma performance. Merci, @.$1#$e#Ces cultures monstres aideront à faire progresser notre compréhension des golems sauvages, des slimes, des esprits champignons et des hommes de l'ombre...$5#$e#Il y a encore du travail à faire aux Hautes Terres ! Nous ne faisons que commencer.$0",
+
+//HIGHLAND DWARF EVENTS
+Ligne 7941 && 7944 : [...] "Il est venu à mon attention que Lance possède un avant-poste loin au nord dans les Highlands.#$b#Mon bateau amarré à l'extérieur est capable d'y voyager.", / "À quoi servent les morceaux de monstre ? J'ai peur de ne pas être libre de te le dire.$0#$e#D'après ce qu'on m'a dit, les Highlands sont un endroit dangereux.$0",
+                  => [...] "Il est venu à mon attention que Lance possède un avant-poste loin au nord dans les Hautes Terres.#$b#Mon bateau amarré à l'extérieur est capable d'y voyager.", / "À quoi servent les morceaux de monstre ? J'ai peur de ne pas être libre de te le dire.$0#$e#D'après ce qu'on m'a dit, les Hautes Terres sont un endroit dangereux.$0",
+
+Le mot est aussi présent dans les autres fichiers Logs aux lignes suivants :
+//1.15 Legendary Trio Questline (Lignes 929 - 931 - 936 et 939)
+//Locations (Ligne 1086)
+
+##############################################################################################################################################################
+
+****[Joja Mart]
+
+//Festivals
+Ligne 1057 : [...] "La Journée Joja a commencé à Joja Mart",
+          => [...] "La Journée Joja a commencé au Marché Joja",
+
+//CLAIRE NPC
+Ligne 3755 - 3757 : [...] "Je travaille à temps plein en tant que caissière chez Joja Mart. C'est un travail assez facile.$1", / "Si vous voulez la climatisation, Joja Mart a ce qu'il vous faut.$1#$e#Il fait un peu trop froid pour moi par contre.$2", / "Travailler chez Joja Mart a ses avantages. J'obtiens 10% de réduction sur chaque achat.$1#$e#As-tu essayé des plats surgelés de chez Joja ?$1",
+                  => [...] "Je travaille à temps plein en tant que caissière au Marché Joja. C'est un travail assez facile.$1", / "Si vous voulez la climatisation, le Marché Joja a ce qu'il vous faut.$1#$e#Il fait un peu trop froid pour moi par contre.$2", / "Travailler au Marché Joja a ses avantages. J'obtiens 10% de réduction sur chaque achat.$1#$e#As-tu essayé des plats surgelés de chez Joja ?$1",
+
+//Events
+Ligne 6347 : [...] "Bonjour, @.$1#$b#Je voulais discuter de quelque chose avec toi...$4#$b#Passe à mon bureau à Joja Mart à ta guise.$0",
+          => [...] "Bonjour, @.$1#$b#Je voulais discuter de quelque chose avec toi...$4#$b#Passe à mon bureau au Marché Joja à ta guise.$0",
+
+Ligne 6355 : [...] "@ ! Ma maison en ville est maintenant terminée. Les architectes de la Joja Corporation travaillent très vite.$1#$b#Ma maison est située à l'est du Joja Mart ! Passe quand tu as le temps.$0",
+          => [...] "@ ! Ma maison en ville est maintenant terminée. Les architectes de la Joja Corporation travaillent très vite.$1#$b#Ma maison est située à l'est du Marché Joja ! Passe quand tu as le temps.$0",
+
+Ligne 6389 && 6394 : [...] "Viens me voir au Joja Mart. Je vais te donner un rabais comme acompte.$1",
+                  => [...] "Viens me voir au Marché Joja. Je vais te donner un rabais comme acompte.$1",
+
+Ligne 6480 : [...] "Viens me voir à mon bureau au Joja Mart si tu es intéressé !$1",
+          => [...] "Viens me voir à mon bureau au Marché Joja si tu es intéressé !$1",
+
+//Museum Complete Conversation topics
+Ligne 8145 : [...] "Je suis certain que la collection du musée achevée attirera plus de touristes dans la vallée, ce qui signifie plus d'affaires pour Joja Mart !$1",
+          => [...] "Je suis certain que la collection du musée achevée attirera plus de touristes dans la vallée, ce qui signifie plus d'affaires pour le Marché Joja !$1",
+
+//Buying Aurora Events
+Ligne 9700 : [...] "Ah, tu es intéressé par l'achat d'Aurora Vineyard ?$4#$b#Retrouve-moi au Joja Mart afin que nous puissions discuter des détails...$0#$e#Andy ne remplit malheureusement pas les prérequis et Sophia a déjà trop de travail.$0#$b#Susan ignore mes messages...$3",
+          => [...]  "Ah, tu es intéressé par l'achat du Vignoble d'Aurora ?$4#$b#Retrouve-moi au Marché Joja afin que nous puissions discuter des détails...$0#$e#Andy ne remplit malheureusement pas les prérequis et Sophia a déjà trop de travail.$0#$b#Susan ignore mes messages...$3",
+
+//SUMMIT
+Ligne 9760 : [...] "Prendre ce job à Joja Mart était la meilleure décision de ma vie.$1#$b#Cela montre que l'on ne sait jamais ce que l'avenir nous réserve. Ou comment un choix peut changer toute une vie...$5",
+          => [...] "Prendre ce job au Marché Joja était la meilleure décision de ma vie.$1#$b#Cela montre que l'on ne sait jamais ce que l'avenir nous réserve. Ou comment un choix peut changer toute une vie...$5",
+
+//JojaDay
+Ligne 11058 : [...] "Bonjour, @. Je voulais passer et te dire que « Le Jour Joja » sera demain au Joja Mart !$1#$b#Il y aura des décorations exclusives à vendre et jusqu'à 20 % de réduction sur les graines jusqu'à 20h !$4#$b#Ce serait un plaisir si tu y assistais !$1",
+           => [...] "Bonjour, @. Je voulais passer et te dire que « Le Jour Joja » sera demain au Marché Joja !$1#$b#Il y aura des décorations exclusives à vendre et jusqu'à 20 % de réduction sur les graines jusqu'à 20h !$4#$b#Ce serait un plaisir si tu y assistais !$1",
+
+Ligne 11059 && 11060 : [...] "À partir de maintenant, il y aura des soldes chez Joja Mart le 22 de chaque saison !", / "Je comprends que certains résidents de la vallée éprouvent des difficultés financières. C'est pourquoi le 22 de chaque mois, Joja Mart baissera les prix !$0",
+                    => [...] "À partir de maintenant, il y aura des soldes chez le Marché Joja le 22 de chaque saison !", / "Je comprends que certains résidents de la vallée éprouvent des difficultés financières. C'est pourquoi le 22 de chaque mois, le Marché Joja baissera les prix !$0",
+
+Ligne 11061 && 11072: [...] "C'est le « Jour Joja » aujourd'hui. Peut-être que je vais jeter un œil au Joja Mart cet après-midi.$0", / "Désolé si je suis en sueur... Je suis épuisé par le travail aujourd'hui. Je ne peux pas croire que tant de gens puissent s'intégrer à Joja Mart.$0",
+                   => [...] "C'est le « Jour Joja » aujourd'hui. Peut-être que je vais jeter un œil au Marché Joja cet après-midi.$0", / "Désolé si je suis en sueur... Je suis épuisé par le travail aujourd'hui. Je ne peux pas croire que tant de gens puissent s'intégrer au Marché Joja.$0",
+
+Ligne 11076 : [...] "Je pense que je vais aller à Joja Mart après avoir fermé pour la journée.$0#$b#Ils ont des fournitures médicales difficiles à se procurer ici.$1",
+           => [...] "Je pense que je vais aller au Marché Joja après avoir fermé pour la journée.$0#$b#Ils ont des fournitures médicales difficiles à se procurer ici.$1",
+
+Ligne 11079 && 11080 : [...] "Bonjour ! Je vais au Joja Mart après avoir fermé la clinique pour la journée.$0#$b#Ils ont des fournitures médicales difficiles à se procurer ici.$1", / "As-tu acheté quelque chose chez Joja Mart ? J'ai trouvé exactement ce que je cherchais.$0",
+                    => [...] "Bonjour ! Je vais au Marché Joja après avoir fermé la clinique pour la journée.$0#$b#Ils ont des fournitures médicales difficiles à se procurer ici.$1", / "As-tu acheté quelque chose au Marché Joja ? J'ai trouvé exactement ce que je cherchais.$0",
+
+Ligne 11085 : [...] "Ma mère veut aller faire du shopping avec moi chez Joja Mart aujourd'hui.$0#$b#Je sens que je vais devoir la dissuader d'acheter des articles.$2",
+           => [...] "Ma mère veut aller faire du shopping avec moi au Marché Joja aujourd'hui.$0#$b#Je sens que je vais devoir la dissuader d'acheter des articles.$2",
+
+Ligne 11089 && 11090 : [...] "Enfin, tu es debout ! Je rends visite à mes parents ce matin et je vais à Joja Mart plus tard avec eux.$0#$b#Peut-être que je te verrai là-bas.$1", / "J'ai ramené des choses de Joja Mart. Ils sont au frigo.$0#$b#Oh, et mon père dit bonjour !$1",
+                    => [...] "Enfin, tu es debout ! Je rends visite à mes parents ce matin et je vais au Marché Joja plus tard avec eux.$0#$b#Peut-être que je te verrai là-bas.$1", / "J'ai ramené des choses du Marché Joja. Ils sont au frigo.$0#$b#Oh, et mon père dit bonjour !$1",
+
+Ligne 11096 && 11101 : [...] "Penses-tu qu'ils aient du « Sashimi » à Joja Mart ?", / "Bonjour mon chéri. Je vais faire du shopping chez Joja Mart aujourd'hui. Dois-je t'apporter quelque chose ?^Bonjour ma chérie. Je vais faire du shopping chez Joja Mart aujourd'hui. Dois-je t'apporter quelque chose$1",
+                    => [...] "Penses-tu qu'ils aient du « Sashimi » au Marché Joja ?", / "Bonjour mon chéri. Je vais faire du shopping au Marché Joja aujourd'hui. Dois-je t'apporter quelque chose ?^Bonjour ma chérie. Je vais faire du shopping au Marché Joja aujourd'hui. Dois-je t'apporter quelque chose$1",
+
+Ligne 11102 : [...] "N'es-tu pas d'accord pour dire que Joja Mart est une énorme amélioration par rapport à celle de Pierre ?$1#$e#Je me demande comment ils font.$2", / "Haley m'entraîne pour aller faire du shopping avec elle au Joja Mart aujourd'hui.$0",
+           => [...] "N'es-tu pas d'accord pour dire que le Marché Joja est une énorme amélioration par rapport à celle de Pierre ?$1#$e#Je me demande comment ils font.$2", / "Haley m'entraîne pour aller faire du shopping avec elle au Marché Joja aujourd'hui.$0",
+
+Ligne 11108 : [...] "J'aime toute la nourriture loufoque qu'on peut trouver chez Joja Mart.$0#$e#Comment s'est passée ta journée, mon chéri ?^Comment s'est passée ta journée, ma chérie ?$1",
+           => [...] "J'aime toute la nourriture loufoque qu'on peut trouver au Marché Joja.$0#$e#Comment s'est passée ta journée, mon chéri ?^Comment s'est passée ta journée, ma chérie ?$1",
+
+Ligne 11109 : [...] "Haley m'entraîne pour aller faire du shopping avec elle au Joja Mart aujourd'hui.$0#$e#Je pense que Claire travaille aujourd'hui ! je vais essayer de la voir.$0",
+           => [...] "Haley m'entraîne pour aller faire du shopping avec elle au Marché Joja aujourd'hui.$0#$e#Je pense que Claire travaille aujourd'hui ! je vais essayer de la voir.$0",
+
+Ligne 11113 : [...] "Hé, bonjour. Joja Mart organise une énorme vente de viande aujourd'hui. Je peux venir te chercher pendant que j'y suis ?$0",
+           => [...] "Hé, bonjour. le Marché Joja organise une énorme vente de viande aujourd'hui. Je peux venir te chercher pendant que j'y suis ?$0",
+
+Ligne 11119 && 11120 && 11124 : [...] "Hey ! Bonjour. Quel est ton programme aujourd'hui ?$1#$e#Je fais du shopping avec ma mère chez Joja Mart toute la journée.$3", / "Je dois dire que Joja Mart possède une sélection intéressante.$0", / "Bonjour, trésor. Je cours à Joja Mart aujourd'hui.$3",
+                             => [...] "Hey ! Bonjour. Quel est ton programme aujourd'hui ?$1#$e#Je fais du shopping avec ma mère au Marché Joja toute la journée.$3", / "Je dois dire que le Marché Joja possède une sélection intéressante.$0", / "Bonjour, trésor. Je cours au Marché Joja aujourd'hui.$3",
+
+Ligne 11137 && 11148 : [...] "Hé, je vais rendre visite à ma famille aujourd'hui et faire du shopping avec eux à Joja Mart.$0#$e#Je suis content de ne pas avoir à travailler aujourd'hui.$1", / "Je vais jeter un œil à Joja Mart. Je ne vais probablement rien trouver.$0",
+                    => [...] "Hé, je vais rendre visite à ma famille aujourd'hui et faire du shopping avec eux au Marché Joja.$0#$e#Je suis content de ne pas avoir à travailler aujourd'hui.$1", / "Je vais jeter un œil au Marché Joja. Je ne vais probablement rien trouver.$0",
+
+Ligne 11163 && 11170 : [...] "Désolé chéri. J'ai fait de mon mieux. Tout le monde est allé à Joja Mart à la place...$2", / "Je prends tout ça, Pierre ! Ils ne vendent vraiment pas de graines comme les vôtres chez Joja Mart.$1",
+                    => [...] "Désolé chéri. J'ai fait de mon mieux. Tout le monde est allé au Marché Joja à la place...$2", / "Je prends tout ça, Pierre ! Ils ne vendent vraiment pas de graines comme les vôtres au Marché Joja.$1",
