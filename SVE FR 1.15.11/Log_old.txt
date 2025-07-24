@@ -1,0 +1,1903 @@
+Première forme du log qui partais du début du fichier fr.json à la ligne 973
+
+
+Notes d'avant lecture :
+
+Pour les modification ligne par ligne j'ai préférer remplacer la ligne de commande par [...] pour gagner de la place
+
+Pour les lignes groupés j'ai laisser tel quel avec l'original en premier pour mieux comparer les différences
+
+Ceci est ma première tentative d'aide à la traduction FR.
+J'ai garder la forme initiale de présentation et lister tous les changements que j'ai apporter au fichier dans ce fichier texte
+
+Version FR : 1.15.5
+Version Original : 1.15.11
+
+Si des fautes sont à déplorer (de français comme de cohérance avec le jeu) n'hésiter pas à me corriger si cela est nécesssaire.
+
+##############################################################################################################################################################
+
+*Liste des autres mots que j'ai pris la liberté de traduire en plus
+
+- Galdoran Gem => Gemme de Galdoran (correction du nom anglais basée sur la traduction à la ligne 1712)
+
+*Mots inchangés
+
+  - Lovely Day
+
+##############################################################################################################################################################
+
+Notes d'avant lecture :
+
+*Liste des lieux qui ont été traduit ailleurs dans le fichier et que j'ai rectifier aux lignes concernés
+
+ - Blue Moon Vineyard => Vignoble de la Lune Bleue ,[A beaucoup revérifier dans le texte], (correction du nom anglais basée sur la traduction à la ligne 1972)
+
+ - GrandpasShed / Grandpa's Shed => Hangar de Grand-père [OK] (correction du nom anglais basée sur la traduction à la ligne 61)
+
+ - Forbidden Maze => Labyrinthe Interdit [OK] (au vu du peu d'utilisation autant le traduire)
+
+ - Ginger Island => Île Gingembre ,[A revérifier dans le texte], (l'île semble la même entre SV et SVE autant le traduire lui aussi)
+
+ - Crimson Badlands => Les Sables Écarlates ,[A revérifier dans le fond des textes], (correction du nom anglais basée sur la traduction à la ligne 1009)
+
+*Cas de la quête du Trio Légendaire : Pour garder une cohérence avec les quêtes du trio légendaire (lignes 927-945) et éviter d'avoir des lieux anglais et français, j'ai préféré tous les traduires
+
+- Highlands => Les Hautes Terres (ou Les Terres Hautes ?) ,[A revérifier dans le texte],
+
+- Marshlands => Les Marais [OK]
+
+- Castle Village => Village du Château [A beaucoup revérifier dans le texte]
+
+*Liste des autres lieux que j'ai pris la liberté de traduire en plus
+
+- Luau day => Fête Hawaïenne
+- EmeraldFarm => Ferme Émeraude
+- Go Goat Ranch => Ranch des Chèvres
+
+*Lieux inchangés
+
+- Fireplace
+- Grampleton
+- Guilde First Slash
+- Shearwater
+
+  Certains traductions me pose des doutes voici une liste de ces fameux mots :
+
+  - "Windy Curls" /
+
+  "the best" => la meilleure / le meilleur ou juste traduire par 'le best' ?
+
+  - "dear" => aucune idée entre le masculin et le féminin pareil que pour "best"
+
+  - "darling" / " darlin' " => n'étant pas sur s'il faut trouver une alternative neutre j'ai tranché :
+    → "darling" => mon chéri
+    → "darlin'" => ma chérie
+
+##############################################################################################################################################################
+
+I.[Correctifs légers de l'anglais => français]
+
+  //CONFIGS
+  Ligne 14 : [...] "Supprimer les objets de GrandpasShed",
+          => [...] "Supprimer les objets du Hangar de Grand-père",
+
+  Ligne 18 : [...] "Construction de bâtiments difficile",
+          => [...] "Construction de bâtiments plus compliqués",
+
+  Ligne 23 : [...] "Shorter Path To Blue Moon Vineyard",
+          => [...] "Chemin plus court vers le Vignoble de la Lune Bleue",
+
+  Ligne 24 : [...] "Allows the Galdoran Gem to be donated to the Stardew Valley Museum. Prevents players from getting soft locked after the item type change in the SVE 1.15.5 update if it was already donated and they attempted to move it to another spot.",
+          => [...] "Permet de donner la Gemme de Galdoran au Musée de Stardew Valley. Empêche les joueurs d'être bloqués après le changement de type d'objet dans la mise à jour SVE 1.15.5, s'il a déjà été donné et qu'ils ont tenté de le déplacer vers un autre emplacement",
+
+  Ligne 30 : [...] "Config.WarpLocation.description": "'default' places the warp one tile below the bunny statue on SVE and vanilla maps. 'Custom' allows the warp point to be moved around on the farm. 'Grandpa's Shed' moves the warp point off the farm. Using a farm mod that adds a new farm type will place the warp by Grandpa's Shed regardless of choice. Selecting 'Grandpa's Shed' when playing on an SVE map will be the same as selecting 'default'.",
+          => [...] "'default' place la balise de téléportation une case en-dessous de la statue de lapin sur les cartes SVE et les cartes d'origines. 'Custom' permet de déplacer la balise de téléportation dans la ferme. Sur la carte Hangar de Grand-père, la balise de téléportation est déplacé hors de la ferme. L'utilisation d'un mod de ferme (qui ajoute un nouveau type de ferme) placera la balise de téléportation comme la Hangar de Grand-père, quel que soit le choix de la ferme. Sélectionner la Hangar de Grand-père lorsque vous jouez sur une carte SVE, équivaut à séléctionner 'default'.",
+          (Beaucoup de traduction - Peut contenir des fautes vu la longueur de la phrase)
+
+  Ligne 41 : [...] "Config.RemoveSouthernCactusesFromDesert.description": "Enlève un certain nombre de cactus dans le désert de Calico, permettant un placement plus facile d'objects comme les tonneaux.",
+          => [...] "Config.RemoveSouthernCactusesFromDesert.description": "Enlève un certain nombre de cactus dans le désert de Calico, permettant un placement plus facile d'objets comme les tonneaux.",
+
+  Ligne 49 : [...] "Config.ShorterPathToBlueMoonVineyard.description": "Pushes the warp point from Cindersap Forest > Blue Moon Vineyard closer to Fairhaven Farm, cutting down on travel time.",
+          => [...] "Config.ShorterPathToBlueMoonVineyard.description": "Rapproche le point de téléportation de la Forêt Sève-Cendrée > Vignoble de la Lune Bleue de Fairhaven Farm, réduisant ainsi la durée du voyage.",
+
+  Ligne 52 : [...] "Config.ChallengingMarshlands": "Increases spawns of ghost waves and swamp golems in the Forbidden Maze. Players can find even more forage.",
+          => [...] "Augmente l'apparition de vagues fantômes et de golems des marais dans le Labyrinthe Interdit. Les joueurs peuvent trouver encore plus de fourrage.",
+
+  Ligne 53 : [...] "Config.ChallengingBadlands": "Dramatically increases monster spawns and difficulty traversing the Crimson Badlands - the adventurer's true test. This toggle is very resource intensive, so having a strong PC is recommended.",
+          => [...] "Config.ChallengingBadlands": "Augmente considérablement l'apparition des monstres et la difficulté de traverser les Sables Écarlates - le véritable test de l'aventurier. Ce paramètre nécessite beaucoup de ressources, il est donc recommandé d'avoir un PC costaud.",
+
+  Ligne 54 : [...] "Config.ChallengingHighlandsCavern": "Increases monster spawns. Players can find even more gems and minerals.",
+          => [...] "Config.ChallengingHighlandsCavern": "Augmente l'apparition des monstres. Les joueurs peuvent trouver encore plus de gemmes et de minéraux.",
+
+
+##############################################################################################################################################################
+
+  //Location Names
+  Ligne 61 : [...] "Remise de Grand-père",
+          => [...] "Hangar de Grand-père",
+
+  Ligne 74 : [...] "Maison d'Emily and Haley",
+          => [...] "Maison d'Emily et Haley",
+
+  Ligne 79 : [...] "Remise de Marnie",
+          => [...] "Hangar de Marnie",
+
+  Ligne 99 : [...] "Highlands",
+          => [...] "Les Hautes Terres",
+
+  Ligne 100 : [...] "Caverne des Highlands",
+           => [...] "Caverne des Hautes Terres",
+
+  Ligne 103 : [...] "Avant-poste de Castle Village",
+           => [...] "Avant-poste du Village du Château",
+
+  Ligne 104 : [...] "Crimson Badlands",
+           => [...] "Les Sables Écarlates",
+
+  Ligne 112 : [...] "Avant-poste des Highlands",
+           => [...] "Avant-poste des Hautes Terres",
+
+##############################################################################################################################################################
+
+  //Bundle Strings
+  Lignes 117 - 119 [...] "Spring Crops", / "Summer Crops", / "Fall Crops", / "Quality Crops",
+                => [...] "cueillette du printemps", / "cueillette d'été", / "cueillette d'automne", / "cueillette de qualité",
+
+  Ligne 121 - 122 [...] "Animal", / "Artisan",
+               => [...] "Animaux", / "de l'Artisan",
+
+  Lignes 123 - 126 && 128 [...] "Spring Foraging", / "Summer Foraging", / "Fall Foraging", / "Winter Foraging", / "Exotic Foraging",
+                       => [...] "récoltes printanière", / "récoltes estivale", / "récoltes estivale", / "récoltes hivernale", / "récoltes exotiques",
+
+  Ligne 129 - 133 : [...] "River Fish", / "Lake Fish", / "Ocean Fish", / "Night Fish", / "Speciality Fish",
+                 => [...] "poissons de rivière", / "poissons d'eau douce", / "poissons de la mer", / "Pêche nocturne", / "poissons spécifiques",
+
+  Ligne 134 - 137 : [...] "Crab Pot", / "Blacksmith's", / "Geologist's", / "Adventurer's",
+                 => [...] "casier à crabes", / "forgeron", / "géologue", / "aventurier",
+
+  Ligne 146 - 151 : [...] "Chef's", / "Field Research", / "Enchanter's", / "Dye", / "Fodder", / "The Missing",
+                 => [...] "du chef", / "recherches sur le terrain", / "de l'enchanteur", / "des colorants", / "fourrage", / "disparu",
+
+
+##############################################################################################################################################################
+
+  [++ Ajout au code à la même place que le texte original ++]
+
+  Ligne 153 - 169
+
+  Original :
+  //1.15.9 Power Strings
+  "power.cheese-mastery.name": "Cheese Mastery",
+  "power.cheese-mastery.description": "Cheeses are worth 20% more.",
+  "power.strawberry-mastery.name": "Strawberry Mastery",
+  "power.strawberry-mastery.description": "Strawberries are worth 25% more.",
+  "power.grape-mastery.name": "Grape Mastery",
+  "power.grape-mastery.description": "Grapes are worth 2x the gold.",
+  "power.brewing-mastery.name": "Brewing Mastery",
+  "power.brewing-mastery.description": "Beer, mead, and pale ale are worth 50% more.",
+  "power.crafting-mastery.name": "Craft Mastery",
+  "power.crafting-mastery.description": "Kegs, casks, and preserve jars require less resources to craft.",
+  "power.starfruit-mastery.name": "Starfruit Mastery",
+  "power.starfruit-mastery.description": "Starfruits are worth 10% more.",
+  "power.animal-mastery.name": "Animal Mastery",
+  "power.animal-mastery.description": "Animal products are worth 10% more.",
+  "power.warp-magic.name": "Warp Magic",
+  "power.warp-magic.description": "Grants the power to summon Nexus warps.",
+
+
+  Traduction :
+  //1.15.9 Power Strings
+  "power.cheese-mastery.name": "Maître du Fromage",
+  "power.cheese-mastery.description": "Les fromages valent 20% de plus.",
+  "power.strawberry-mastery.name": "Maître de la Fraise",
+  "power.strawberry-mastery.description": "Les Fraises valent 25% de plus.",
+  "power.grape-mastery.name": "Maître des Raisins",
+  "power.grape-mastery.description": "Les Raisins valent 2 fois l'or.",
+  "power.brewing-mastery.name": "Maître du Brassage",
+  "power.brewing-mastery.description": "La Bière, l’Hydromel et la Bière blonde valent 50 % de plus.",
+  "power.crafting-mastery.name": "Maître Artisant",
+  "power.crafting-mastery.description": "Les fûts, les tonneaux et les bocaux de conserve nécessitent moins de ressources pour être fabriqués.",
+  "power.starfruit-mastery.name": "Maître des Caramboles",
+  "power.starfruit-mastery.description": "Caramboles valent 10% de plus.",
+  "power.animal-mastery.name": "Maître des Animaux",
+  "power.animal-mastery.description": "Les produits venant des animaux valent 10 % de plus.",
+  "power.warp-magic.name": "Magie de Distortion",
+  "power.warp-magic.description": "Accorde le pouvoir d'invoquer des déformations Nexus.",
+
+
+##############################################################################################################################################################
+
+  //1.15 Objects
+
+  Ligne 227 - 346 :
+
+  Original :
+
+  "object.rusty-shield.name": "Rusty Shield",
+  "object.rusty-shield.description": "A heavy iron shield once used in battle.",
+  "object.amber.name": "Amber",
+  "object.amber.description": "Fossilized tree resin containing a pre-historic insect of some kind.",
+  "object.stone-of-yoba.name": "Stone of Yoba",
+  "object.stone-of-yoba.description": "An ancient stone slab inscribed with an unknown language engraved with the sign of Yoba.",
+  "object.faded-button.name": "Faded Button",
+  "object.faded-button.description": "It's a worn button that onced belonged to someone.",
+  "object.boomerang.name": "Boomerang",
+  "object.boomerang.description": "A old aerodynamic hunting tool from a bygone age. It was also used for recreational activities.",
+  "object.old-coin.name": "Old Coin",
+  "object.old-coin.description": "An obsolete Ferngillian denomination that's no longer circulated.",
+  "object.vegan-cone.name": "Vegan Cone",
+  "object.vegan-cone.description": "A dairy-free alternative ice cream made with coconut milk.",
+  "object.ice-cream-sundae.name": "Ice Cream Sundae",
+  "object.ice-cream-sundae.description": "Vanilla ice cream smothered in hot fudge crowned with a cherry.",
+  "object.prismatic-pop.name": "Prismatic Pop",
+  "object.prismatic-pop.description": "A rare and powerful ice cream infused with the essence of the prismatic shard.",
+  "object.chocolate-truffle-bar.name": "Chocolate Truffle Bar",
+  "object.chocolate-truffle-bar.description": "A sumptuous and creamy gourmet chocolate confection with a velvety ganache center. Has a high sale price.",
+  "object.small-hardwood-fence.name": "Small Hardwood Fence",
+  "object.small-hardwood-fence.description": "An alternate design of the 'Hardwood Fence'.",
+  "object.hedge-fence.name": "Hedge Fence",
+  "object.hedge-fence.description": "Lasts a long time and changes with the seasons.",
+  "object.fish-dumpling.name": "Fish Dumpling",
+  "object.fish-dumpling.description": "Thin and tender dough filled with stir fried fish meat.",
+  "object.gingerbread-man.name": "Gingerbread Man",
+  "object.gingerbread-man.description": "A delightful holiday treat adorned with playful gumdrop buttons.",
+  "object.nectarine-fruit-bread.name": "Nectarine Fruit Bread",
+  "object.nectarine-fruit-bread.description": "Delicate bread dotted with specks of dried nectarine that hint at the deliciousness within.",
+  "object.ramen.name": "Ramen",
+  "object.ramen.description": "A popular dish from the Gotoran Empire.",
+  "object.marsh-tonic.name": "Marsh Tonic",
+  "object.marsh-tonic.description": "Smells like damp earth. Buffs attack power, speed, and defense.",
+  "object.baked-potato.name": "Baked Potato",
+  "object.baked-potato.description": "Simple yet delicious.",
+  "object.grilled-cheese-sandwich.name": "Grilled Cheese Sandwich",
+  "object.grilled-cheese-sandwich.description": "An all-time classic.",
+  "object.void-mayo-sandwich.name": "Void Mayo Sandwich",
+  "object.void-mayo-sandwich.description": "Shouldn't be consumed by humans.",
+  "object.pineapple-custard-crepe.name": "Pineapple Custard Crepe",
+  "object.pineapple-custard-crepe.description": "A rare tropical dessert bursting with flavor.",
+  "object.glazed-pear.name": "Glazed Pear",
+  "object.glazed-pear.description": "It reminds you of home.",
+  "object.stuffed-persimmon.name": "Stuffed Persimmon",
+  "object.stuffed-persimmon.description": "It tantalizes both the palate and the senses.",
+  "object.cheese-charcuterie.name": "Cheese Charcuterie",
+  "object.cheese-charcuterie.description": "A hearty arrangement of cheese and crackers, complete with a buttery dipping sauce.",
+  "object.butter.name": "Butter",
+  "object.butter.description": "Rich and creamy.",
+  "object.shark-tooth.name": "Shark Tooth",
+  "object.shark-tooth.description": "It was once used to consume prey.",
+  "object.diamond-flower.name": "Diamond Flower",
+  "object.diamond-flower.description": "A dazzling display of beauty and elegance.",
+  "object.viper-eel.name": "Viper Eel",
+  "object.viper-eel.description": "It is highly venomous, and its bright red color serves as a deterrent to potential attackers.",
+  "object.alligator.name": "Alligator",
+  "object.alligator.description": "A large reptile with a thick, muscular body.",
+  "object.shark.name": "Shark",
+  "object.shark.description": "The apex predator of the seas.",
+  "object.ocean-sunfish.name": "Ocean Sunfish",
+  "object.ocean-sunfish.description": "It cannot swim very fast and can grow to an extremely large size.",
+  "object.highlands-bass.name": "Highlands Bass",
+  "object.highlands-bass.description": "A common fish found in the Highlands region.",
+  "object.tadpole.name": "Tadpole",
+  "object.tadpole.description": "This little friend will grow into a frog someday.",
+  "object.barred-knifejaw.name": "Barred Knifejaw",
+  "object.barred-knifejaw.description": "Typically found in rocky oceanic reefs.",
+  "object.diamond-carp.name": "Diamond Carp",
+  "object.diamond-carp.description": "Its skin is thinly encrusted in diamonds.",
+  "object.blue-tang.name": "Blue Tang",
+  "object.blue-tang.description": "A popular fish known for its blue and yellow colors.",
+  "object.arrowhead-shark.name": "Arrowhead Shark",
+  "object.arrowhead-shark.description": "A slender shark capable of swimming rapidly fast to strike prey.",
+  "object.fiber-goby.name": "Fiber Goby",
+  "object.fiber-goby.description": "Likes to make its home in underwater grass.",
+  "object.swamp-crab.name": "Swamp Crab",
+  "object.swamp-crab.description": "*snip* *snip*",
+  "object.wolf-snapper.name": "Wolf Snapper",
+  "object.wolf-snapper.description": "The alpha of 'Shearwater Bridge'.",
+  "object.goldfish.name": "Goldfish",
+  "object.goldfish.description": "A common pet fish that's easy to take care of.",
+  "object.gar.name": "Gar",
+  "object.gar.description": "A long, slender predator that eats other fish.",
+  "object.turretfish.name": "Turretfish",
+  "object.turretfish.description": "It can fire 200 rounds per minute.",
+  "object.camel-wool.name": "Camel Wool",
+  "object.camel-wool.description": "Often used in high-quality textiles.",
+  "object.yarn.name": "Yarn",
+  "object.yarn.description": "Prized for its softness and durability.",
+  "object.goose-egg.name": "Goose Egg",
+  "object.goose-egg.description": "A savory egg with a lot of nutrients.",
+  "object.golden-goose-egg.name": "Golden Goose Egg",
+  "object.golden-goose-egg.description": "It's kinda heavy.",
+  "object.goose-mayonnaise.name": "Goose Mayonnaise",
+  "object.goose-mayonnaise.description": "Has a robust flavor and a thick consistency.",
+  "object.honey-jar.name": "Honey Jar",
+  "object.honey-jar.description": "A gift from Bear's companions. Sells for a significant amount.",
+  "object.wind-totem.name": "Wind Totem",
+  "object.wind-totem.description": "Activate to greatly increase the chance for a windy day tomorrow. Has no effect during winter. Consumed on use.",
+  "object.sun-totem.name": "Sun Totem",
+  "object.sun-totem.description": "Activate to greatly increase the chance for a sunny day tomorrow. Consumed on use.",
+  "object.swamp-flower.name": "Swamp Flower",
+  "object.swamp-flower.description": "A common flower found in the marshlands.",
+  "object.supernatural-goo.name": "Supernatural Goo",
+  "object.supernatural-goo.description": "A sticky substance with a faint ghostly glow.",
+  "object.sludge.name": "Sludge",
+  "object.sludge.description": "Has a very foul odor...",
+  "object.swamp-essence.name": "Swamp Essence",
+  "object.swamp-essence.description": "It's freezing to the touch. Possesses magical properties used in potion recipes.",
+  "object.mega-purple-mushroom.name": "Mega Purple Mushroom",
+  "object.mega-purple-mushroom.description": "The rarest mushroom in the world, sought after for its medicinal properties.",
+  "object.gold-slime-egg.name": "Gold Slime Egg",
+  "object.gold-slime-egg.description": "It's made of solid gold. Can't be incubated, but it'll fetch a high price.",
+  "object.magic-lamp.name": "Magic Lamp",
+  "object.magic-lamp.description": "Should I try rubbing it?",
+  "object.castle-village-outpost-vendor-schedule.name": "Galdoran Outpost Shop Schedule",
+  "object.castle-village-outpost-vendor-schedule.description": "Alesia: Day 3, 4, 13, 21, 23, 25\nCamilla: Day 7, 22, 28\nIsaac: Day 1, 8, 12, 19, 24",
+  "object.bombardier-elixir.name": "Bombardier Elixir",
+  "object.bombardier-elixir.description": "Smells like gun powder. Vastly increases the power of explosions, slingshots, parries, and low damage weapons. Can't be stacked with speed buffs.",
+
+  Ligne 227 - 346 :
+
+  Traduction :
+
+  "object.rusty-shield.name": "Bouclier rouillé",
+  "object.rusty-shield.description": "Un bouclier en fer lourd qui montre des signes de vieillissement et d'usure",
+  "object.amber.name": "Ambre",
+  "object.amber.description": "Résine d'arbre fossilisée contenant un insecte préhistorique d'une certaine espèce.",
+  "object.stone-of-yoba.name": "Pierre de Yoba",
+  "object.stone-of-yoba.description": "Une ancienne dalle de pierre inscrite dans une langue inconnue gravée du signe de Yoba.",
+  "object.faded-button.name": "Bouton délavé",
+  "object.faded-button.description": "C'est un bouton usé qui appartenait autrefois à quelqu'un",
+  "object.boomerang.name": "Boomerang",
+  "object.boomerang.description": "Un ancien outil de chasse aérodynamique d'une époque révolue. Il était également utilisé pour les loisirs.",
+  "object.old-coin.name": "Vieille pièce de monnaie",
+  "object.old-coin.description": "Une dénomination Ferngillian obsolète qui n'est plus en circulation.",
+  "object.vegan-cone.name": "Cone Vegan",
+  "object.vegan-cone.description": "Une glace alternative sans produits laitiers à base de lait de coco.",
+  "object.ice-cream-sundae.name": "Coupe glacée",
+  "object.ice-cream-sundae.description": "Glace à la vanille recouverte de fudge chaud couronnée d'une cerise.",
+  "object.prismatic-pop.name": "Pop Prismatique",
+  "object.prismatic-pop.description": "Une glace rare et puissante infusée de l'essence de l'éclat prismatique.",
+  "object.chocolate-truffle-bar.name": "Barre de truffes au chocolat",
+  "object.chocolate-truffle-bar.description": "Une confiserie gourmande au chocolat, somptueuse et onctueuse, avec un cœur velouté et ganache. Prix de vente élevé.",
+  "object.small-hardwood-fence.name": "Petite clôture en bois dur",
+  "object.small-hardwood-fence.description": "  Une conception alternative de la « clôture en bois dur ».",
+  "object.hedge-fence.name": "Clôture de haie",
+  "object.hedge-fence.description": "Dure longtemps et change avec les saisons.",
+  "object.fish-dumpling.name": "Boulettes de poisson",
+  "object.fish-dumpling.description": "Pâte fine et tendre farcie de chair de poisson sautée.",
+  "object.gingerbread-man.name": "Bonhomme en pain d'épice",
+  "object.gingerbread-man.description": "Une délicieuse friandise de vacances ornée de boutons en forme de gomme ludiques.",
+  "object.nectarine-fruit-bread.name": "Pain aux fruits de nectarines",
+  "object.nectarine-fruit-bread.description": "Pain délicat parsemé de taches de nectarine séchée qui laissent entrevoir la gourmandise qu'il contient.",
+  "object.ramen.name": "Ramen",
+  "object.ramen.description": "Un plat populaire de l'empire Gotoran.",
+  "object.marsh-tonic.name": "Tonique des marais",
+  "object.marsh-tonic.description": "Ça sent la terre humide. Améliore la puissance d'attaque, la vitesse et la défense.",
+  "object.baked-potato.name": "Pomme de terre au four",
+  "object.baked-potato.description": "Simple mais délicieux.",
+  "object.grilled-cheese-sandwich.name": "Sandwich au fromage grillé",
+  "object.grilled-cheese-sandwich.description": "Un classique de tous temps.",
+  "object.void-mayo-sandwich.name": "Sandwich à la mayonnaise du vide",
+  "object.void-mayo-sandwich.description": "Ne devrait pas être consommé par les humains.",
+  "object.pineapple-custard-crepe.name": "Crêpe à la crème anglaise et à l'ananas",
+  "object.pineapple-custard-crepe.description": "Un dessert tropical rare débordant de saveurs.",
+  "object.glazed-pear.name": "Poire glacée",
+  "object.glazed-pear.description": "Cela vous rappelle la maison.",
+  "object.stuffed-persimmon.name": "Kaki farci",
+  "object.stuffed-persimmon.description": "Il titille à la fois le palais et les sens",
+  "object.cheese-charcuterie.name": "Fromage de Charcuterie",
+  "object.cheese-charcuterie.description": "Un assortiment copieux de fromage et de craquelins, accompagné d'une sauce au beurre",
+  "object.butter.name": "Beurre",
+  "object.butter.description": "Riche et crémeux.",
+  "object.shark-tooth.name": "Dent de requin",
+  "object.shark-tooth.description": "Il était autrefois utilisé pour consommer des proies.",
+  "object.diamond-flower.name": "Fleur de diamant",
+  "object.diamond-flower.description": "Une démonstration éblouissante de beauté et d’élégance.",
+  "object.viper-eel.name": "Anguille vipère",
+  "object.viper-eel.description": "Il est très venimeux et sa couleur rouge vif sert de moyen de dissuasion pour les attaquants potentiels.",
+  "object.alligator.name": "Alligator",
+  "object.alligator.description": "Un grand reptile avec un corps épais et musclé.",
+  "object.shark.name": "Requin",
+  "object.shark.description": "Le prédateur suprême des mers.",
+  "object.ocean-sunfish.name": "Poisson-lune de l'océan",
+  "object.ocean-sunfish.description": "Il ne peut pas nager très vite et peut atteindre une taille extrêmement grande.",
+  "object.highlands-bass.name": "Bar des Hautes Terres",
+  "object.highlands-bass.description": "Un poisson commun que l'on trouve dans la région des Hautes Terres.",
+  "object.tadpole.name": "Têtard",
+  "object.tadpole.description": "Ce petit ami deviendra une grenouille un jour.",
+  "object.barred-knifejaw.name": "Mâchoire de couteau barrée",
+  "object.barred-knifejaw.description": "On le trouve généralement dans les récifs océaniques rocheux",
+  "object.diamond-carp.name": "Carpe diamant",
+  "object.diamond-carp.description": "Sa peau est finement incrustée de diamants.",
+  "object.blue-tang.name": "Chirurgien bleu",
+  "object.blue-tang.description": "Un poisson populaire connu pour ses couleurs bleues et jaunes.",
+  "object.arrowhead-shark.name": "Requin-flèche",
+  "object.arrowhead-shark.description": "Un requin élancé capable de nager rapidement pour attaquer sa proie.",
+  "object.fiber-goby.name": "Gobie à fibres",
+  "object.fiber-goby.description": "Aime faire sa maison dans l'herbe sous-marine.",
+  "object.swamp-crab.name": "Crabe des marais",
+  "object.swamp-crab.description": "*coupe* *coupe*",
+  "object.wolf-snapper.name": "Vivaneau loup",
+  "object.wolf-snapper.description": "L'alpha du 'Pont de Shearwater'.",
+  "object.goldfish.name": "Poisson rouge",
+  "object.goldfish.description": "Un poisson de compagnie commun et facile à entretenir.",
+  "object.gar.name": "Garpique alligator",
+  "object.gar.description": "Un prédateur long et mince qui mange d’autres poissons.",
+  "object.turretfish.name": "Poisson-tourelle",
+  "object.turretfish.description": "Il peut tirer 200 coups par minute.",
+  "object.camel-wool.name": "Laine de chameau",
+  "object.camel-wool.description": "Souvent utilisé dans les textiles de haute qualité.",
+  "object.yarn.name": "Fil",
+  "object.yarn.description": "Apprécié pour sa douceur et sa durabilité.",
+  "object.goose-egg.name": "Œuf d'oie",
+  "object.goose-egg.description": "Un œuf savoureux avec beaucoup de nutriments.",
+  "object.golden-goose-egg.name": "Œuf d'oie d'or",
+  "object.golden-goose-egg.description": "C'est un peu lourd.",
+  "object.goose-mayonnaise.name": "Mayonnaise à l'oiee",
+  "object.goose-mayonnaise.description": "A une saveur robuste et une consistance épaisse.",
+  "object.honey-jar.name": "Pot de miel",
+  "object.honey-jar.description": "Un cadeau des compagnons de l'Ours. Vendu à un prix conséquent..",
+  "object.wind-totem.name": "Totem du vent",
+  "object.wind-totem.description": "Activer pour augmenter considérablement les chances d'une journée venteuse demain. Sans effet en hiver. À consommer dès l'utilisation.",
+  "object.sun-totem.name": "Totem du Soleil",
+  "object.sun-totem.description": "Activer pour augmenter considérablement les chances d'une journée ensoleillée demain. À consommer dès l'utilisation.",
+  "object.swamp-flower.name": "Fleur des marais",
+  "object.swamp-flower.description": "Une fleur commune trouvée dans les marais.",
+  "object.supernatural-goo.name": "Goo surnaturel",
+  "object.supernatural-goo.description": "Une substance collante avec une faible lueur fantomatique.",
+  "object.sludge.name": "Boue",
+  "object.sludge.description": "Ça a une odeur très nauséabonde...",
+  "object.swamp-essence.name": "Essence des marais",
+  "object.swamp-essence.description": "Il est glacial au toucher. Il possède des propriétés magiques utilisées dans les recettes de potions.",
+  "object.mega-purple-mushroom.name": "Méga Champignon Violet",
+  "object.mega-purple-mushroom.description": "Le champignon le plus rare au monde, recherché pour ses propriétés médicinales.",
+  "object.gold-slime-egg.name": "Œuf de slime doré",
+  "object.gold-slime-egg.description": "Il est en or massif. Impossible à incuber, mais il se vendra à un prix élevé.",
+  "object.magic-lamp.name": "Lampe magique",
+  "object.magic-lamp.description": "Dois-je essayer de le frotter ?",
+  "object.castle-village-outpost-vendor-schedule.name": "Horaire de la boutique de l'Avant-Poste de Galdoran",
+  "object.castle-village-outpost-vendor-schedule.description": "Alesia: Jour 3, 4, 13, 21, 23, 25\nCamilla: Jour 7, 22, 28\nIsaac: Jour 1, 8, 12, 19, 24",
+  "object.bombardier-elixir.name": "Élixir Bombardier",
+  "object.bombardier-elixir.description": "Odeur de poudre à canon. Augmente considérablement la puissance des explosions, des lance-pierres, des parades et des armes à faibles dégâts. Non cumulable avec les bonus de vitesse.",
+
+##############################################################################################################################################################
+
+  Ligne 348 - 438 :
+
+  Original :
+  //1.15 Furnitures
+  "furniture.vanity-table": "Vanity Table",
+  "furniture.light-vanity-table": "Light Vanity Table",
+  "furniture.light-cookie-table": "Light Cookie Table",
+  "furniture.cookie-table": "Cookie Table",
+  "furniture.light-bookshelf": "Light Bookshelf",
+  "furniture.bookshelf": "Bookshelf",
+  "furniture.decorative-tulips": "Decorative Tulips",
+  "furniture.decorative-fairy-rose": "Decorative Fairy Rose",
+  "furniture.decorative-sunflower": "Decorative Sunflower",
+  "furniture.large-table": "Large Table",
+  "furniture.large-light-table": "Large Light Table",
+  "furniture.light-computer-desk": "Light Computer Desk",
+  "furniture.computer-desk": "Computer Desk",
+  "furniture.light-rustic-chair": "Light Rustic Chair",
+  "furniture.rustic-chair": "Rustic Chair",
+  "furniture.light-cabinet": "Light Cabinet",
+  "furniture.cabinet": "Cabinet",
+  "furniture.wardrobe": "Wardrobe",
+  "furniture.light-wardrobe": "Light Wardrobe",
+  "furniture.fabric-cabinet": "Fabric Cabinet",
+  "furniture.light-fabric-cabinet": "Light Fabric Cabinet",
+  "furniture.short-light-cabinet": "Short Light Cabinet",
+  "furniture.short-cabinet": "Short Cabinet",
+  "furniture.oval-wardrobe": "Oval Wardrobe",
+  "furniture.light-oval-wardrobe": "Light Oval Wardrobe",
+  "furniture.short-light-bookshelf": "Short Light Bookshelf",
+  "furniture.short-bookshelf": "Short Bookshelf",
+  "furniture.fabric-shelf": "Fabric Shelf",
+  "furniture.light-fabric-shelf": "Light Fabric Shelf",
+  "furniture.dye-shelf": "Dye Shelf",
+  "furniture.light-dye-shelf": "Light Dye Shelf",
+  "furniture.rustic-loom": "Rustic Loom",
+  "furniture.potted-pineapple": "Potted Pineapple",
+  "furniture.electric-guitar": "Electric Guitar",
+  "furniture.synthesizer": "Synthesizer",
+  "furniture.drumset": "Drumset",
+  "furniture.medicine-cabinet": "Medicine Cabinet",
+  "furniture.light-medicine-cabinet": "Light Medicine Cabinet",
+  "furniture.hanging-shelf": "Hanging Shelf",
+  "furniture.small-hanging-shelf": "Small Hanging Shelf",
+  "furniture.light-hanging-shelf": "Light Hanging Shelf",
+  "furniture.small-light-hanging-shelf": "Small Light Hanging Shelf",
+  "furniture.scrappy-plant": "Scrappy Plant",
+  "furniture.rustled-sappling": "Rustled Sapling",
+  "furniture.bathtub": "Bathtub",
+  "furniture.vertical-bathtub": "Vertical Bathtub",
+  "furniture.bathroom-counter": "Bathroom Counter",
+  "furniture.toilet": "Toilet",
+  "furniture.bathroom-rug": "Bathroom Rug",
+  "furniture.bathroom-mat": "Bathroom Mat",
+  "furniture.bathroom-shelf": "Bathroom Shelf",
+  "furniture.bathroom-mirror": "Bathroom Mirror",
+  "furniture.light-bathroom-counter": "Light Bathroom Counter",
+  "furniture.light-bathroom-rug": "Light Bathroom Rug",
+  "furniture.light-bathroom-mat": "Light Bathroom Mat",
+  "furniture.light-bathroom-shelf": "Light Bathroom Shelf",
+  "furniture.screen": "Screen",
+  "furniture.anvil": "Anvil",
+  "furniture.smelly-vase": "Smelly Vase",
+  "furniture.gridball-helmet": "Gridball Helmet",
+  "furniture.soccer-ball": "Soccer Ball",
+  "furniture.gridball": "Gridball",
+  "furniture.dumbbell": "Dumbbell",
+  "furniture.go-station": "Mega Station",
+  "furniture.super-neendo-entertainment-system": "Super Neendo Entertainment System",
+  "furniture.microwave": "Microwave",
+  "furniture.camera": "Camera",
+  "furniture.nostalgic-farmer": "'Nostalgic Farmer'",
+  "furniture.wood-pillar": "Wood Pillar",
+  "furniture.small-wine-table": "Small Wine Table",
+  "furniture.outdoor-bench": "Outdoor Bench",
+  "furniture.fallen-book": "Fallen Book",
+  "furniture.open-book": "Open Book",
+  "furniture.typewriter": "Typewriter",
+  "furniture.office-cabinet": "Office Cabinet",
+  "furniture.alternate-office-cabinet": "Alternate Office Cabinet",
+  "furniture.pinned-paperwork": "Pinned Paperwork",
+  "furniture.adventurer-map": "Adventurer Map",
+  "furniture.prismatic-painting": "Prismatic Painting",
+  "furniture.monster-capsule": "'Monster Capsule'",
+  "furniture.cottage": "'Cottage'",
+  "furniture.sign-of-yoba": "'Sign of Yoba'",
+  "furniture.chicken": "'Chicken'",
+  "furniture.dagger": "'Dagger'",
+  "furniture.curious-valley": "'Curious Valley'",
+  "furniture.windy-curls": "'Windy Curls'",
+  "furniture.famous-sword": "'Famous Sword'",
+  "furniture.recognizable-leaf": "'Recognizable Leaf'",
+  "furniture.heart-containers": "'Heart Containers'",
+  "furniture.furniture-catalogue-2": "Furniture Catalogue 2",
+
+  Ligne 348 - 438 :
+
+  Traduction :
+  //1.15 Furnitures
+  "furniture.vanity-table": "Coiffeuse",
+  "furniture.light-vanity-table": "Coiffeuse lumineuse",
+  "furniture.light-cookie-table": "Table à Biscuits lumineuse",
+  "furniture.cookie-table": "Table à Cookies",
+  "furniture.light-bookshelf": "Bibliothèque lumineuse",
+  "furniture.bookshelf": "Bibliothèque",
+  "furniture.decorative-tulips": "Tulipes décoratives",
+  "furniture.decorative-fairy-rose": "Rose féerique décorative",
+  "furniture.decorative-sunflower": "Tournesol décoratif",
+  "furniture.large-table": "Grande table",
+  "furniture.large-light-table": "Grande table lumineuse",
+  "furniture.light-computer-desk": "Bureau d'ordinateur lumineux",
+  "furniture.computer-desk": "Bureau d'ordinateur",
+  "furniture.light-rustic-chair": "Chaise rustique lumineuse",
+  "furniture.rustic-chair": "Chaise rustique",
+  "furniture.light-cabinet": "Armoire lumineuse",
+  "furniture.cabinet": "Armoire",
+  "furniture.wardrobe": "Garde-robe",
+  "furniture.light-wardrobe": "Garde-robe lumineuse",
+  "furniture.fabric-cabinet": "Armoire de tissu",
+  "furniture.light-fabric-cabinet": "Armoire de tissu lumineuse",
+  "furniture.short-light-cabinet": "Petite armoire lumineuse",
+  "furniture.short-cabinet": "Petite armoire",
+  "furniture.oval-wardrobe": "Armoire ovale",
+  "furniture.light-oval-wardrobe": "Armoire ovale lumineuse",
+  "furniture.short-light-bookshelf": "Petite bibliothèque lumineuse",
+  "furniture.short-bookshelf": "Petite bibliothèque",
+  "furniture.fabric-shelf": "Étagère de tissu",
+  "furniture.light-fabric-shelf": "Étagère de tissu lumineuse",
+  "furniture.dye-shelf": "Étagère à teinture",
+  "furniture.light-dye-shelf": "Étagère à teinture lumineuse",
+  "furniture.rustic-loom": "Outil de tissage rustique",
+  "furniture.potted-pineapple": "Ananas en pot",
+  "furniture.electric-guitar": "Guitare électrique",
+  "furniture.synthesizer": "Synthétiseur",
+  "furniture.drumset": "Batterie",
+  "furniture.medicine-cabinet": "Armoire à pharmacie",
+  "furniture.light-medicine-cabinet": "Armoire à pharmacie lumineux",
+  "furniture.hanging-shelf": "Étagère suspendue",
+  "furniture.small-hanging-shelf": "Petite étagère suspendue",
+  "furniture.light-hanging-shelf": "Étagère suspendue lumineuse",
+  "furniture.small-light-hanging-shelf": "Petite étagère suspendue lumineuse",
+  "furniture.scrappy-plant": "Plante décousue",
+  "furniture.rustled-sappling": "Jeune pousse bruissant",
+  "furniture.bathtub": "Baignoire",
+  "furniture.vertical-bathtub": "Baignoire Verticale",
+  "furniture.bathroom-counter": "Comptoir de salle de bain",
+  "furniture.toilet": "Toilettes",
+  "furniture.bathroom-rug": "Tapis de baignoire",
+  "furniture.bathroom-mat": "Tapis de salle de bain",
+  "furniture.bathroom-shelf": "Étagère de salle de bain",
+  "furniture.bathroom-mirror": "Miroir de salle de bain",
+  "furniture.light-bathroom-counter": "Comptoir de salle de bain lumineux",
+  "furniture.light-bathroom-rug": "Tapis de baignoire lumineux",
+  "furniture.light-bathroom-mat": "Tapis de salle de bain lumineux",
+  "furniture.light-bathroom-shelf": "Étagère de salle de bain lumineuse",
+  "furniture.screen": "Écran",
+  "furniture.anvil": "Enclume",
+  "furniture.smelly-vase": "Vase malodorant",
+  "furniture.gridball-helmet": "Casque de Gridball",
+  "furniture.soccer-ball": "Ballon de foot",
+  "furniture.gridball": "Gridball",
+  "furniture.dumbbell": "Haltère",
+  "furniture.go-station": "Mega Station",
+  "furniture.super-neendo-entertainment-system": "Super Neendo Entertainment System",
+  "furniture.microwave": "Micro-ondes",
+  "furniture.camera": "Caméra",
+  "furniture.nostalgic-farmer": "'Fermier Nostalgique'",
+  "furniture.wood-pillar": "Pilier en bois",
+  "furniture.small-wine-table": "Petite table à vin",
+  "furniture.outdoor-bench": "Banc d'extérieur",
+  "furniture.fallen-book": "Livre tombé",
+  "furniture.open-book": "Livre ouvert",
+  "furniture.typewriter": "Machine à écrire",
+  "furniture.office-cabinet": "Armoire de bureau",
+  "furniture.alternate-office-cabinet": "Armoire de bureau alternative",
+  "furniture.pinned-paperwork": "Documents épinglés",
+  "furniture.adventurer-map": "Carte de l'aventurier",
+  "furniture.prismatic-painting": "Peinture prismatique",
+  "furniture.monster-capsule": "'Capsule de monstres'",
+  "furniture.cottage": "'Châlet'",
+  "furniture.sign-of-yoba": "'Signes de Yoba'",
+  "furniture.chicken": "'Poulet'",
+  "furniture.dagger": "'Poignard'",
+  "furniture.curious-valley": "'Curieuse Vallée'",
+  "furniture.windy-curls": "'Boucles venteuses'",
+  "furniture.famous-sword": "'L'épée célèbre'",
+  "furniture.recognizable-leaf": "'Feuilles reconnaissables'",
+  "furniture.heart-containers": "'Récipients de Cœur'",
+  "furniture.furniture-catalogue-2": "Catalogue de Fournitures n°2",
+
+
+##############################################################################################################################################################
+
+  Ligne 440 - 487 :
+
+  Original :
+  //1.15 Buildings
+  "building.winery.name": "Winery",
+  "building.winery.description": "Provides ample casking space and a decorative dining area. Wines age 15% faster. Limit: 1",
+  "building.premium-coop.name": "Premium Coop",
+  "building.premium-coop.description": "Houses 16 coop-dwelling animals. Comes installed with an auto-petter, grabber and heater.",
+  "building.premium-barn.name": "Premium Barn",
+  "building.premium-barn.description": "Houses 16 barn-dwelling animals. Comes installed with an auto-petter, grabber and heater.",
+
+  //1.15 Animals
+  "animal.barn": "A Barn is required for this animal",
+  "animal.coop": "A Coop is required for this animal",
+  "animal.camel.name": "Camel",
+  "animal.camel.description": "An exotic animal from across the Gem Sea. Produces very valuable wool every other day. Comes as an adult and lives in the barn.",
+  "animal.goose.name": "Goose",
+  "animal.goose.description": "Loved geese will lay eggs once every other day. Lives in the Coop.",
+  "animal.bear.name": "Bear",
+  "animal.bear.description": "One of Bear's buddies who'll ocassionally find jars of honey. Comes as an adult and lives in the barn. Doesn't consume hay or grass.",
+  "animal.goose.hatched": "A new baby goose hatched!",
+
+  //1.15 Machines
+  "machine.butter-churner.name": "Butter Churner",
+  "machine.butter-churner.description": "Turns milk into butter.",
+  "machine.butter-churner.invalid": "You don't have enough milk in your inventory.",
+  "machine.yarn-spooler.name": "Yarn Spooler",
+  "machine.yarn-spooler.description": "Turns camel wool into yarn.",
+  "machine.yarn-spooler.invalid": "You don't have enough camel wool in your inventory.",
+
+  //1.15 Weapons
+  "weapon.monster-splitter.name": "Monster Splitter",
+  "weapon.monster-splitter.description": "A mighty Galdoran greatsword. It's difficult to wield.",
+  "weapon.heavy-shield.name": "Heavy Shield",
+  "weapon.heavy-shield.description": "Provides exceptional defense when equipped.",
+
+  //1.15 Machines
+  "machine.butter-churner.name": "Butter Churner",
+  "machine.butter-churner.description": "Turns milk into butter.",
+  "machine.butter-churner.invalid": "You don't have enough milk in your inventory.",
+  "machine.yarn-spooler.name": "Yarn Spooler",
+  "machine.yarn-spooler.description": "Turns camel wool into yarn.",
+  "machine.yarn-spooler.invalid": "You don't have enough camel wool in your inventory.",
+
+  //1.15 Weapons
+  "weapon.monster-splitter.name": "Monster Splitter",
+  "weapon.monster-splitter.description": "A mighty Galdoran greatsword. It's difficult to wield.",
+  "weapon.heavy-shield.name": "Heavy Shield",
+  "weapon.heavy-shield.description": "Provides exceptional defense when equipped.",
+
+  //1.15 Mail Letters
+  "Mail.SusanCooking": "@,^Hello, dear! I hope you're keeping well this winter. I've finally perfected my recipe for gingerbread men. These sweet little fellows will keep you tasty company during the winter evenings. ^^And when you bake them, your whole house will smell amazing!  ^   -Susan%item cookingRecipe Gingerbread Man %%[#]Sweet Winter Friends",
+  "Mail.AndyCooking": "Hey, @,^Learned something funny. You know persimmons? The trees can take ten years to start producing fruit. Anyway, gave me a newfound respect for 'em. I've been baking stuff I forage into 'em. Haven't found a finer snack than that.  ^   -Andy%item cookingRecipe %%[#]Seven-Year Gift",
+  "Mail.VictorCooking": "Hey there, @,^I was going through my library and dug up an old family recipe for one of my favorites - Ramen! Bet you didn't know that spaghetti isn't the only kind of noodles I enjoy!^See? Even I can surprise you sometimes!  ^   -Victor%item cookingRecipe %%[#]Oodles of Noodles",
+  "Mail.OliviaCooking": "@, darling,^Home has been on my mind lately. You know, far-away home. I wanted to share a recipe with you that's near and dear to my heart.^My mother always made these when I needed a pick-me-up. I hope they can do the same for you.  ^   -Olivia%item cookingRecipe %%[#]A Mother's Recipe",
+  "Mail.ClaireCooking": "Hi!^Frozen Joja meals are so unhealthy, aren't they? I've been trying to eat healthier lately.^My neighbor has a nectarine orchard during the summer, and I found an amazing recipe for 'Nectarine Fruit Bread' that I adore! If you grow nectarines, you should try it.  ^   -Claire%item cookingRecipe %%[#]Homemade Is Best",
+  "Mail.GuntherSilvianCooking": "Dear @,^I've tried cuisines from all over the world. The Gotoro Empire, the Fern Islands - I've even tried some Dwarvish dishes.^But to me, nothing beats a perfectly fluffy baked potato. Don't skimp on the butter and salt. ^   -Gunther%item cookingRecipe %%[#]The Simple Things",
+  "Mail.ScarlettCooking": "Hi, @!^You know what's better than goat cheese? A whole bunch of goat cheese and then some!^Here's a list of all my favorite types and how to organize them on a board. It's a great snack to share with friends, or someone special!  ^   -Scarlett%item cookingRecipe %%[#]Cheese Overload",
+  "Mail.MartinCooking": "Hey!^I was eating lunch at work the other day, and I thought maybe you'd like my mom's recipe!^She always makes me a grilled cheese sandwich to bring to work. Somehow, it always stays perfectly crispy!  ^   -Martin%item cookingRecipe %%[#]Better When Fresh",
+  "Mail.MorganCooking": "Hi, @!^Sometimes when I feel a little homesick, I make my mom's specialty - glazed pears. I thought you would enjoy trying some too. It's really nice after a long day of studying, or farming, I guess. Give it a shot and see!  ^   -Morgan%item cookingRecipe %%[#]A Taste of Home",
+  "Mail.LanceCooking": "Greetings,^Adventurers must maintain a healthy diet. I try to steer clear of excess carbohydrates, myself.^But when I do have a treat, Pineapple Custard Crepes are my favorite. I hope you enjoy them too - in moderation. With a warrior's resolve. ^   -Lance%item cookingRecipe %%[#]Dessert of Warriors",
+  "Mail.GusOrangeChicken": "Hey @,^I dug up an old recipe that's now featured on the saloon menu... Grampleton orange chicken! The sweet, tangy, and spiced sauce I make for this dish can cheer up anyone feeling down. Drop by the saloon soon to try it out!   ^    -Gus[#]Grampleton Orange Chicken",
+  "Mail.HenchmanFired": "You...^^You took something from my employer's home, causing me to lose my job...^... ... ...^Now I'm homeless. You must help... or else...^... ... ...^Come visit me at the marshlands. I will wait.^^    -Henchman[#]A Goblin in need",
+  "Mail.HenchmanMarshTonics": "I forgot about the dozen marsh tonics I stored underneath my floor. Now that I have my job back I don't need them. They may be covered in a thick layer of dust but their effects are still potent!  ^   -Henchman%item object FlashShifter.StardewValleyExpandedCP_Marsh_Tonic 12 %%[#]Dusty Marsh Tonics",
+
+  Ligne 440 - 487 :
+
+  Traduction :
+  //1.15 Buildings
+  "building.winery.name": "Domaine Viticole",
+  "building.winery.description": "Offre un grand espace de mise en fûts et un coin repas décoratif. Les vins vieillissent 15 % plus vite. Limite : 1",
+  "building.premium-coop.name": "Poulailler Premium",
+  "building.premium-coop.description": "Peut accueillir 16 animaux dans le poulailler. Livré avec un Auto-caresse, un Récolteur lourd et un Chauffage.",
+  "building.premium-barn.name": "Grange Premium",
+  "building.premium-barn.description": "Peut accueillir 16 animaux dans la grange. Livré avec un Auto-caresse, un Récolteur lourd et un Chauffage.",
+
+  //1.15 Animals
+  "animal.barn": "Une Grange est nécessaire pour cet animal",
+  "animal.coop": "Un Poulailler est requis pour cet animal",
+  "animal.camel.name": "Chameau",
+  "animal.camel.description": "Un animal exotique de l'autre côté de la mer des Gemmes. Produit une laine précieuse tous les deux jours. Il arrive adulte et vit dans la grange.",
+  "animal.goose.name": "Oie",
+  "animal.goose.description": "Les oies aimées pondent des œufs tous les deux jours. Elles vivent dans le poulailler.",
+  "animal.bear.name": "Ours",
+  "animal.bear.description": "Un des amis de l'ours peux parfois trouver des pots de miel. Adulte, il vit dans la grange. Il ne mange ni foin ni herbe.",
+  "animal.goose.hatched": "Un nouveau bébé oie a éclos !",
+
+  //1.15 Machines
+  "machine.butter-churner.name": "Baratte à beurre",
+  "machine.butter-churner.description": "Transforme le lait en beurre.",
+  "machine.butter-churner.invalid": "Vous n'avez pas assez de lait dans votre inventaire.",
+  "machine.yarn-spooler.name": "Bobineuse de fil",
+  "machine.yarn-spooler.description": "Transforme la laine de chameau en fil.",
+  "machine.yarn-spooler.invalid": "Vous n'avez pas assez de laine de chameau dans votre inventaire.",
+
+  //1.15 Weapons
+  "weapon.monster-splitter.name": "Séparateur à Monstre",
+  "weapon.monster-splitter.description": "Une puissante épée à deux mains galdorane. Difficile à manier.",
+  "weapon.heavy-shield.name": "Bouclier lourd",
+  "weapon.heavy-shield.description": "Offre une défense exceptionnelle lorsqu'il est équipé.",
+
+  //1.15 Mail Letters
+  "Mail.SusanCooking": "Bonjour @!^J'espère que tu vas bien cet hiver. J'ai enfin perfectionné ma recette de bonhommes en pain d'épices. Ces adorables petits bonhommes te tiendront compagnie pendant les soirées d'hiver. ^^Et quand tu les feras cuire, ta maison sentira bon !  ^   -Susan%item cookingRecipe Gingerbread Man %%[#]Doux amis d'hiver",
+  "Mail.AndyCooking": "Salut @,^J'ai appris un truc marrant. Tu connais les kakis ? Les arbres peuvent mettre dix ans à produire des fruits. Bref, ça m'a donné un nouveau respect pour eux. J'ai fait cuire des trucs que j'ai récupérés. Je n'ai jamais trouvé de meilleur en-cas.  ^   -Andy%item cookingRecipe %%[#]Cadeau des sept ans",
+  "Mail.VictorCooking": "Salut @,^Je fouillais dans ma bibliothèque et j'ai déniché une vieille recette familiale qui est l'une de mes préférées : les ramen ! Je parie que tu ne saviez pas que les spaghettis ne sont pas les seules nouilles que j'apprécie !^Tu vois ? Même moi, je peux te surprendre, parfois !  ^   -Victor%item cookingRecipe %%[#]Nouilles en abondance",
+  "Mail.OliviaCooking": "@, mon chéri,^Ces derniers temps, je pense beaucoup à ma maison. Vous savez, à mon chez-moi lointain. Je voulais partager avec vous une recette qui me tient à cœur. Ma mère en préparait toujours quand j'avais besoin d'un petit coup de pouce. J'espère qu'elle fera pareil pour toi.  ^   -Olivia%item cookingRecipe %%[#]La recette d'une mère",
+  "Mail.ClaireCooking": "Salut ! Les plats surgelés Joja sont vraiment mauvais pour la santé, n'est-ce pas ? J'essaie de manger plus sainement ces derniers temps. Mon voisin cultive des nectarines en été, et j'ai trouvé une recette géniale de « pain aux nectarines » que j'adore ! Si vous cultivez des nectarines, vous devriez l'essayer.  ^   -Claire%item cookingRecipe %%[#]Le Fait-Maison est meilleur",
+  "Mail.GuntherSilvianCooking": "Cher @,^J'ai goûté aux cuisines du monde entier. L'Empire Gotoro, les Îles Fougères – j'ai même goûté à quelques plats des nains.^Mais pour moi, rien ne vaut une pomme de terre au four parfaitement moelleuse. Ne lésinez pas sur le beurre et le sel.  ^   -Gunther%item cookingRecipe %%[#]Les choses simples",
+  "Mail.ScarlettCooking": "Salut @!^Tu sais ce qui est meilleur que le fromage de chèvre ? Un tas de fromage de chèvre, et même plus !^Voici une liste de mes fromages préférés et comment les organiser sur un tableau. C'est un excellent en-cas à partager entre amis ou en amoureux !  ^   -Scarlett%item cookingRecipe %%[#]Surdose de fromage",
+  "Mail.MartinCooking": "Salut ! L'autre jour, je déjeunais au travail et je me suis dit que tu aimerais peut-être la recette de ma mère ! Elle me prépare toujours un sandwich au fromage grillé à emporter. Il reste toujours parfaitement croustillant !  ^   -Martin%item cookingRecipe %%[#]Meilleur quand c'est frais",
+  "Mail.MorganCooking": "Salut, @!^Parfois, quand j'ai un peu le mal du pays, je prépare la spécialité de ma mère : les poires glacées. J'ai pensé que tu aimerais bien en goûter aussi. C'est vraiment agréable après une longue journée d'études, ou de jardinage, j'imagine. Essaie et tu verras !  ^   -Morgan%item cookingRecipe %%[#]Un goût de chez-soi",
+  "Mail.LanceCooking": "Salutations,^Les aventuriers doivent avoir une alimentation saine. Personnellement, j'essaie d'éviter les excès de glucides.^Mais quand je me fais plaisir, les crêpes à la crème anglaise et à l'ananas sont mes préférées. J'espère que vous les apprécierez aussi, avec modération. Avec la détermination d'un guerrier.  ^   -Lance%item cookingRecipe %%[#]Dessert des Guerriers",
+  "Mail.GusOrangeChicken": "Salut @,^J'ai déniché une vieille recette qui figure désormais au menu du saloon... le poulet à l'orange Grampleton ! La sauce sucrée, acidulée et épicée que je prépare pour ce plat peut remonter le moral de tous ceux qui se sentent déprimés. Passez vite au saloon pour la goûter !   ^    -Gus[#]Poulet à l'orange de Grampleton",
+  "Mail.HenchmanFired": "Toi...^^Tu as volé quelque chose chez mon employeur, ce qui m'a fait perdre mon emploi...^... ... ...^Maintenant, je suis sans abri. Tu dois m'aider... sinon...^... ... ...^Viens me voir au marais. J'attendrai.^^    -Henchman[#]Un gobelin dans le besoin",
+  "Mail.HenchmanMarshTonics": "J'avais oublié la douzaine de toniques aux marais que je stockais sous mon plancher. Maintenant que j'ai retrouvé mon travail, je n'en ai plus besoin. Ils sont peut-être recouverts d'une épaisse couche de poussière, mais leurs effets sont toujours aussi puissants !  ^   -Henchman%item object FlashShifter.StardewValleyExpandedCP_Marsh_Tonic 12 %%[#]Toniques des Marais poussiéreux",
+
+
+##############################################################################################################################################################
+
+  Ligne 488 - 579 :
+
+  Original :
+
+  //1.15 Scarlett Marriage Dialogue
+  "Scarlett.MarriageDialogue.001": "Isn't home comfy?#$e#I love it on this farm, I really do!$0",
+  "Scarlett.MarriageDialogue.002": "I make a big effort to make sure this room is clean.$0",
+  "Scarlett.funLeave.default": "Hey, I'm running some errands today. I'll be back later!$0",
+  "Scarlett.funReturn.default": "I'm super beat. I can't wait to hit the sack...$0",
+  "Scarlett.MarriageDialogue.005": "Hmm... do you think it would be nicer to share my old bunny with the baby, or is it better to get a new one?$0#$e#Maybe a new one, so they can make a whole new set of fresh memories together.$1",
+  "Scarlett.MarriageDialogue.006": "So I was reading the other day, and even though you might think goat milk is safe for babies, it definitely isn't!$0#$e#Well... *I* thought it might be, anyway.$7",
+  "Scarlett.MarriageDialogue.007": "La, la, la...$1#$e#%kid1 perks right up when I sing! Maybe they'll grow up to be a great entertainer.$0",
+  "Scarlett.MarriageDialogue.008": "Do you think that %kid1 would like a sibling?$0#$e#Being an only child can be lonely...$7",
+  "Scarlett.MarriageDialogue.009": "Hmm... %kid2 is less ticklish than %kid1.$0#$e#I hope they don't use that to their advantage later.$1",
+  "Scarlett.MarriageDialogue.010": "My dads were so excited to be grandpas, and now they're double excited!$1#$e#What do you think they'll call them, when they can talk? Gramps? Pappy?$0",
+  "Scarlett.MarriageDialogue.011": "Ugh...$2#$e#Sorry, everything's fine, @. It's just that two young children is a lot to handle, sometimes.$5",
+  "Scarlett.MarriageDialogue.012": "Two kids is the perfect number, I think.$0#$e#'Kids', hehe. They're much cuter than baby goats, though.$1",
+  "Scarlett.MarriageDialogue.013": "We have the whole day ahead of us. What will you be up to?$0#$e#Oh, yeah! That sounds exciting.$1#$b#Well, you know where you can find me.$0",
+  "Scarlett.MarriageDialogue.014": "Feeling sore at this hour just means you had a super productive day!$1#$e#I'm ready to jump into bed soon.$0",
+  "Scarlett.MarriageDialogue.015": "I don't have to work on a rainy day, but that's no excuse to slack off!$1#$e#*smooch* Oh uh... I just wanted to do that real quick.$4#$b#Don't get a cold out there, alright?$0",
+  "Scarlett.MarriageDialogue.016": "Rain makes the whole valley smell so good...$0",
+  "Scarlett.MarriageDialogue.017": "I just know that today is going to be great!$1#$e#Oh yeah, lemme know if you have any dinner ideas.$1",
+  "Scarlett.MarriageDialogue.018": "I love working out in the fields during spring. Summer is too hot and winter is too cold.$0#$b#Spring is just right!$1",
+  "Scarlett.MarriageDialogue.019": "Do you think this heat will let up anytime soon?$2",
+  "Scarlett.MarriageDialogue.020": "All these leaves keep finding their way into our home!$6#$e#It's alright, I'll handle it.$0",
+  "Scarlett.MarriageDialogue.021": "Don't forget to bundle up. It's super cold out there.$0",
+  "Scarlett.MarriageDialogue.022": "It's springtime, @! Time for all the plants in the valley to wake up, and us too!$1#$e#Gotta shake off the winter malaise and start farmin'!$0",
+  "Scarlett.MarriageDialogue.023": "Are you participating in the egg hunt this year?$0#$e#Chickens only lay one egg a day, and there's... that's a lotta eggs, is all I'm saying.$1#$e#Marnie and Shane must save them up.$0",
+  "Scarlett.MarriageDialogue.024": "Awww, I can't wait to see everyone dancin' all fancy.$1#$e#Of *course* I wanna dance with you, darlin'.$4",
+  "Scarlett.MarriageDialogue.025": "Spring's just the setup for the rest of the farmin' year, really. Summer's when the work really starts to pay off!$1",
+  "Scarlett.MarriageDialogue.026": "Mmm... I swear I can smell the sunshine, you know that?$0#$e#Smells a little like you, actually, hehe.$4",
+  "Scarlett.MarriageDialogue.027": "Luau day!... Now where'd I put that thing I was gonna bring for it? I swear stuff runs away when I'm not lookin'.$0",
+  "Scarlett.MarriageDialogue.028": "What do the moonlight jellies remind you of, glowing out there?$0#$e#They make me think of fireflies, bobbin' up and down in the fields.$0",
+  "Scarlett.MarriageDialogue.029": "If you think about farmin' as a story, late summer and early fall's kinda the climax!$0#$e#Grapes in the vineyard get picked, there's a big ol' bounty for the fair...$0#$b#Makes me feel nice every single year, fall!$1",
+  "Scarlett.MarriageDialogue.030": "Are you enterin' the fair this year, @?$0#$e#I know more than anyone how hard you've worked. You deserve a real big prize.$1#$e#Sophia might give you some rough competition though so watch out!$0",
+  "Scarlett.MarriageDialogue.031": "Maze time, maze time!$1#$e#I made a bet with Sophia that I can get through it faster than she can.$0",
+  "Scarlett.MarriageDialogue.032": "*Sigh*... and that's the last of it.$5#$e#I get a little sad seeing fall end...$7#$b#But I'm glad you're here to keep me company as the last of the colors disappear.$0",
+  "Scarlett.MarriageDialogue.033": "I miss watchin' my dad tinkering with his truck in the winter. I should get a project like that for myself.$0#$e#It just gets so boring, with no farming to do!$1",
+  "Scarlett.MarriageDialogue.034": "Ice fishing, huh...?$0#$e#Eugh, I dunno. Maybe my dad would like it.$5#$b#Just seems mean, stockin' all those fish in there just to hook them and pull 'em out.$7",
+  "Scarlett.MarriageDialogue.035": "Heeey, you! Know what I wished for on the Winter Star?$1#$e#No, *not* a new goat. Another happy year with you, dummy.$4",
+  "Scarlett.MarriageDialogue.036": "And here's the end of the year...$0#$e#Everything's a season, you know? We feel it more on farms. Time passes in cycles here.$0#$e#Ehh, don't listen to me when I get all philosophical. Just too much time in my own head stuck inside.$1",
+  "Scarlett.MarriageDialogue.037": "Heya! Havin' a good day?$1#$e#I'm just trying to get some cleaning done.$0#$e#*smooch* I missed a spot.$4",
+  "Scarlett.MarriageDialogue.038": "Make sure you take breaks between work.$5#$e#I don't want you comin' home completely worn out at the end of every day.$0",
+  "Scarlett.MarriageDialogue.039": "How's it going?$0#$e#I'm enjoyin' a day with myself and my thoughts.$0",
+  "Scarlett.MarriageDialogue.040": "%Scarlett is humming to herself.#$e#La la -- oh! Well, that's embarrassing!$6#$e#You didn't hear *anything*, @.$1",
+  "Scarlett.MarriageDialogue.041": "I love havin' leftovers for breakfast. They always taste better the next day.$0#$e#Here's part of the leftovers! [240 426]$1",
+  "Scarlett.MarriageDialogue.042": "Mm, smell the sweetness of the fresh air?$1#$e#Nowhere else in the world is like the Valley. I don't gotta go everywhere to know that.$0",
+  "Scarlett.MarriageDialogue.043": "Farm's shapin' up into something special, huh?$0#$e#I love watchin' the way farms change over the seasons and the years.$0",
+  "Scarlett.MarriageDialogue.044": "D'you think that the same wildlife that live in the Valley always did, or have some animals come and gone over the years?$0#$e#I hear there's bears in the woods, but that's just a rumor. I think?$7",
+  "Scarlett.MarriageDialogue.045": "Mmm... I've got a big craving for fresh cherries. Just a big old handful of 'em.$0#$e#Too many'll give you a real upset stomach, though. Ask how I know.$7",
+  "Scarlett.MarriageDialogue.046": "The wind's playin' up real nice today.$0#$e#I like how it sounds in the trees around here.$0",
+  "Scarlett.MarriageDialogue.047": "Rainy days are so boooooring.$2#$e#They're good for the plants but not for me.$7",
+  "Scarlett.MarriageDialogue.048": "Wanna play a game inside till the weather clears up?$0#$e#You're busy? Awwww... even if I say please?$2#$e#Fine, fine. You go off bein' responsible. But you owe me a day, okay?$0",
+  "Scarlett.MarriageDialogue.049": "%Scarlett is tapping out a beat to the sound of the rain on her leg.#$e#Sometimes the rain patterin' on the roof sounds like somethin' you could make music to!$1",
+  "Scarlett.MarriageDialogue.050": "Ever just go out and let the rain fall on your face?$0#$e#I try it once in a while, but I don't like my hair gettin' all wet.$0#$e#I'd make a bad tree!$1",
+  "Scarlett.MarriageDialogue.051": "I miss goin' for drives with my dad in the rain.$5#$e#He'd always drive real careful, and it felt like we were all snug in our own little world...$0",
+  "Scarlett.MarriageDialogue.052": "Hungry? I sure am! That's why I went ahead and made dinner. Set the plates! [213 618 606 237 230 ]$1",
+  "Scarlett.MarriageDialogue.053": "Another busy day for you, huh?$0#$e#They say I give the best backrubs in the valley, wanna find out?$1",
+  "Scarlett.MarriageDialogue.054": "Your turn to give *me* a backrub, @.$0#$e#You'll never get good at it without practice!$1",
+  "Scarlett.MarriageDialogue.055": "Mmm... this house really is cozy, huh?$0#$e#I dunno how you made it feel so nice. Maybe it's just you.$0",
+  "Scarlett.MarriageDialogue.056": "Time to rest up, @! Worst part of bein' a farmer is that we miss out on a lot of the nightlife.$0",
+  "Scarlett.MarriageDialogue.057": "Funny how no matter where you are, the sound of rain is always the same.$0#$e#It used to put me right to sleep when I was a little girl.$0",
+  "Scarlett.MarriageDialogue.058": "Y'know, when I was young and they had to keep me busy when it was rainin', they just gave me crayons and paper and told me to go to town.$0#$e#Goats. Goats as far as the eye could see. Pink goats, green goats, goats with dots...$1",
+  "Scarlett.MarriageDialogue.059": "Sometimes Sophia lets me take home a few bottles of wine at the end of the season.$1#$b#Be real nice to open a bottle of red on a night like this...$0",
+  "Scarlett.MarriageDialogue.060": "You better make sure to cuddle me real close tonight. That rain's ridin' on a chilly wind.$0",
+  "Scarlett.MarriageDialogue.061": "The day after rain, the plants'll be all glowin' and green.$0#$e#It's something to look forward to. Happy plants make a happy farmer afterall!$1",
+  "Scarlett.MarriageDialogue.062": "Hey there. You know you're my favorite person?$0#$e#Yeah, that's right. Little ol' you.$4",
+  "Scarlett.MarriageDialogue.063": "Y'know, I've always felt like a little bit of a scatterbrained mess, but when I'm with you I can calm right down.#$e#No one else makes me feel that way.$0",
+  "Scarlett.MarriageDialogue.064": "Hmm... you know, you'd make a downright cute cosplayer.$0#$e#C'monnn, it'd be fun, right? Playin' dress up together. We could cosplay as one of my favorite couples!$1",
+  "Scarlett.MarriageDialogue.065": "Susan, Andy, Sophia... they've all made me feel at home in Pelican Town, but nobody's made me feel as welcome here as you do.$0#$e#Warm and fuzzy, that's how you make me feel.$4",
+  "Scarlett.MarriageDialogue.066": "We should go on a long drive, just you and me.$1#$e#Where to? Does it matter? Wherever it makes us happy to go.$0",
+  "Scarlett.MarriageDialogue.067": "I wanna make us a real fancy dinner sometime soon. We can grab some local meats and cheese and make ourselves a fancy charcuterie board.$0#$e#An excuse to eat goat cheese? Weeeell, maybe. But I wanna eat it with *you*!$1",
+  "Scarlett.MarriageDialogue.068": "Aw, @, y'know the way you look at me always makes me feel pretty?$4#$e#I haven't always felt the greatest about my looks...$7#$b#But you chase that all away.$0",
+  "Scarlett.MarriageDialogue.069": "So, what's the story? You look like you've got somethin' on your mind.$0#$e#Bet I can chase whatever it is away real fast if you bring your cheek over here.$4",
+  "Scarlett.MarriageDialogue.070": "I'm spendin' today thinking all about *you*!$1#$e#With the work I do, I've got a lot of time to think, you know.$0",
+  "Scarlett.MarriageDialogue.071": "Grampleton orange chicken for dinner tonight, just the way I like it!$1#$e#Promise or demand? You decide, you weirdo!$0#$e#Just kiddin'. You know I like cooking for ya.$1",
+  "Scarlett.MarriageDialogue.072": "How's your day going, @? Today's boring for me. Kinda the blah-blah-nothing-much sorta day.$0",
+  "Scarlett.MarriageDialogue.073": "Hm hmm... I oughta go home and visit my dad again soon.$0#$e#Sure, you can come if you'd like.$1",
+  "Scarlett.MarriageDialogue.074": "You look nice today, @.$0#$e#It's hard stayin' looking nice on a farm!",
+  "Scarlett.MarriageDialogue.075": "You work really hard on the farm, huh?$0#$e#I guess we all do.$1",
+  "Scarlett.MarriageDialogue.076": "Another day in the life of me.$0#$e#I'm content enough, sure.$0",
+  "Scarlett.MarriageDialogue.077": "Dinner tonight?$0#$e#Sure, we can rustle somethin' up. You'll need to chop the vegetables, though.$1",
+  "Scarlett.MarriageDialogue.078": "@, did you bring me any goat milk, by some miraculous chance?$1",
+  "Scarlett.MarriageDialogue.079": "See anythin' interesting in the valley today, @?$0#$e#Just the same old for me, too.$0",
+  "Scarlett.MarriageDialogue.080": "I was a little worried about fittin' into this new life, but it's going well enough so far.$0",
+  "Scarlett.MarriageDialogue.081": "Wanna stop by the saloon soon, @?$1#$e#I feel like I don't see enough of the folks here who aren't workin' their farms.$0",
+  "Scarlett.MarriageDialogue.082": "%Scarlett seems lost in her thoughts and doesn't respond.",
+  "Scarlett.MarriageDialogue.083": "Not really in the mood to talk today, @. Gimme some space, please.$5",
+  "Scarlett.MarriageDialogue.084": "I oughta ask my dad if he ever goes through rough patches with Hank...$5#$e#Never you mind about that.$7",
+  "Scarlett.MarriageDialogue.085": "Ugh. You really think we have somethin' to say to each other right now?$3",
+  "Scarlett.MarriageDialogue.086": "I need to go talk to Sophia.$5#$e#No, you're not invited. It's a best friends-only talk.$7",
+  "Scarlett.MarriageDialogue.087": "Are you happy with how things are between us, @?$2#$e#It's certainly not what I imagined. I just... I don't know.$2#$e#%Scarlett is starting to tear up.",
+  "Scarlett.MarriageDialogue.088": "I guess as a little girl, you read all these stories that make marriage seem so romantic, like a fairy tale or somethin’.#$e#*Scarlett sighs.*",
+  "Scarlett.MarriageDialogue.089": "I won't be joinin' you for dinner tonight.$2#$e#Well, you can just find something to feed yourself.$3",
+  "Scarlett.MarriageDialogue.090": "Sometimes I miss Pondwood. A lot.$7#$e#I'd be somewhere very different if I'd made different choices...$7#$e#Well. Hey. I'm around if you want to talk. You don't have to be a genius to sense there's a rift between us...$5",
+  "Scarlett.MarriageDialogue.091": "I know things are bad when I prefer mulchin' the fields to your company...$7",
+
+  Ligne 488 - 579 :
+
+  Traduction :
+
+  //1.15 Scarlett Marriage Dialogue
+    "Scarlett.MarriageDialogue.001": "La maison n'est-elle pas confortable ? #$e#J'adore vraiment cette ferme !$0",
+    "Scarlett.MarriageDialogue.002": "Je fais un gros effort pour m'assurer que cette pièce est propre.$0",
+    "Scarlett.funLeave.default": "Hey, je fais quelques courses aujourd'hui. Je reviens plus tard !$0",
+    "Scarlett.funReturn.default": "Je suis crevé. J'ai hâte d'aller me coucher...$0",
+    "Scarlett.MarriageDialogue.005": "Hmm... tu penses qu'il serait plus sympa de partager mon vieux lapin avec le bébé, ou est-il préférable d'en prendre un nouveau ?$0#$e#Peut-être un nouveau, pour qu'ils puissent créer ensemble de nouveaux souvenirs.$1",
+    "Scarlett.MarriageDialogue.006": "Alors, je lisais l'autre jour et même si tu pense que le lait de chèvre est sans danger pour les bébés, ce n'est certainement pas le cas !$0#$e#Eh bien... *Je* pensais que ça pourrait l'être, en tout cas.$7",
+    "Scarlett.MarriageDialogue.007": "La, la, la...$1#$e#%kid1 se redresse quand je chante ! Peut-être qu'il deviendra un grand artiste.$0",
+    "Scarlett.MarriageDialogue.008": "Pensez-tu que%kid1 aimerait avoir un frère ou une sœur?$0#$e#Être enfant unique peut être solitaire...$7",
+    "Scarlett.MarriageDialogue.009": "Hmm... %kid2 est moins chatouilleux que %kid1.$0#$e#J'espère qu'ils n'utiliseront pas cela à leur avantage plus tard.$1",
+    "Scarlett.MarriageDialogue.010": "Mes pères étaient tellement excités d'être grands-pères, et maintenant ils sont doublement excités!$1#$e#Comment pensez-tu qu'ils les appelleront, quand ils pourront parler ? Grand-père ? Papy ? $0",
+    "Scarlett.MarriageDialogue.011": "Ugh...$2#$e#Désolé, tout va bien, @. C'est juste que deux jeunes enfants, c'est parfois difficile à gérer.$5",
+    "Scarlett.MarriageDialogue.012": "Deux enfants, c'est le nombre idéal, je trouve.$0#$e#'Des enfants', hehe. Ils sont quand même bien plus mignons que des chevreaux.$1",
+    "Scarlett.MarriageDialogue.013": "On a toute la journée devant nous. Qu'est-ce que tu vas faire ?$0#$e#Oh, oui ! Ça a l'air exitant.$1#$b#Eh bien, tu sais où me trouver.$0",
+    "Scarlett.MarriageDialogue.014": "Se sentir endolori à cette heure signifie simplement que tu as eu une journée super productive !$1#$e#Je suis prêt à sauter au lit bientôt.$0",
+    "Scarlett.MarriageDialogue.015": "Je n'ai pas à travailler un jour de pluie, mais ce n'est pas une excuse pour me relâcher !$1#$e#*bisous* Oh euh... Je voulais juste faire ça très vite.$4#$b#N'attrape pas froid dehors, d'accord ? $0",
+    "Scarlett.MarriageDialogue.016": "La pluie donne à toute la vallée une odeur si bonne... $0",
+    "Scarlett.MarriageDialogue.017": "Je sais juste qu'aujourd'hui va être génial !$1#$e#Oh oui, fais-moi savoir si tu as des idées de dîner.$1",
+    "Scarlett.MarriageDialogue.018": "J'adore travailler dans les champs au printemps. L'été est trop chaud et l'hiver trop froid.$0#$b#Le printemps est parfait !$1",
+    "Scarlett.MarriageDialogue.019": "Pensez-tu que cette chaleur va bientôt s'atténuer ?$2",
+    "Scarlett.MarriageDialogue.020": "Toutes ces feuilles continuent de trouver leur chemin dans notre maison !$6#$e#Ce n'est pas grave, je m'en occupe.$0",
+    "Scarlett.MarriageDialogue.021": "N'oubliez pas de te couvrir. Il fait super froid dehors.$0",
+    "Scarlett.MarriageDialogue.022": "C'est le printemps, @! Il est temps pour toutes les plantes de la vallée de se réveiller, et nous aussi !$1#$e#Il faut se débarrasser du malaise hivernal et commencer à cultiver !$0",
+    "Scarlett.MarriageDialogue.023": "Est-ce que tu participe à la chasse aux œufs cette année ?$0#$e#Les poules ne pondent qu'un œuf par jour, et là... ça fait beaucoup d'œufs, c'est tout ce que je dis.$1#$e#Marnie et Shane doivent les économiser.$0",
+    "Scarlett.MarriageDialogue.024": "Awww, j'ai hâte de voir tout le monde danser avec fantaisie.$1#$e#Bien *sûr* que je veux danser avec toi, ma chérie.$4",
+    "Scarlett.MarriageDialogue.025": "Le printemps n'est que la préparation du reste de l'année agricole. C'est en été que le travail commence à porter ses fruits !$1",
+    "Scarlett.MarriageDialogue.026": "Mmm... Je jure que je peux sentir le soleil, tu sais ça ?$0#$e#Ça sent un peu comme toi, en fait, hehe.$4",
+    "Scarlett.MarriageDialogue.027": "C'est le jour d'la Fête Hawaïenne !... Où ai-je bien pu mettre ce truc que j'allais apporter pour ce festival ? Je jurerais que les choses s'enfuient quand je les regardent pas..$0",
+    "Scarlett.MarriageDialogue.028": "À quoi te fait penser les méduses au clair de lune qui brillent là-bas ?$0#$e#Elles me font penser aux lucioles qui voltigent dans les champs.$0",
+    "Scarlett.MarriageDialogue.029": "Si tu pense à l'agriculture comme à une histoire, la fin de l'été et le début de l'automne sont en quelque sorte le point culminant !$0#$e#Les raisins dans le vignoble sont cueillis, il y a une sacrée récompense pour la foire...$0#$b#Ça me fait du bien chaque année, l'automne !$1",
+    "Scarlett.MarriageDialogue.030": "Est-ce que tu participes à la foire cette année, @?$0#$e#Je sais mieux que quiconque à quel point tu as travaillé dur. Tu mérites un très gros prix.$1#$e#Sophia pourrait te donner une rude concurrence, alors fais attention !$0",
+    "Scarlett.MarriageDialogue.031": "C'est l'heure du labyrinthe, c'est l'heure du labyrinthe !$1#$e#J'ai parié avec Sophia que je peux le traverser plus vite qu'elle.$0",
+    "Scarlett.MarriageDialogue.032": "*Soupir*... et c'est la fin.$5#$e#Je suis un peu triste de voir l'automne se terminer...$7#$b#Mais je suis content que tu sois là pour me tenir compagnie alors que les dernières couleurs disparaissent.$0",
+    "Scarlett.MarriageDialogue.033": "Ça me manque de voir mon père bricoler son camion en hiver. Je devrais me lancer dans un projet comme ça.$0#$e#C'est tellement ennuyeux, sans agriculture à faire !$1",
+    "Scarlett.MarriageDialogue.034": "De la pêche sur glace, hein... ? $0#$e#Beurk, je sais pas. Peut-être que mon père aimerait ça. $5#$b#Ça semble juste méchant, de mettre tous ces poissons là-dedans juste pour les accrocher et les retirer. $7",
+    "Scarlett.MarriageDialogue.035": "Héhé, toi ! Tu sais ce que j'ai souhaité à l'Étoile d'Hiver ?$1#$e#Non, *pas* une nouvelle chèvre. Une autre bonne année avec toi, idiot.$4",
+    "Scarlett.MarriageDialogue.036": "Et voici la fin de l'année...$0#$e#Tout est une saison, tu le sais ? On le ressent encore plus dans les fermes. Le temps passe par cycles ici.$0#$e#Euh, ne m'écoutez pas quand je philosophe. J'ai juste trop de temps coincé dans ma tête.$1",
+    "Scarlett.MarriageDialogue.037": "Hé ! Tu passes une bonne journée ?$1#$e#J'essaie juste de faire un peu de ménage.$0#$e#*bisous* J'ai raté un endroit.$4",
+    "Scarlett.MarriageDialogue.038": "Assurez-toi de faire des pauses entre les tâches. $5#$e#Je ne veux pas que tu rentres à la maison complètement épuisé à la fin de chaque journée.$0",
+    "Scarlett.MarriageDialogue.039": "Comment ça va ?$0#$e#Je profite d'une journée avec moi-même et mes pensées.$0",
+    "Scarlett.MarriageDialogue.040": "%Scarlett fredonne.#$e#La la -- oh ! Eh bien, c'est gênant !$6#$e#Tu n'as rien entendu,@.$1",
+    "Scarlett.MarriageDialogue.041": "J'adore avoir des restes au petit-déjeuner. Ils sont toujours meilleurs le lendemain.$0#$e#Voici une partie des restes ! [240 426]$1",
+    "Scarlett.MarriageDialogue.042": "Mm, tu sens la douceur de l'air frais ?$1#$e#Nulle part ailleurs au monde on ne trouve une telle sensation dans la Vallée. Pas besoin d'aller partout pour le savoir.$0",
+    "Scarlett.MarriageDialogue.043": "La ferme devient quelque chose de spécial, tu trouve pas ?$0#$e#J'adore observer la façon dont les fermes changent au fil des saisons et des années.$0",
+    "Scarlett.MarriageDialogue.044": "Tu crois que la faune qui vit dans la vallée a toujours existé, ou que certains animaux sont apparus et repartis au fil des ans ?$0#$e#J'ai entendu dire qu'il y a des ours dans les bois, mais ce n'est qu'une rumeur. Je crois ?$7",
+    "Scarlett.MarriageDialogue.045": "Mmm... J'ai une grosse envie de cerises fraîches. Juste une grosse poignée.$0#$e#Trop en manger te donnera des maux d'estomac. Demande-moi comment je sais.$7",
+    "Scarlett.MarriageDialogue.046": "Le vent souffle vraiment fort aujourd'hui.$0#$e#J'aime le bruit que font les arbres par ici.$0",
+    "Scarlett.MarriageDialogue.047": "Les jours de pluie sont tellement ennuyants.$2#$e#Ils sont bons pour les plantes mais pas pour moi.$7",
+    "Scarlett.MarriageDialogue.048": "Tu veux pas jouer à l'intérieur jusqu'à ce que le temps s'améliore ?$0#$e#T'es occupé ? Awwww... même si je dis s'il te plaît ?$2#$e#D'accord, d'accord. Vas-y, sois responsable. Mais tu me dois une journée, d'ac' ?$0",
+    "Scarlett.MarriageDialogue.049": "%Scarlett tape un rythme au son de la pluie sur sa jambe. #$e#Parfois, le battement de la pluie sur le toit ressemble à quelque chose sur lequel on pourrait faire de la musique !$1",
+    "Scarlett.MarriageDialogue.050": "A-tu déjà laissé la pluie tomber sur ton visage ?$0#$e#J'essaie de temps en temps, mais j'aime pas que mes cheveux soient tout mouillés. $0#$e#Je ferais un mauvais arbre !$1",
+    "Scarlett.MarriageDialogue.051": "Les promenades en voiture avec mon père sous la pluie me manquent.$5#$e#Il conduisait toujours prudemment, et nous avions l'impression d'être tous bien au chaud dans notre propre petit monde...$0",
+    "Scarlett.MarriageDialogue.052": "Tu as faim ? Bien sur que tu as faim ! C'est pour ça que j'ai préparé le dîner. Dressez les assiettes ! [213 618 606 237 230 ]$1",
+    "Scarlett.MarriageDialogue.053": "Encore une journée chargée pour toi, hein ?$0#$e#Ils disent que je fais les meilleurs massages du dos de la vallée, tu veux une petite démo ?$1",
+    "Scarlett.MarriageDialogue.054": "À ton tour de *me* masser le dos, @.$0#$e#Tu ne deviendras jamais bon sans un peu de pratique !$1",
+    "Scarlett.MarriageDialogue.055": "Mmm... cette maison est vraiment douillette, hein ?$0#$e#Je ne sais pas comment tu as fait pour la rendre si agréable. C'est peut-être ta présence qui l'embellie.$0",
+    "Scarlett.MarriageDialogue.056": "Il est temps de se reposer, @! Le pire dans le métier d'agriculteur, c'est qu'on rate une bonne partie de la vie nocturne..$0",
+    "Scarlett.MarriageDialogue.057": "C'est drôle de voir que peu importe où tu est, le bruit de la pluie est toujours le même.$0#$e#Cela m'endormait immédiatement quand j'étais petite fille.$0",
+    "Scarlett.MarriageDialogue.058": "Tu sais, quand j'étais jeune et qu'il fallait m'occuper quand il pleuvait, on me donnait juste des crayons et du papier et on me disait d'aller en ville.$0#$e#Des chèvres. Des chèvres à perte de vue. Des chèvres roses, des chèvres vertes, des chèvres à pois....$1",
+    "Scarlett.MarriageDialogue.059": "Parfois, Sophia me laisse emporter quelques bouteilles de vin à la maison à la fin de la saison.$1#$b#Ce serait vraiment sympa d'ouvrir une bouteille de rouge par une nuit comme celle-ci...$0",
+    "Scarlett.MarriageDialogue.060": "Tu ferais mieux de me serrer fort dans tes bras ce soir. Cette pluie est portée par un vent froid.$0",
+    "Scarlett.MarriageDialogue.061": "Le lendemain de la pluie, les plantes seront toutes vertes et resplendissantes.$0#$e#C'est quelque chose qu'on attend avec impatience. Des plantes heureuses font un agriculteur heureux après tout !$1",
+    "Scarlett.MarriageDialogue.062": "Salut. Tu sais que tu es ma personne préférée ?$0#$e#Ouais, c'est vrai. Mon ptit' vieux.$4",
+    "Scarlett.MarriageDialogue.063": "Tu sais, je me suis toujours senti un peu étourdi, mais quand je suis avec toi, je peux me calmer.#$e#Personne d'autre ne me fait ressentir ça.$0",
+    "Scarlett.MarriageDialogue.064": "Hmm... tu ferais un cosplayer vraiment mignon. Je te jure !$0#$e#Allez, ce serait amusant, non ? On jouerait à se déguiser ensemble. On pourrait se déguiser en l'un de mes couples préférés !$1",
+    "Scarlett.MarriageDialogue.065": "Susan, Andy, Sophia... ils m'ont tous fait me sentir chez moi à Pelican Town, mais personne ne m'a fait me sentir aussi bienvenu ici que toi.$0#$e#Chaleureux et douillet, c'est comme ça que tu me fais sentir.$4",
+    "Scarlett.MarriageDialogue.066": "On devrait faire un long trajet en voiture, juste toi et moi.$1#$e#Où aller ? Est-ce important ? Qu'importe la destination, tant que ce trajet nous rend heureux.$0",
+    "Scarlett.MarriageDialogue.067": "J'ai envie de nous préparer un dîner vraiment raffiné bientôt. On pourrait prendre de la charcuterie et du fromage locaux et se faire une belle planche de charcuterie.$0#$e#Une excuse pour manger du fromage de chèvre ? Ben oui, peut-être. Mais j'ai envie d'en manger avec *toi* !$1",
+    "Scarlett.MarriageDialogue.068": "Oh, @, tu sais que la façon dont tu me regardes me fait toujours me sentir jolie ?$4#$e#Je ne me suis pas toujours sentie au mieux de ma forme... $7#$b#Mais tu fais disparaître tout ça.$0",
+    "Scarlett.MarriageDialogue.069": "Alors, c'est quoi l'histoire ? On dirait que tu as quelque chose en tête.$0#$e#Je parie que je peux chasser ce truc très vite si tu amènes ta joue par ici.$4",
+    "Scarlett.MarriageDialogue.070": "Je passe la journée à penser à *toi*!$1#$e#Avec le travail que je fais, j'ai beaucoup de temps pour réfléchir, tu sais.$0",
+    "Scarlett.MarriageDialogue.071": "Poulet à l'orange de Grampleton pour le dîner ce soir, comme je l'aime !$1#$e#Promesse ou demande ? À toi de voir, espèce d'excentrique !$0#$e#Je plaisante. Tu sais que j'aime cuisiner pour toi.$1",
+    "Scarlett.MarriageDialogue.072": "Comment se passe ta journée, @ ? Aujourd'hui, c'est ennuyeux. Un peu le genre de journée à ne rien dire.$0",
+    "Scarlett.MarriageDialogue.073": "Hm hmm... I oughta go home and visit my dad again soon.$0#$e#Sure, you can come if you'd like.$1",
+    "Scarlett.MarriageDialogue.074": "Tu as l'air en forme aujourd'hui, @.$0#$e#C'est dur de rester en forme dans une ferme !",
+    "Scarlett.MarriageDialogue.075": "Tu travailles vraiment dur à la ferme, hein ?$0#$e#Je suppose que nous le faisons tous.$1",
+    "Scarlett.MarriageDialogue.076": "Un autre jour dans ma vie.$0#$e#Je suis assez content, c'est sûr.$0",
+    "Scarlett.MarriageDialogue.077": "On dîne ce soir ?$0#$e#Bien sûr, on peut préparer quelque chose. Il faudra quand même couper les légumes.$1",
+    "Scarlett.MarriageDialogue.078": "@, m'as-tu apporté du lait de chèvre, par un hasard miraculeux ?$1",
+    "Scarlett.MarriageDialogue.079": "Tu as vu quelque chose d'intéressant dans la vallée aujourd'hui, @?$0#$e#C'est pareil pour moi aussi.$0",
+    "Scarlett.MarriageDialogue.080": "J'étais un peu inquiet de m'intégrer dans cette nouvelle vie, mais ça se passe plutôt bien jusqu'à présent.$0",
+    "Scarlett.MarriageDialogue.081": "Tu veux passer au saloon bientôt, @?$1#$e#J'ai l'impression que je ne vois pas assez de gens ici qui ne travaillent pas dans leurs fermes.$0",
+    "Scarlett.MarriageDialogue.082": "%Scarlett semble perdue dans ses pensées et ne répond pas.",
+    "Scarlett.MarriageDialogue.083": "Je ne suis pas vraiment d'humeur à parler aujourd'hui, @. Laisse-moi un peu d'espace, s'il te plaît.$5",
+    "Scarlett.MarriageDialogue.084": "Je devrais demander à mon père s'il traverse des moments difficiles avec Hank...$5#$e#Ne t'en fais pas pour ça.$7",
+    "Scarlett.MarriageDialogue.085": "Ugh. Tu crois vraiment qu'on a quelque chose à se dire en ce moment ?$3",
+    "Scarlett.MarriageDialogue.086": "Je dois aller parler à Sophia.$5#$e#Non, tu n'es pas invitée. C'est une conversation entre meilleures amies.$7",
+    "Scarlett.MarriageDialogue.087": "Es-tu content de la façon dont les choses se passent entre nous, @?$2#$e#Ce n'est certainement pas ce que j'imaginais. C'est juste que... Je ne sais pas.$2#$e#%Scarlett commence à pleurer.",
+    "Scarlett.MarriageDialogue.088": "Je suppose que quand on est une petite fille, ont lis toutes ces histoires qui font paraître le mariage si romantique, comme un conte de fées ou quelque chose comme ça. #$e#*Scarlett soupire.*",
+    "Scarlett.MarriageDialogue.089": "Je ne te rejoindrai pas pour dîner ce soir.$2#$e#Eh bien, tu peux juste trouver quelque chose à manger par toi-même.$3",
+    "Scarlett.MarriageDialogue.090": "Parfois, Pondwood me manque. Beaucoup.$7#$e#Je serais dans un endroit très différent si j'avais fait d'autres choix...$7#$e#Eh bien. Salut. Je suis là si tu veux parler. Pas besoin d'être un génie pour sentir qu'il y a un fossé entre nous...$5",
+    "Scarlett.MarriageDialogue.091": "Je sais que les choses vont mal quand je préfère pailler les champs à ta compagnie...$7",
+
+
+##############################################################################################################################################################
+
+  Ligne 582 - 653 :
+
+  Original :
+
+  //1.15 Scarlett Marriage Dialogue Spring Leave
+  "Scarlett.funLeave.Spring.1": "I'm off to Andy's!$1#$e#I'll tell him ya said hello.$0",
+  "Scarlett.funLeave.Spring.2": "I'll just be to the south if ya need me, @!$0#$e#Aww, I'll miss you too. Bring me lunch, maybe?$4",
+  "Scarlett.funLeave.Spring.3": "Time to buckle down and do some farmwork again!$0#$e#Nah, not here. I wish. I'm headin' to Andy's. Got a lot of farm work to do today.$0",
+  "Scarlett.funLeave.Spring.4": "Andy's friendly, under all the... everything else.$5#$e#Nah, I swear! Heart of gold!$6#$b#When I get to his farm today I'll tell him he should show it to ya sometime.$1",
+  "Scarlett.funLeave.Spring.5": "Headin' to Andy's again.$0#$e#I'm tryin' to wean him off the Joja stuff. It's going... well, it's going, that's for sure.$7",
+  "Scarlett.funLeave.Spring.6": "Off to Andy's again! His fields are always bigger than I remembered.$0#$b#I hope you have a great day. Drop by and visit if you want!$0",
+  "Scarlett.funLeave.Spring.7": "Springtime farmwork is some of the hardest, but I love seein' all the little green guys pokin' their heads up.$0#$e#You should come and see 'em soon! Andy doesn't mind visitors.$1",
+  "Scarlett.funLeave.Spring.8": "I'm headin' out to Andy's farm now, but I won't be home too late.$0#$e#If I am, you just come right down there and pick me up! Sometimes I get distracted and don't notice the time.$0",
+  "Scarlett.funLeave.Spring.9": "Hey, have you gone to see Andy's farm recently?$0#$e#It’s really shapin’ up. I'm helpin'!$1",
+  "Scarlett.funLeave.Spring.10": "Seeds, seeds, where'd I put the seeds...$7#$e#I promised Andy I'd bring him some nice seeds today... Oh! Found 'em! Off I go!$1",
+
+  //1.15 Scarlett Marriage Dialogue Spring Return
+  "Scarlett.funReturn.Spring.1": "Another hard day of spring farmwork.$0#$e#I could eat a *cow*. Did you cook, by any chance?$0",
+  "Scarlett.funReturn.Spring.2": "My work for the day just wrapped up! How about you, @?$0",
+  "Scarlett.funReturn.Spring.3": "Andy gets a little... weird... about the other farmers.$7#$b#I'm glad the chip on his shoulder about them doesn't apply to me.$5",
+  "Scarlett.funReturn.Spring.4": "Are you as hungry as I am, @?$0#$e#Not sure if I have the patience to make my famous Grampleton orange chicken tonight. I might just chow down on leftovers.$0",
+  "Scarlett.funReturn.Spring.5": "Andy's nice enough, but he doesn't make the best conversationalist.$0#$e#You, on the other hand, are lovely to talk to. Wanna sit down and chat about our day?$1",
+  "Scarlett.funReturn.Spring.6": "Ahh, workin' in the spring! Always leaves my shoulders aching.$0#$e#At least the spring is still cool. Summer heat'll come soon enough.$5",
+  "Scarlett.funReturn.Spring.7": "Spring still gets a little chilly in the evening! I felt it walking home.$0#$e#Let's cuddle up real close tonight, okay?$4",
+  "Scarlett.funReturn.Spring.8": "It's nice roundin' off a day of work with a trek back to the farm!$1#$e#Especially 'cause there's a nice warm farmhouse waiting for me with you in it.$0",
+  "Scarlett.funReturn.Spring.9": "Today Andy went on a little... rant... that lasted most of the day.$7#$e#I dunno what it was about, I tuned out after the second or third complaint about Pierre's prices.$5",
+  "Scarlett.funReturn.Spring.10": "Did you take some time to have a little bit of fun today, @?$1#$e#It's still important to have fun, even when there's lots of hard work to be done.$0",
+
+  //1.15 Scarlett Marriage Dialogue Summer Leave
+  "Scarlett.MarriageDialogue.Summer_8": "It's Susan season!$1#$e#She's nicer than Andy, but still works me just as hard. I bet I'll need a backrub tonight, so put one on preorder for me!$0",
+  "Scarlett.funLeave.Summer.1": "Melons, melons... they're good enough, but I don't understand why Susan loves 'em so much over other fruit.$0#$e#Ah well. Off I go to the melon mines, I guess.$1",
+  "Scarlett.funLeave.Summer.2": "Ugh... it's nice enough now, but by the time I get to Emerald Farm, the sun's gonna be swelterin'.$5#$e#Sorry that I get home a little sweaty in the summer. Nothin' to be done about it.$0",
+  "Scarlett.funLeave.Summer.3": "I'm headed off to Susan's! I hope she tells me one of her travel stories today.$0#$e#She's seen more than I ever will. I don't mind too much, though.$0",
+  "Scarlett.funLeave.Summer.4": "Well, I have a lot of work to get done today up at the railroad! You know where to find me.$0#$e#You should come say hi if you have a spare moment today!$1",
+  "Scarlett.funLeave.Summer.5": "Sometimes Susan keeps a fresh, cool glass of goat milk waitin' for me.$1#$e#Really gives the motivation to climb up there, lemme tell you.$0",
+  "Scarlett.funLeave.Summer.6": "I'm off to Emerald Farm! I'll be heading out here soon. Have a nice day, alright?$0?",
+  "Scarlett.funLeave.Summer.7": "I have a bunch of crops to tend to today at Emerald Farm. They're almost ready for harvest.#$e#I'll see if I can pick something up on my way back for dinner.$1",
+  "Scarlett.funLeave.Summer.8": "Have you visited Susan's farm lately?$0#$e#You could walk me up there. It could be cute to go together!$1",
+  "Scarlett.funLeave.Summer.9": "Man... my legs are sore this morning. Why's Susan's farm gotta be all the way up in the mountains?$2#$e#Eh, I shouldn't complain. She's a good boss.$0",
+  "Scarlett.funLeave.Summer.10": "*giggle* The smell must've woke you up, huh? I made us a feast for breakfast![201]$1#$e#I need to pound a bunch of early calories. I got my work cut out for me today.$0",
+
+  //1.15 Scarlett Marriage Dialogue Summer Return
+  "Scarlett.funReturn.Summer.1": "Hey, how was your day?$0#$e#I'm still sweaty from workin' at Emerald Farm today. Gonna hop in the shower here in a sec.$0",
+  "Scarlett.funReturn.Summer.2": "Walkin' home from Susan's in the summer really feels like cooling down from a workout.$0#$e#Those melons don’t pick themselves!$1",
+  "Scarlett.funReturn.Summer.3": "At least walkin' home in the evening isn't as hot as bein' out in the sun all day.$5#$e#I really gotta remember to wear sunscreen, or I'm gonna shrivel up like a raisin.$7",
+  "Scarlett.funReturn.Summer.4": "Ahhh, another summer's day of work in the Valley. It may be hot, but I still love it.$1#$e#The farm's really shapin' up!$0",
+  "Scarlett.funReturn.Summer.5": "Did you get lots of work done today, @?$1#$e#You better not have been lazin' around while I worked my tail off!$1",
+  "Scarlett.funReturn.Summer.6": "Thank goodness today is over.$5#$e#Let's just sit inside. In the nice, cool farmhouse. Maybe with a cold drink.$0",
+  "Scarlett.funReturn.Summer.7": "I gotta admit, knowin' you're waiting at the end of my day makes it easier to get through even the hottest summer work.$0",
+  "Scarlett.funReturn.Summer.8": "Best part of my dad's truck? The air conditioning...$7#$e#Do you think we could turn the AC up a little bit?$0",
+  "Scarlett.funReturn.Summer.9": "I messed up a few times today, and Susan was way nicer than most people woulda been.$0#$e#I'm gonna bake her a cake, I think.$1",
+  "Scarlett.funReturn.Summer.10": "I watered Susan's houseplants today, that's why I'm a little bit late gettin' home.$0#$e#It's not part of my normal work, but they were droopin' a little. Plants are always thirstier in the summer.$0",
+
+  //1.15 Scarlett Marriage Dialogue Fall Leave
+  "Scarlett.funLeave.Fall.1": "I'm headin' off to Blue Moon Vineyard for work today.$0",
+  "Scarlett.funLeave.Fall.2": "Time for me to go to Sophia's! Grapes get picked faster when you're talkin' to friends while you do it.$0",
+  "Scarlett.funLeave.Fall.3": "Hey, I'm workin' at the vineyard today. I have a lot of work to do.$0",
+  "Scarlett.funLeave.Fall.4": "Fall is a whole lot of harvesting, but since the heat goes down it's easier to deal with.$0#$e#I'm headed to Sophia's soon, but bring your cheek here for a kiss first!$1",
+  "Scarlett.funLeave.Fall.5": "So many grapes to pick today. I got my work cut out for me.$7#$e#Hey, have a nice day!$0",
+  "Scarlett.funLeave.Fall.6": "If I say pretty please before I leave, will you have some dinner waitin' for me when I get home tonight?$0#$e#Pretty-*pretty*-please?$1",
+  "Scarlett.funLeave.Fall.7": "We still have a lotta grapes to pick this season!$0#$e#Don't worry, I won't be home too late. I don't like walkin' all the way from Sophia's in the dark.$0",
+  "Scarlett.funLeave.Fall.8": "I'm about to head to the vineyard!#$e#It's gonna be a real good crop year this season, I can feel it in my bones.$0",
+  "Scarlett.funLeave.Fall.9": "D'you like blackberries more than salmonberries?$0#$e#I think the salmonberries taste a little funny. And blackberry wine is delicious.$1#$b#I'm gonna pick some blackberries on the way to work today!$0",
+  "Scarlett.funLeave.Fall.10": "I'm off to Sophia's! Goin' there doesn't always feel like work.$0#$e#Sometimes we just hang out and talk. And maybe watch some TV!$1",
+
+  //1.15 Scarlett Marriage Dialogue Fall Return
+  "Scarlett.funReturn.Fall.1": "Now that my work is done today, I can focus on *you*!$1#$e#In the good way! Don't look so nervous!$0",
+  "Scarlett.funReturn.Fall.2": "Ooh... feel that autumn chill in the air?#$e#I forgot my coat today. I really felt that walk home!",
+  "Scarlett.funReturn.Fall.3": "Sophia was rougher on me than usual today.$2#$e#Ehh, I think she was just feelin' bad about something else. It's tough when you're friends with your boss, though.$0",
+  "Scarlett.funReturn.Fall.4": "I love farmwork, but this year I'm gonna be a little bit happy when winter rolls around.$5#$e#Just a tiny bit. The days have been hard and I wanna be lazy for a while.$0",
+  "Scarlett.funReturn.Fall.5": "I oughta go visit my dad soon...$0#$e#Ughh, but not tonight. I'm sore. Backrub?$0",
+  "Scarlett.funReturn.Fall.6": "Work wasn't so bad today!$1#$e#Sophia had a new cosplay idea and we chatted about it for almost the whole afternoon. Makes the work go a lot faster.$0",
+  "Scarlett.funReturn.Fall.7": "Evening, you!$1#$b#Sophia told me to tell you hello. You should stop by her vineyard sometime soon!$0",
+  "Scarlett.funReturn.Fall.8": "Walkin' home in the autumn when it starts getting dark, I worry I might see some ghosts pop out of the shadows.$7#$e#You better not prank me, @!$3",
+  "Scarlett.funReturn.Fall.9": "Whew, Sophia might be my friend, but workin' in the vineyards is no joke.$0#$e#I dunno how long I'm gonna be able to keep my eyes open after dinner. Get your cuddle time in while you can!$1",
+  "Scarlett.funReturn.Fall.10": "It got really cold in the vineyard for the last few hours of work.$0#$e#Do we have any apple cider? I want hot apple cider!$1",
+
+  Ligne 582 - 592 :
+
+  Traduction :
+
+  //1.15 Scarlett Marriage Dialogue Spring Leave
+  "Scarlett.funLeave.Spring.1": "Je vais chez Andy !$1#$e#Je vais lui dire que tu lui as dit bonjour.$0",
+  "Scarlett.funLeave.Spring.2": "Je serai juste au sud si tu as besoin de moi,@!$0#$e#Oh, tu vas me manquer aussi. Apporte-moi à déjeuner, peut-être ?$4",
+  "Scarlett.funLeave.Spring.3": "Il est temps de se remettre au travail à la ferme !$0#$e#Non, pas ici. J'aimerais bien. Je vais chez Andy. J'ai beaucoup de travail à la ferme aujourd'hui.$0",
+  "Scarlett.funLeave.Spring.4": "Andy est amical, malgré... tout le reste.$5#$e#Non, je le jure ! Un cœur en or !$6#$b#Quand j'arriverai à sa ferme aujourd'hui, je lui dirai qu'il devrait te la montrer un de ces jours.$1",
+  "Scarlett.funLeave.Spring.5": "Je retourne chez Andy.$0#$e#J'essaie de le sevrer de Joja. Ça va aller... enfin, ça ira, c'est sûr.$7",
+  "Scarlett.funLeave.Spring.6": "Retour chez Andy ! Ses champs sont toujours plus grands que dans mes souvenirs.$0#$b#J'espère que tu passe une bonne journée. Passe nous voir si tu veux !$0",
+  "Scarlett.funLeave.Spring.7": "Les travaux agricoles du printemps sont parmi les plus difficiles, mais j'adore voir tous ces petits pousses vertes pointer leurs tête.$0#$e#Tu devrais venir les voir bientôt ! Andy n'a rien contre les visiteurs.$1",
+  "Scarlett.funLeave.Spring.8": "Je vais à la ferme d'Andy, mais je ne rentrerai pas trop tard.$0#$e#Si c'est le cas, viens me chercher ! Parfois, je suis distraite et je ne vois pas l'heure passé.$0",
+  "Scarlett.funLeave.Spring.9": "Hé, es-tu allé voir la ferme d'Andy récemment ?$0#$e#Ça prend vraiment forme. Je t'aide !$1",
+  "Scarlett.funLeave.Spring.10": "Des graines, des graines, où ai-je mis les graines...$7#$e#J'ai promis à Andy que je lui apporterais de belles graines aujourd'hui... Oh ! Je les ai trouvées ! J'y vais !$1",
+
+  //1.15 Scarlett Marriage Dialogue Spring Return
+  "Scarlett.funReturn.Spring.1": "Encore une dure journée printanière à la ferme.$0#$e#Je pourrais manger une *vache*. Aurais-tu cuisiné, par hasard ?$0",
+  "Scarlett.funReturn.Spring.2": "Mon travail du jour vient de se terminer ! Et toi, @?$0",
+  "Scarlett.funReturn.Spring.3": "Andy devient un peu... bizarre... à propos des autres agriculteurs.$7#$b#Je suis content que son ressentiment à leur égard ne s'applique pas à moi.$5",
+  "Scarlett.funReturn.Spring.4": "As-tu aussi faim que moi, @?$0#$e#Je ne sais pas si j'aurai la patience de préparer mon fameux poulet à l'orange de Grampleton ce soir. Je vais peut-être me contenter des restes.$0",
+  "Scarlett.funReturn.Spring.5": "Andy est plutôt sympa, mais il n'est pas très communicatif.$0#$e#Toi, par contre, c'est très agréable de discuter avec toi. Veux-tu qu'on discute de notre journée ?$1",
+  "Scarlett.funReturn.Spring.6": "Ahh, travailler au printemps ! Ça me fait toujours mal aux épaules.$0#$e#Au moins, le printemps est encore frais. La chaleur estivale arrivera bien assez tôt.$5",
+  "Scarlett.funReturn.Spring.7": "Le printemps est encore un peu frais le soir ! Je l'ai senti en rentrant à la maison.$0#$e#On va se blottir bien fort ce soir, d'accord ?$4",
+  "Scarlett.funReturn.Spring.8": "C'est agréable de terminer une journée de travail par un retour à la ferme !$1#$e#Surtout parce qu'il y a une jolie ferme chaleureuse qui m'attend avec toi dedans.$0",
+  "Scarlett.funReturn.Spring.9": "Aujourd'hui, Andy a fait une petite... diatribe... qui a duré presque toute la journée.$7#$e#Je ne sais pas de quoi il s'agissait, j'ai décroché après la deuxième ou troisième plainte concernant les prix de Pierre.$5",
+  "Scarlett.funReturn.Spring.10": "As-tu pris le temps de t'amuser un peu aujourd'hui, @?$1#$e#Il est toujours important de s'amuser, même lorsqu'il y a beaucoup de travail à faire.$0",
+
+  //1.15 Scarlett Marriage Dialogue Summer Leave
+  "Scarlett.MarriageDialogue.Summer_8": "C'est la saison de Susan !$1#$e#Elle est plus gentille qu'Andy, mais elle me fait toujours autant travailler. Je parie que j'aurai besoin d'un massage ce soir, alors précommandez-en un pour moi !$0",
+  "Scarlett.funLeave.Summer.1": "Des melons, des melons... c'est déjà bien, mais je ne comprends pas pourquoi Susan les préfère aux autres fruits.$0#$e#Bon, eh bien. Je vais aux mines de melons, je crois.$1",
+  "Scarlett.funLeave.Summer.2": "Ugh... c'est plutôt sympa maintenant, mais quand j'arriverai à la Ferme Émeraude, le soleil sera étouffant.$5#$e#Désolé de rentrer un peu en sueur en été. Il n'y a rien à faire.$0",
+  "Scarlett.funLeave.Summer.3": "Je vais chez Susan ! J'espère qu'elle me racontera une de ses anecdotes de voyage aujourd'hui.$0#$e#Elle en a vu plus que je n'en verrai jamais. Mais ça ne me dérange pas trop.$0",
+  "Scarlett.funLeave.Summer.4": "Eh bien, j'ai beaucoup de travail à faire aujourd'hui à la gare ! Tu sais où me trouver.$0#$e#Tu devrais venir me dire bonjour si tu as un moment de libre aujourd'hui !$1",
+  "Scarlett.funLeave.Summer.5": "Parfois, Susan garde un verre de lait de chèvre frais et frais qui m'attend.$1#$e#Ça me donne vraiment la motivation de grimper là-haut, laisse-moi te dire$0",
+  "Scarlett.funLeave.Summer.6": "Je file à la Ferme Émeraude ! J'arrive bientôt. Passe une bonne journée, d'accord ?$0?",
+  "Scarlett.funLeave.Summer.7": "J'ai beaucoup de récoltes à entretenir aujourd'hui à la Ferme Émeraude. Elles sont presque prêtes pour la récolte.#$e#Je verrai si je peux prendre quelque chose en rentrant pour le dîner.$1",
+  "Scarlett.funLeave.Summer.8": "As-tu visité la ferme de Susan récemment ?$0#$e#Tu pourrais m'y emmener. Ce serait sympa d'y aller ensemble!$1",
+  "Scarlett.funLeave.Summer.9": "Bon sang... j'ai mal aux jambes ce matin. Pourquoi la ferme de Susan est-elle tout là-haut dans les montagnes ?$2#$e#Eh, je ne devrais pas me plaindre. C'est une bonne patronne.$0",
+  "Scarlett.funLeave.Summer.10": "*rire* L'odeur a dû te réveiller, hein ? Je nous ai préparé un festin pour le petit-déjeuner ![201]$1#$e#J'ai besoin de brûler un tas de calories tôt le matin. J'ai du pain sur la planche aujourd'hui.$0",
+
+  //1.15 Scarlett Marriage Dialogue Summer Return
+  "Scarlett.funReturn.Summer.1": "Salut, comment s'est passée ta journée ?$0#$e#Je suis encore en sueur après avoir travaillé à Emerald Farm aujourd'hui. Je vais prendre une douche dans une seconde.$0",
+  "Scarlett.funReturn.Summer.2": "En rentrant de chez Susan en été, on a vraiment l'impression de se rafraîchir après une séance d'entraînement.$0#$e#Ces melons ne se cueillent pas tout seuls !$1",
+  "Scarlett.funReturn.Summer.3": "Au moins, rentrer à pied le soir n'est pas aussi chaud que de rester au soleil toute la journée.$5#$e#Je dois vraiment penser à mettre de la crème solaire, sinon je vais me ratatiner comme un raisin sec.$7",
+  "Scarlett.funReturn.Summer.4": "Ahhh, encore une journée d'été de travail dans la vallée. Il fait peut-être chaud, mais j'adore ça.$1#$e#La ferme prend vraiment forme !$0",
+  "Scarlett.funReturn.Summer.5": "As-tu beaucoup travaillé aujourd'hui, @?$1#$e#Tu ferais mieux de ne pas rester à paresser pendant que je me démenais !$1",
+  "Scarlett.funReturn.Summer.6": "Heureusement qu'aujourd'hui est terminé.$5#$e#Asseyons-nous simplement à l'intérieur. Dans la jolie ferme fraîche. Peut-être avec une boisson fraîche.$0",
+  "Scarlett.funReturn.Summer.7": "Je dois l'admettre, de savoir que tu m'attends à la fin de ma journée me permet de surmonter plus facilement le travail, même pendant les périodes de fortes chaleurs d'été.$0",
+  "Scarlett.funReturn.Summer.8": "Le meilleur atout du camion de mon père ? La climatisation...$7#$e#Tu crois qu'on pourrait monter un peu la clim.?$0",
+  "Scarlett.funReturn.Summer.9": "J'ai fait quelques erreurs aujourd'hui, et Susan a été bien plus gentille que la plupart des gens ne l'auraient été.$0#$e#Je crois que je vais lui faire un gâteau.$1",
+  "Scarlett.funReturn.Summer.10": "J'ai arrosé les plantes d'intérieur de Susan aujourd'hui, c'est pourquoi je suis un peu en retard à la maison.$0#$e#Ce n'est pas mon travail habituel, mais elles s'affaissaient un peu. Les plantes ont toujours plus soif en été.$0",
+
+  //1.15 Scarlett Marriage Dialogue Fall Leave
+  "Scarlett.funLeave.Fall.1": "Je vais au Vignoble de la Lune Bleue pour travailler aujourd'hui.$0",
+  "Scarlett.funLeave.Fall.2": "Il est temps pour moi d'aller chez Sophia ! Les raisins sont cueillis plus vite quand on discute avec ses amis..$0",
+  "Scarlett.funLeave.Fall.3": "Hé, je travaille au vignoble aujourd'hui. J'ai beaucoup de travail.$0",
+  "Scarlett.funLeave.Fall.4": "L'automne est synonyme de récoltes, mais comme la chaleur baisse, c'est plus facile à gérer.$0#$e#Je vais bientôt chez Sophia, mais amène d'abord ta joue ici pour un bisou !$1",
+  "Scarlett.funLeave.Fall.5": "Tant de raisins à cueillir aujourd'hui. J'ai du pain sur la planche.$7#$e#Hé, passe une bonne journée !$0",
+  "Scarlett.funLeave.Fall.6": "Si je dis s'il te plaît avant de partir, est-ce que tu m'attendras à dîner quand je rentrerai à la maison ce soir ?$0#$e#S'il te plaît, s'il te plaît ??$1",
+  "Scarlett.funLeave.Fall.7": "Il nous reste encore beaucoup de raisins à cueillir cette saison !$0#$e#Ne t'inquiétez pas, je ne rentrerai pas trop tard. Je n'aime pas faire tout le chemin depuis chez Sophia dans le noir.$0",
+  "Scarlett.funLeave.Fall.8": "Je suis sur le point d'aller au vignoble !#$e#Ça va être une très bonne récolte cette saison, je le sens dans mes os.$0",
+  "Scarlett.funLeave.Fall.9": "Tu préfères les mûres aux mûres de saumon ?$0#$e#Je trouve que les mûres de saumon ont un goût un peu bizarre. Et le vin de mûre est délicieux.$1#$b#Je vais cueillir des mûres en allant au travail aujourd'hui !$0",
+  "Scarlett.funLeave.Fall.10": "Je vais chez Sophia ! Y aller ne donne pas toujours l'impression de travailler.$0#$e#Parfois, on passe juste du temps ensemble et on discute. Et parfois on regarde la télé !$1",
+
+  //1.15 Scarlett Marriage Dialogue Fall Return
+    "Scarlett.funReturn.Fall.1": "Maintenant que mon travail est terminé aujourd'hui, je peux me concentrer sur *toi* !$1#$e#Dans le bon sens du terme ! N'aie pas l'air si nerveux !$0",
+    "Scarlett.funReturn.Fall.2": "Ooh... sens-tu cette fraîcheur d'automne dans l'air ?#$e#J'ai oublié mon manteau aujourd'hui. Je l'ai vraiment ressenti au retour à la maison !",
+    "Scarlett.funReturn.Fall.3": "Sophia a été plus dure avec moi que d'habitude aujourd'hui.$2#$e#Euh, je crois qu'elle se sentait juste mal à cause d'autre chose. C'est dur quand on est ami avec son patron, je suppose.$0",
+    "Scarlett.funReturn.Fall.4": "J'adore le travail à la ferme, mais cette année, je vais être un peu heureuse quand l'hiver arrivera.$5#$e#Juste un tout petit peu. Les journées ont été dures et j'ai envie de paresser un peu.$0",
+    "Scarlett.funReturn.Fall.5": "Je devrais aller voir mon père bientôt...$0#$e#Ughh, mais pas ce soir. J'ai mal. Un massage du dos ?$0",
+    "Scarlett.funReturn.Fall.6": "Le travail n'était pas si mal aujourd'hui !$1#$e#Sophia avait une nouvelle idée de cosplay et on en a discuté presque tout l'après-midi. Ça fait avancer le travail beaucoup plus vite.$0",
+    "Scarlett.funReturn.Fall.7": "Bonsoir, toi !$1#$b#Sophia m'a dit de te dire bonjour. Tu devrais passer à son vignoble bientôt !$0",
+    "Scarlett.funReturn.Fall.8": "En rentrant à la maison en automne, quand il commence à faire sombre, j'ai peur de voir des fantômes surgir de l'ombre.$7#$e#Tu ferais mieux de ne pas me faire de blague, @!$3",
+    "Scarlett.funReturn.Fall.9": "Ouf, Sophia est peut-être mon amie, mais travailler dans les vignes, c'est pas une partie de plaisir.$0#$e#Je ne sais pas combien de temps je vais pouvoir garder les yeux ouverts après le dîner. Fais-toi des câlins tant que tu peux !$1",
+    "Scarlett.funReturn.Fall.10": "Il a fait très froid dans le vignoble pendant les dernières heures de travail.$0#$e#Est-ce qu'on as du cidre de pomme ? Je veux du cidre de pomme chaud !$1",
+
+
+##############################################################################################################################################################
+
+  Ligne 655 - 694 :
+
+  Original :
+
+  //1.15 Scarlett Marriage Schedule Dialogue
+    "Scarlett.FairhavenFarm.Marriage.00": "Aw, you're so sweet to drop by while I'm workin' Andy's fields. This is why you're the best!$1",
+    "Scarlett.FairhavenFarm.Marriage.01": "Thanks for checking in on me. I'll see you later tonight, alright?$0",
+    "Scarlett.FairhavenFarm.Marriage.02": "Look at all these little happy green guys! They are my responsibility, ya know?$0",
+    "Scarlett.FairhavenFarm.Marriage.03": "I love it when you visit me at work. It motivates me to push myself a little harder.$0",
+    "Scarlett.FairhavenFarm.Marriage.04": "At least the spring is still cool. Summer heat'll come soon enough so I gotta enjoy this nice weather while I can.$0",
+    "Scarlett.FairhavenFarm.Marriage.05": "I'm happy you stopped by to visit! I'd ask you to help but then I would be out of a job!$1#$b#Well, I gotta get back to it.$0",
+    "Scarlett.FairhavenFarm.Marriage.06": "Andy is super strong! He carried four bags of fertilizer all at once.$0",
+    "Scarlett.FairhavenFarm.Marriage.07": "It's a little tempting to visit Sophia right now. She's just right up that cliff.$0",
+    "Scarlett.FairhavenFarm.Marriage.08": "Is it true Andy's house got refurbished? I wonder what it looked like before...$0",
+    "Scarlett.FairhavenFarm.Marriage.09": "I've seen a bunch of families of crows nestin' in the trees eyein' up Fairhaven Farm.$0#$b#Good thing there's a scarecrow. But I don't know if one is enough...$7",
+    "Scarlett.FairhavenFarm.Marriage.10": "Andy's farm may be smaller than others in the valley but I'd say it has the most character!$0",
+    "Scarlett.EmeraldFarm.Marriage.00": "Trekkin' up to Emerald Farm is always a workout.$0",
+    "Scarlett.EmeraldFarm.Marriage.01": "If you're here does that mean you brought me some lunch?$0",
+    "Scarlett.EmeraldFarm.Marriage.02": "I like seeing the different trains come and go while I'm workin' here. Some of them have... interesting art on the cars.$0",
+    "Scarlett.EmeraldFarm.Marriage.03": "*phew* I have a lot of work to get done today... and this summer heat isn't helpin'!$2",
+    "Scarlett.EmeraldFarm.Marriage.04": "Sometimes Susan keeps a fresh, cool glass of goat milk waitin' for me.$0#$b#Really gives the motivation to climb up here, lemme tell you!$1",
+    "Scarlett.EmeraldFarm.Marriage.05": "Susan always makes fresh lemonade after a hard days work!$1",
+    "Scarlett.EmeraldFarm.Marriage.06": "I might use the bathhouse after I'm done today. I'm working up a sweat!$1",
+    "Scarlett.EmeraldFarm.Marriage.07": "*sniff* *sniff* Smell that!? This fertilizer has a pungent scent!!!$6",
+    "Scarlett.EmeraldFarm.Marriage.08": "You walked all the way up here just to see me? Just when I thought my day couldn't get better!$1",
+    "Scarlett.EmeraldFarm.Marriage.09": "Funny, I was just thinkin' about you... and here you are!$1",
+    "Scarlett.EmeraldFarm.Marriage.10": "Ahhh, another summer's day of work in the Valley. I'm definitely taking a shower tonight.$0",
+    "Scarlett.BlueMoonVineyard.Marriage.00": "%Scarlett is whistling and smiles at you while she works",
+    "Scarlett.BlueMoonVineyard.Marriage.01": "Sophia and I are in the middle of talkin' about her new cosplay. It's gonna be so cool!$0",
+    "Scarlett.BlueMoonVineyard.Marriage.02": "These grapes won't turn themselves into wine!$0",
+    "Scarlett.BlueMoonVineyard.Marriage.03": "Do you remember when we borrowed your feet for the grape squishing? We might need to borrow them again soon.$1",
+    "Scarlett.BlueMoonVineyard.Marriage.04": "Don't distract me! I got a lot to get done today.$1",
+    "Scarlett.BlueMoonVineyard.Marriage.05": "The ocean breeze up here can get really chilly. I wouldn't object to a quick emergency cuddle for warmth!$1",
+    "Scarlett.BlueMoonVineyard.Marriage.06": "Aw, it's so nice of you to visit me at work. Don't forget to say hi to Sophia, too!$0",
+    "Scarlett.BlueMoonVineyard.Marriage.07": "Funny you showed up! Sophia and I were just talkin' about you.$1#$e#Can't tell you! my lips are sealed!$1",
+    "Scarlett.BlueMoonVineyard.Marriage.08": "If you're here does that mean you brought me some lunch?$1",
+    "Scarlett.BlueMoonVineyard.Marriage.09": "Have you also noticed all the bunnies that live around the vineyard?$0",
+    "Scarlett.BlueMoonVineyard.Marriage.10": "Oh, hey! Thanks for checkin' on me. I should try doin' the same to you sometime...$4",
+    "Scarlett.BlueMoonVineyard.Marriage.11": "I love the view of the Gem Sea here! But I guess you're also nice, too.$1",
+    "Scarlett.BlueMoonVineyard.Marriage.12": "This next batch of wine is going to be a good one. I can just feel it!$0",
+    "Scarlett.BlueMoonVineyard.Marriage.13": "I'm happy you stopped by to visit! I'd ask you to help but then I would be out of a job!$1#$b#Well, I gotta get back to it.$0",
+    "Scarlett.BlueMoonVineyard.Marriage.14": "If I say pretty please before I leave, will you have some dinner waitin' for me when I get home tonight?$0#$b#Pretty-*pretty*-please?$1",
+    "Scarlett.BlueMoonVineyard.Marriage.15": "Did you take time off to visit me at work? This is why you're the best!$1",
+    "Scarlett.BlueMoonVineyard.Marriage.16": "Hey! Did you want to walk back home together? I'm wrappin' up soon.$0",
+
+  Ligne 655 - 694 :
+
+  Traduction Non-Mise [Litérale] :
+
+  //1.15 Scarlett Marriage Schedule Dialogue
+  "Scarlett.FairhavenFarm.Marriage.00": "Oh, c'est tellement gentil de passer pendant que je travaille dans les champs d'Andy. C'est pour ça que tu es le meilleur !$1",
+  "Scarlett.FairhavenFarm.Marriage.01": "Merci de prendre de mes nouvelles. À plus tard ce soir, d'accord ?$0",
+  "Scarlett.FairhavenFarm.Marriage.02": "Regardez tous ces petites pousses verts et joyeuses ! Ils sont sous ma responsabilité, tu le sait ?$0",
+  "Scarlett.FairhavenFarm.Marriage.03": "J'adore quand tu viens me rendre visite au travail. Ça me motive à me dépasser.$0",
+  "Scarlett.FairhavenFarm.Marriage.04": "Au moins, le printemps est encore frais. La chaleur estivale arrivera bien assez tôt, alors je dois profiter de ce beau temps tant que je peux.$0",
+  "Scarlett.FairhavenFarm.Marriage.05": "Je suis contente que tu sois passée me rendre visite ! Je te demanderais bien de l'aide, mais je me retrouverais sans emploi !$1#$b#Bon, il faut que j'y retourne.$0",
+  "Scarlett.FairhavenFarm.Marriage.06": "Andy est super fort ! Il a porté quatre sacs d'engrais d'un coup.$0",
+  "Scarlett.FairhavenFarm.Marriage.07": "C'est un peu tentant de rendre visite à Sophia en ce moment. Elle est juste au sommet de la falaise$0",
+  "Scarlett.FairhavenFarm.Marriage.08": "Est-il vrai que la maison d'Andy a été rénovée ? Je me demande à quoi elle ressemblait avant...$0",
+  "Scarlett.FairhavenFarm.Marriage.09": "J'ai vu des familles de corbeaux nichant dans les arbres, lorgnant la Ferme Fairhaven. Heureusement qu'il y a un épouvantail. Mais je ne sais pas si un seul suffira...$7",
+  "Scarlett.FairhavenFarm.Marriage.10": "La ferme d'Andy est peut-être plus petite que d'autres dans la vallée, mais je dirais qu'elle a le plus de caractère !$0",
+  "Scarlett.EmeraldFarm.Marriage.00": "La randonnée jusqu'à la Ferme Emeraude est toujours un entraînement.$0",
+  "Scarlett.EmeraldFarm.Marriage.01": "Si tu êtes ici, cela signifie-t-il que tu m'avez apporté à déjeuner ?$0",
+  "Scarlett.EmeraldFarm.Marriage.02": "J'aime voir les différents trains aller et venir pendant que je travaille ici. Certains d'entre eux ont des dessins intéressants sur les wagons.$0",
+  "Scarlett.EmeraldFarm.Marriage.03": "*ouf* J'ai beaucoup de travail à faire aujourd'hui... et cette chaleur estivale n'aide pas !$2",
+  "Scarlett.EmeraldFarm.Marriage.04": "Parfois, Susan garde un verre de lait de chèvre frais qui m'attend.$0#$b#Laisse moi te dire que ça me donne vraiment la motivation de grimper ici$1",
+  "Scarlett.EmeraldFarm.Marriage.05": "Susan prépare toujours de la limonade fraîche après une dure journée de travail !$1",
+  "Scarlett.EmeraldFarm.Marriage.06": "J'irai peut-être aux bains publics après avoir fini aujourd'hui. Je transpire beaucoup !$1",
+  "Scarlett.EmeraldFarm.Marriage.07": "*renifle* *renifle* Tu sent ça ! Cet engrais a une odeur âcre !!!$6",
+  "Scarlett.EmeraldFarm.Marriage.08": "Tu as fait tout ce chemin juste pour me voir ? Juste au moment où je pensais que ma journée ne pourrait pas être meilleure !$1",
+  "Scarlett.EmeraldFarm.Marriage.09": "C'est drôle, je pensais justement à toi... et te voilà !$1",
+  "Scarlett.EmeraldFarm.Marriage.10": "Ahhh, encore une journée d'été à travailler dans la Vallée. Je vais prendre une douche ce soir, c'est sûr.$0",
+  "Scarlett.BlueMoonVineyard.Marriage.00": "%Scarlett siffle et te sourit pendant qu'elle travaille",
+  "Scarlett.BlueMoonVineyard.Marriage.01": "Sophia et moi sommes en train de parler de son nouveau cosplay. Ça va être trop cool !$0",
+  "Scarlett.BlueMoonVineyard.Marriage.02": "Ces raisins ne se transformeront pas en vin tout seuls !$0",
+  "Scarlett.BlueMoonVineyard.Marriage.03": "Tu te souviens quand on t'a emprunté tes pieds pour presser le raisin ? On aura peut-être besoin de te les emprunter à nouveau bientôt.$1",
+  "Scarlett.BlueMoonVineyard.Marriage.04": "Ne me distrait pas ! J'ai beaucoup à faire aujourd'hui.$1",
+  "Scarlett.BlueMoonVineyard.Marriage.05": "La brise marine ici peut être vraiment fraîche. Je ne refuserais pas un petit câlin d'urgence pour me réchauffer !$1",
+  "Scarlett.BlueMoonVineyard.Marriage.06": "Oh, c'est vraiment gentil de ta part de venir me voir au travail. N'oublie pas de dire bonjour à Sophia aussi !$0",
+  "Scarlett.BlueMoonVineyard.Marriage.07": "C'est drôle que tu sois là ! Sophia et moi parlions justement de toi.$1#$e#Je ne peux pas te le dire ! Je suis bouche bée !$1",
+  "Scarlett.BlueMoonVineyard.Marriage.08": "Si tu es là, est-ce que ça veut dire que tu m'as apporté à déjeuner ?$1",
+  "Scarlett.BlueMoonVineyard.Marriage.09": "As-tu également remarqué tous les lapins qui vivent autour du vignoble ?$0",
+  "Scarlett.BlueMoonVineyard.Marriage.10": "Oh, hé ! Merci de prendre de mes nouvelles. Je devrais essayer de te faire la même chose un jour...$4",
+  "Scarlett.BlueMoonVineyard.Marriage.11": "J'adore la vue sur la mer de Gemmes ici ! Mais je suppose que tu es aussi gentil.$1",
+  "Scarlett.BlueMoonVineyard.Marriage.12": "Ce prochain lot de vin va être bon. Je le sens !$0",
+  "Scarlett.BlueMoonVineyard.Marriage.13": "Je suis contente que tu sois passée me rendre visite ! Je te demanderais bien de l'aide, mais je me retrouverais sans emploi !$1#$b#Bon, il faut que j'y retourne.$0",
+  "Scarlett.BlueMoonVineyard.Marriage.14": "Si je dis s'il te plaît avant de partir, est-ce que tu m'attendras à dîner quand je rentrerai à la maison ce soir ?$0#$e#S'il te plaît, s'il te plaît ?$1",
+  "Scarlett.BlueMoonVineyard.Marriage.15": "As-tu pris un congé pour me rendre visite au travail ? C'est pour ça que tu es le meilleur !$1",
+  "Scarlett.BlueMoonVineyard.Marriage.16": "Hé ! Tu voulais qu'on rentre à la maison ensemble ? Je termine bientôt.$0",
+
+  Traduction Actuelle [Plus rurale - inspiré par la forme des dialogues de Andy] :
+
+  //1.15 Scarlett Marriage Schedule Dialogue
+    "Scarlett.FairhavenFarm.Marriage.00": "Oh, c'est tellement gentil de passer pendant que j'travaille dans les champs d'Andy. C'est pour ça que t'est le meilleur !$1",
+    "Scarlett.FairhavenFarm.Marriage.01": "Merci de prendre de mes nouvelles. À plus tard ce soir, d'accord ?$0",
+    "Scarlett.FairhavenFarm.Marriage.02": "Regardez tous ces petites pousses vertes et joyeuses ! Ils sont sous ma responsabilité, tu l'sait ?$0",
+    "Scarlett.FairhavenFarm.Marriage.03": "J'adore quand tu viens me rendre visite au travail. Ça me motive à me dépasser.$0",
+    "Scarlett.FairhavenFarm.Marriage.04": "Au moins, le printemps est encore frais. Les chaleurs de l'été arrivera bien assez tôt, alors j'dois profiter de ce beau temps tant que je peux.$0",
+    "Scarlett.FairhavenFarm.Marriage.05": "Je suis contente que tu sois passée me rendre visite ! Je te demanderais bien de l'aide, mais je me retrouverais sans emploi !$1#$b#Bon, il faut que j'y retourne.$0",
+    "Scarlett.FairhavenFarm.Marriage.06": "Andy est super fort ! Il a porté quatre sacs d'engrais d'un coup.$0",
+    "Scarlett.FairhavenFarm.Marriage.07": "C'est un peu tentant de rendre visite à Sophia en ce moment. Elle est juste au sommet de la falaise$0",
+    "Scarlett.FairhavenFarm.Marriage.08": "Est-il vrai que la maison d'Andy a été rénovée ? Je me demande à quoi elle ressemblait avant...$0",
+    "Scarlett.FairhavenFarm.Marriage.09": "J'ai vu des familles de corbeaux former un nid dans les arbres, en r'gardant la Ferme Fairhaven. Heureusement qu'il y a un épouvantail. Mais je n'sais pas si un seul suffira...$7",
+    "Scarlett.FairhavenFarm.Marriage.10": "La ferme d'Andy est peut-être plus petite que d'autres dans la vallée, mais je dirais qu'elle a le plus de caractère !$0",
+    "Scarlett.EmeraldFarm.Marriage.00": "La montée jusqu'à la Ferme Emeraude est toujours un entraînement.$0",
+    "Scarlett.EmeraldFarm.Marriage.01": "Si tu êtes ici, cela signifie-t-il que tu m'avez apporté à déjeuner ?$0",
+    "Scarlett.EmeraldFarm.Marriage.02": "J'aime voir les différents trains aller et venir pendant que j'travaille ici. Certains d'entre eux ont des dessins intéressants sur les wagons.$0",
+    "Scarlett.EmeraldFarm.Marriage.03": "*ouf* J'ai beaucoup de travail à faire aujourd'hui... et c'te chaleur estivale n'aide pas du tout !$2",
+    "Scarlett.EmeraldFarm.Marriage.04": "Parfois, Susan m'garde un verre de lait de chèvre frais qui m'attend juste pour moi.$0#$b#Laisse moi te dire que ça me donne vraiment la motivation de grimper ici.$1",
+    "Scarlett.EmeraldFarm.Marriage.05": "Susan prépare toujours de la limonade fraîche après une dure journée de travail !$1",
+    "Scarlett.EmeraldFarm.Marriage.06": "J'irai peut-être aux bains publics après avoir fini aujourd'hui. Je transpire beaucoup !$1",
+    "Scarlett.EmeraldFarm.Marriage.07": "*renifle* *renifle* Tu sent ça ! Cet engrais a une odeur âcre !!!$6",
+    "Scarlett.EmeraldFarm.Marriage.08": "Tu as fait tout ce chemin juste pour me voir ? Juste au moment où je pensais que ma journée ne pourrait pas être meilleure !$1",
+    "Scarlett.EmeraldFarm.Marriage.09": "C'est drôle, j'pensais justement à toi... et te voilà !$1",
+    "Scarlett.EmeraldFarm.Marriage.10": "Ahhh, encore une journée d'été à travailler dans la Vallée. Je vais prendre une douche ce soir, c'est sûr.$0",
+    "Scarlett.BlueMoonVineyard.Marriage.00": "%Scarlett siffle et te sourit pendant qu'elle travaille",
+    "Scarlett.BlueMoonVineyard.Marriage.01": "Sophia et moi sommes en train d'parler de son nouveau cosplay. Ça va être trop cool !$0",
+    "Scarlett.BlueMoonVineyard.Marriage.02": "Ces raisins ne se transformeront pas en vin tout seuls !$0",
+    "Scarlett.BlueMoonVineyard.Marriage.03": "Tu te souviens quand on t'a emprunté tes pieds pour presser le raisin ? On aura peut-être besoin de te les emprunter à nouveau bientôt.$1",
+    "Scarlett.BlueMoonVineyard.Marriage.04": "Ne me distrait pas ! J'ai beaucoup à faire aujourd'hui.$1",
+    "Scarlett.BlueMoonVineyard.Marriage.05": "La brise marine ici peut être vraiment fraîche. Je ne refuserais pas un petit câlin d'urgence pour me réchauffer !$1",
+    "Scarlett.BlueMoonVineyard.Marriage.06": "Oh, c'est vraiment gentil de ta part de venir me voir au travail. N'oublie pas de dire bonjour à Sophia aussi !$0",
+    "Scarlett.BlueMoonVineyard.Marriage.07": "C'est drôle que tu sois là ! Sophia et moi parlions justement d'toi.$1#$e#Je ne peux pas te le dire ! Je suis bouche bée !$1",
+    "Scarlett.BlueMoonVineyard.Marriage.08": "Si tu es là, est-ce que ça veut dire que tu m'as apporté à déjeuner ?$1",
+    "Scarlett.BlueMoonVineyard.Marriage.09": "As-tu également remarqué tous les lapins qui vivent autour du vignoble ?$0",
+    "Scarlett.BlueMoonVineyard.Marriage.10": "Oh, hé ! Merci de prendre d'mes nouvelles. Je devrais essayer de te faire la même chose un jour...$4",
+    "Scarlett.BlueMoonVineyard.Marriage.11": "J'adore la vue sur la mer de Gemmes ici ! Mais je suppose que tu es aussi gentil.$1",
+    "Scarlett.BlueMoonVineyard.Marriage.12": "Ce prochain lot de vin va être bon. Je le sens !$0",
+    "Scarlett.BlueMoonVineyard.Marriage.13": "Je suis contente que tu sois passée me rendre visite ! Je te demanderais bien de l'aide, mais je me retrouverais sans emploi !$1#$b#Bon, il faut que j'y retourne.$0",
+    "Scarlett.BlueMoonVineyard.Marriage.14": "Si je dis s'il te plaît avant de partir, est-ce que tu m'attendras à dîner quand je rentrerai à la maison ce soir ?$0#$e#S'te plait, *s'te plait* ?$1",
+    "Scarlett.BlueMoonVineyard.Marriage.15": "As-tu pris un congé pour me rendre visite au travail ? C'est pour ça que tu es le meilleur !$1",
+    "Scarlett.BlueMoonVineyard.Marriage.16": "Hé ! Tu voulais qu'on rentre à la maison ensemble ? J'termine bientôt.$0",
+
+##############################################################################################################################################################
+
+  Ligne 696 - 727 :
+
+  Original :
+
+  //1.15 Scarlett Event Dialogue
+  "Scarlett.10hearts.01": "Hey, morning. I was wondering if you'd be up for a hike today? I know a great trail near my neighborhood.$0",
+  "Scarlett.10hearts.02": "Awesome! Drop by my house this afternoon in Grampleton. I hope the nice weather holds up!$1",
+  "Scarlett.10hearts.03": "I have to finish up some work and then I'll meet you at my house, okay?$0#$e#See you soon!$1",
+  "Scarlett.10hearts.04": "Hey, you made it! I brought some snacks for us in case we get hungry.$1#$b#We head down this way and hook a left out of the suburbs. Follow me!$0",
+  "Scarlett.10hearts.05": "This is why they call it 'Pondwood'!",
+  "Scarlett.10hearts.06": "We head off the path here.",
+  "Scarlett.10hearts.07": "Watch your step!",
+  "Scarlett.10hearts.08": "Let me check the ladder first.",
+  "Scarlett.10hearts.09": "Alright, you're good to come up!$1",
+  "Scarlett.10hearts.10": "This place is a wreck. It's been years since I came here last.$2#$b#We shouldn't go inside... it seems too dangerous, even for me. We're safer out here.$7",
+  "Scarlett.10hearts.11": "I'm not sure who built this tree house. I found it a long time ago while exploring and it was abandoned.$5#$b#I used to hang out here by myself all the time. So having some good company is nice for a change.$0",
+  "Scarlett.10hearts.12": "*giggle* How did that one song go?... @ and Scarlett Sitting in a tree... K-I-S-S-I-N-G!$1",
+  "Scarlett.10hearts.13": "That was a fun hike. We should do it again sometime!$0#$e#Imagine if we fixed up the treehouse. You're good at that kind of stuff, right?$1",
+  "Scarlett.14hearts.1": "Welcome home! I hope you brought a big appetite. I just finished dinner.$1",
+  "Scarlett.14hearts.2": "You ate the whole plate in one bite!? Did you even taste any of that?$6",
+  "Scarlett.14hearts.3": "Well, anyway...$7#$b#I want to take a day trip with you and drive us over to a place called 'Go Goat Ranch' in Grampleton.$0#$b#It's a famous ranch with the coolest and cutest goats ever. I've always wanted to visit! How does that sound to you?$1",
+  "Scarlett.14hearts.4": "You're the best! If the weather's good tomorrow, we'll borrow my dad's truck back home in the suburbs. And if it doesn't hold up, we'll just wait for the next nice day.$0",
+  "Scarlett.14hearts.5": "Apparently there's a goat that lives on an island at 'Go Goat Ranch'.$0#$e#When the weather is nice let's go visit! We'll start our road trip at my dad's.",
+  "Scarlett.14hearts.6": "Thanks for letting us borrow your truck, papa! I won't get a scratch on it!$1",
+  "Scarlett.14hearts.7": "Treyvon: Haha, alright! You two have a safe trip. Please drive safely, honey.",
+  "Scarlett.14hearts.8": "Let's hit the road!$0",
+  "Scarlett.14hearts.9": "Wake up you sleepy head. We're here!$1",
+  "Scarlett.14hearts.10": "Go Goat Ranch is even better in person. I'm so happy to be here with you!$1",
+  "Scarlett.14hearts.11": "Wait, is that who I think it is!?$0",
+  "Scarlett.14hearts.12": "It's island goat!",
+  "Scarlett.14hearts.13": "You're so fluffy!",
+  "Scarlett.14hearts.14": "Alright, this is the main grazing area. I'm on a mission to find the cutest goat and give them a treat!$1#$b#Let's go over here. Follow me!$0",
+  "Scarlett.14hearts.15": "Shhh... they're sleeping.$1#$b#Let's find other goats who aren't taking an afternoon nap.$0",
+  "Scarlett.14hearts.16": "*gasp* This goat is the one! Hey, little fella...$1",
+  "Scarlett.14hearts.17": "*giggle* Well, I'm totally 'goated' out!$1#$b#I had a lot of fun. Let's head home.$0",
+  "Scarlett.14hearts.18": "If I could get away with it... I would have ran away with that baby goat.$0#$e#Oh, here's a large goat milk. They were handing them out at the ranch. I already drank mine![438]$0",
+
+  Ligne 696 - 727 :
+
+  Traduction :
+
+  //1.15 Scarlett Event Dialogue
+  "Scarlett.10hearts.01": "Salut, bonjour. Je me demandais si tu serais partante pour une randonnée aujourd'hui ? Je connais un super sentier près de chez moi.$0",
+  "Scarlett.10hearts.02": "Génial ! Passez me voir cet après-midi à Grampleton. J'espère que le beau temps va durer !$1",
+  "Scarlett.10hearts.03": "Je dois finir du travail et ensuite je te retrouve chez moi, d'accord ?$0#$e#À bientôt !$1",
+  "Scarlett.10hearts.04": "Hé, tu as réussi ! J'ai apporté des en-cas au cas où on aurait faim.$1#$b#On descend par ici et on tourne à gauche en sortant de la banlieue. Suis-moi !$0",
+  "Scarlett.10hearts.05": "C'est pour ça qu'on l'appelle 'Pondwood' !",
+  "Scarlett.10hearts.06": "Nous quittons le sentier ici.",
+  "Scarlett.10hearts.07": "Attention où tu met les pieds !",
+  "Scarlett.10hearts.08": "Laissez-moi d'abord vérifier l'échelle.",
+  "Scarlett.10hearts.09": "Très bien, tu peux venir !$1",
+  "Scarlett.10hearts.10": "Cet endroit est un désastre. Ça fait des années que je ne suis pas venue.$2#$b#On ne devrait pas entrer... ça semble trop dangereux, même pour moi. On est plus en sécurité ici.$7",
+  "Scarlett.10hearts.11": "Je ne sais pas qui a construit cette cabane dans les arbres. Je l'ai trouvée il y a longtemps en explorant et elle était abandonnée.$5#$b#J'avais l'habitude de traîner ici tout le temps, toute seule. Alors, avoir de la bonne compagnie, c'est sympa pour changer.$0",
+  "Scarlett.10hearts.12": "*rire* Comment s'est passée cette chanson ?... @ et Scarlett assise dans un arbre... K-I-S-S-I-N-G!$1",
+  "Scarlett.10hearts.13": "C'était une randonnée sympa. On devrait la refaire un jour !$0#$e#Imagine si on réparait la cabane dans les arbres. Tu es douée pour ce genre de choses, non ?$1",
+  "Scarlett.14hearts.1": "Bienvenue à la maison ! J'espère que tu as bon appétit. Je viens de finir de dîner.$1",
+  "Scarlett.14hearts.2": "Tu as mangé toute l'assiette en une bouchée ? As-tu seulement goûté à ça ?$6",
+  "Scarlett.14hearts.3": "Bon, bref...$7#$b#Je veux faire une excursion d'une journée avec toi et nous conduire à un endroit appelé 'Ranch des Chèvres' à Grampleton.$0#$b#C'est un ranch célèbre avec les chèvres les plus cool et les plus mignonnes qui soient. J'ai toujours rêvé d'y aller ! Qu'en penses-tu ?$1",
+  "Scarlett.14hearts.4": "Tu es le meilleur ! S'il fait beau demain, on empruntera le camion de mon père pour rentrer chez nous en banlieue. Et s'il ne tient pas le coup, on attendra le prochain beau temps.$0",
+  "Scarlett.14hearts.5": "Apparemment, il y a une chèvre qui vit sur une île au 'Ranch des Chèvre'.$0#$e#Quand il fera beau, allons la voir ! Nous commencerons notre road trip chez mon père.",
+  "Scarlett.14hearts.6": "Merci de nous avoir prêté ton camion, papa ! Je ne l'égratignerai pas !$1",
+  "Scarlett.14hearts.7": "Treyvon : Haha, d'accord ! Bon voyage. Conduis prudemment, ma puce.",
+  "Scarlett.14hearts.8": "Prenons la route !$0",
+  "Scarlett.14hearts.9": "Réveille-toi, tête endormie. On est là !$1",
+  "Scarlett.14hearts.10": "Le Ranch des Chèvre est encore mieux en vrai. Je suis tellement heureuse d'être ici avec toi !$1",
+  "Scarlett.14hearts.11": "Attends, c'est bien celui que je pense ?$0",
+  "Scarlett.14hearts.12": "C'est une chèvre de l'île",
+  "Scarlett.14hearts.13": "Tu es si douce !",
+  "Scarlett.14hearts.14": "Très bien, c'est la zone de pâturage principale. Je suis en mission pour trouver la chèvre la plus mignonne et lui donner une friandise !$1#$b#Allons par ici. Suis-moi !$0",
+  "Scarlett.14hearts.15": "Chuuut... ils dorment.$1#$b#Trouvons d'autres chèvres qui ne font pas la sieste l'après-midi.$0",
+  "Scarlett.14hearts.16": "*gasp* Cette chèvre est celle-là ! Hé, petit gars...$1",
+  "Scarlett.14hearts.17": "*rire* Eh bien, je suis complètement 'goated' !$1#$b#Je me suis bien amusée. Rentrons à la maison..$0",
+  "Scarlett.14hearts.18": "Si je pouvais partir avec l'un d'eux... Je me serais enfuie avec ce chevreau.$0#$e#Oh, voilà un grand lait de chèvre. Ils en distribuaient au ranch. J'ai déjà bu le mien ![438]$0",
+
+
+##############################################################################################################################################################
+
+  Ligne 730 / 732 / 736 / 742 /744 :
+
+  Original :
+
+  //1.15 Scarlett Festival Dialogue
+  "Scarlett.Egg": "Hey, did you see that there's goat milk? Someone must've read my mind!$1",
+  [...]
+  "Scarlett.Flower": "I wish it smelled this good all year long!$0",
+  [...]
+  "Scarlett.Jellyfish": "The dock got kinda crowded so we're just hangin' back here on the beach.$0",
+  [...]
+  "Scarlett.Ice": "I bet this place makes for a great camping spot durin' the summer.$1#$e#With its beautiful surroundings and pleasant weather... it would be perfect for setting up a tent!$0",
+  [...]
+  "Scarlett.Christmas": "I'm waiting for my turn to pet the dog.$0",
+  [...]
+
+  Ligne 729 - 745 :
+
+  Traduction :
+
+  //1.15 Scarlett Festival Dialogue
+  "Scarlett.Egg": "Hé, t'as vu qu'il y a du lait de chèvre ? Quelqu'un a dû lire dans mes pensées !$1",
+  [...]
+  "Scarlett.Flower": "J'aimerais que ça sente aussi bon toute l'année !$0",
+  [...]
+  "Scarlett.Jellyfish": "Le quai est devenu un peu bondé, alors nous restons ici sur la plage.$0",
+  [...]
+  "Scarlett.Ice": "Je parie que cet endroit est un endroit idéal pour camper pendant l'été.$1#$e#Avec son environnement magnifique et son climat agréable... ce serait parfait pour installer une tente !$0",
+  [...]
+  "Scarlett.Christmas": "J'attends mon tour pour caresser le chien$0",
+  [...]
+
+
+##############################################################################################################################################################
+
+  Ligne 747 - 778 :
+
+  Original :
+
+  //1.15 Scarlett Miscellaneous Dialogue
+  "Summit.Dialogue.Scarlett.01": "It was really hard for me to move out of my ol' dad's house back in Grampleton... but I'm glad I did.$0#$b#Every day of my life since then has been a wild adventure.$1",
+  "Summit.Dialogue.Scarlett.02": "Honestly, this all feels like a dream come true. And right now... I just want to hold you tight and enjoy this view together.$4",
+  "Sophia.MarriedScarlett": "I still remember the day you and Scarlett met each other. It's crazy you two are now married!$9#$e#I'm really really happy for you both.$1",
+  "Sophia.DivorcedScarlett": "Hey... what happened between you and Scarlett?$2#$e#I hope this doesn't make our friendship awkward...$2",
+  "Treyvon.MarriedScarlett": "%Treyvon: I love my little girl, @. Please take good care of her. You two are partners tackling life together now.#$e#%Treyvon: *sigh* I gotta say... this place sure is more quiet without her here.",
+  "Treyvon.DivorcedScarlett": "%Treyvon: Hey. I don't think it's a good idea for you to linger around here anymore.#$e#%Treyvon: Scarlett took the divorce really hard, @. Sorry. But you need to leave.",
+  "Hank.MarriedScarlett": "%Hank: Congratulations again, @. I wish you and Scarlett a happy life together.#$e#%Hank: ... I caught Treyvon crying in the garage earlier. He is so happy for you two but it takes a toll on a father.",
+  "Hank.DivorcedScarlett": "%Hank: I don't think this house will ever be the same now.#$e#%Hank: I don't believe it is wise for you to stick around.",
+  "Scarlett.Divorced": "I thought we agreed we wouldn't talk to each other anymore?$2#$e#%Scarlett looks away from you.",
+  "CommunityDay.Dialogue.224": "I tried inviting my dads, but they were super invested in the Tunnelers game. Maybe next time!$1",
+  "CommunityDay.Dialogue.225": "You should introduce me to some of the folks here sometime. I still don't know most of 'em here!$1",
+  "CommunityDay.Dialogue.226": "The Grampleton chicken poppers I brought today are a huge hit. I just hope Sophia saves some for everyone else.$1",
+  "CommunityDay.Dialogue.227": "I'm glad to be part of this community with you...$4",
+  "Scarlett.Engagement.1": "Hard to believe this isn't some kind of dream. I need to take some deep breathes!$4",
+  "Scarlett.Engagement.2": "I know I live far away... but I won't let that affect the connection we have.$0",
+
+  //1.15 Phone Calls
+    "Phone.Sophia": "Hey you! Did you watch the recent episode of Pink Princess Crusaders? I can't believe what happened - it changes everything!$1#$e#Anyway, I gotta go re-watch the episode to make sure I didn't miss anything. Bye! *click*$9",
+    "Phone.Morgan": "*giggle* H-hey... Hey! @! It's me, Morgan! I'm calling you from a crystal ball. Isn't that cool!?#$e#Oh, I gotta go. Magnus is coming. Bye!$1 *thump*",
+    "Phone.Haley": "Oh. My. God. Stacie, did you hear what Brad did? It's unforgivable. He's totally on my 'do not talk to list' now.$3#$b#... Wait. @? Is that you? Oh no... wrong number!$12#$b#Forget you heard anything... *click*$3",
+    "Phone.Camilla": "Hello dear, you must be surprised to hear my voice. We may not have phones in Castle Village, but we do have crystal balls for communication.$1#$b#The crimson sands are calling for your aid, @. You're certainly one of a kind...*thump*$0",
+    "Phone.Andy": "Hi, farmer. Are ya keepin' yourself busy? The farmin' life isn't always easy. Take breaks and don't wear yourself out.$0#$b#Never be afraid to get some dirt on ya. It's a sign of a hard workin' farmer! *click*$1",
+    "Phone.Susan": "Hi honey! I have to say, this is much easier than sending you a letter in the mail!#$b#I just wanted to call and check on you. You work so hard every day, so make sure to take breaks often and stay hydrated.$0#$b#Take care of yourself, alright? Visit me soon! *click*$1",
+    "Phone.Olivia": "@, darling! I was pleasantly surprised to hear you have a phone!! Life at home changes once you have a way to communicate with your friends.$0#$e#Don't be a stranger now, dear. My doors are always open to you. *click*$6",
+    "Phone.Victor": "@! I just finished reading an epic adventurer tale from a far away land and it reminded me of you!$1#$b#You're one of the bravest people I know. Stay safe out there! *click*$3",
+    "Phone.Morris": "Ah yes, @! Hello! I'm calling to inform you that you've been recognized by the higher ups at Joja HQ!$1#$b#You've done exceptional work to pave a way for a greater Stardew Valley.$0#$b#Continue to perform like this and you will be rewarded!... and so will I! Haha! *click*$5",
+    "Phone.Leah": "Hey, @! Did you know the best time to forage in spring is between the 15th and 18th? You can find a bunch of tasty, ripe berries all over Cindersap Forest.$0#$b#You might also be lucky enough to see a rainbow at the waterfalls!$1#$b#Anyway, I gotta get going. Bye! *click*$7",
+    "Phone.Alex": "Hi, @. I just finished eating a dozen eggs and I still want more!$0#$b#If you're raising chickens at %farm, I wouldn't mind taking some eggs off your hands!$1#$e#Well, gotta go. Cya! *click*$0",
+    "Phone.Lance": "Greetings, @. The life of an adventurer can be thrilling and eye opening, but also dangerous.#$b#Always be aware of your surroundings and come prepared. I wish you the best. *thump*",
+    "Phone.Leo": "*sqwak* Whoa... it worked! My parrot family said I could talk to you with this thing and they were right!$3#$b#This is great. I don't know what we should do now so...$0#$b#*sqwak* Maybe I will call you again later and we can talk about golden walnuts! *click*$1",
+    "Phone.Evelyn": "Hello, dear. It's very kind you take time out of your busy days to visit my grandson, George and I.$0#$b#Feel free to drop by anytime. You might even find a batch of fresh cookies waiting just for you!$1#$b#I hope you have a wonderful day, @. Goodbye. *click*$0",
+
+  Ligne 747 - 778 :
+
+  Traduction :
+
+  //1.15 Scarlett Miscellaneous Dialogue
+  "Summit.Dialogue.Scarlett.01": "C'était vraiment dur pour moi de quitter la maison de mon vieux père à Grampleton... mais je suis content de l'avoir fait.$0#$b#Chaque jour de ma vie depuis ce jour, a été une aventure folle.$1",
+  "Summit.Dialogue.Scarlett.02": "Honnêtement, tout ça ressemble à un rêve devenu réalité. Et là, tout de suite... J'ai juste envie de te serrer fort et de profiter de cette vue ensemble.$4",
+  "Sophia.MarriedScarlett": "Je me souviens encore du jour où toi et Scarlett vous êtes rencontrées. C'est fou que vous soyez maintenant mariées ! $9#$e#Je suis vraiment très heureuse pour vous deux.$1",
+  "Sophia.DivorcedScarlett": "Hé... que s'est-il passé entre toi et Scarlett ?$2#$e#J'espère que ça ne rendra pas notre amitié gênante...$2",
+  "Treyvon.MarriedScarlett": "%TTreyvon : J'adore ma petite fille, @. Prends bien soin d'elle. Vous êtes partenaires et vous affrontez la vie ensemble maintenant.#$e#%Treyvon : *soupir* Je dois dire... cet endroit est vraiment plus calme sans elle.",
+  "Treyvon.DivorcedScarlett": "%Treyvon : Hé. Je ne pense pas que ce soit une bonne idée que tu traînes ici plus longtemps.#$e#%Treyvon : Scarlett a pris le divorce très mal, @. Désolé. Mais tu dois partir.",
+  "Hank.MarriedScarlett": "%Hank : Félicitations encore, @. Je vous souhaite à toi et à Scarlett une vie heureuse ensemble.#$e#%Hank : ... J'ai surpris Treyvon en train de pleurer dans le garage tout à l'heure. Il est si heureux pour vous deux, mais ça a des conséquences pour un père.",
+  "Hank.DivorcedScarlett": "%Hank : Je ne pense pas que cette maison sera un jour la même maintenant.#$e#%Hank : Je ne crois pas qu'il soit sage pour toi de rester dans le coin.",
+  "Scarlett.Divorced": "Je pensais que nous avions convenu de ne plus nous parler ?$2#$e#%Scarlett détourne le regard de toi.",
+  "CommunityDay.Dialogue.224": "J'ai essayé d'inviter mes pères, mais ils étaient très investis dans le jeu Tunnelers. Peut-être la prochaine fois !$1",
+  "CommunityDay.Dialogue.225": "Tu devrais me présenter à quelques personnes ici un jour. Je ne connais pas encore la plupart d'entre elles !$1",
+  "CommunityDay.Dialogue.226": "Les Poulets Poppers de Grampleton que j'ai achetés aujourd'hui ont eu un franc succès. J'espère juste que Sophia en gardera pour tout le monde.$1",
+  "CommunityDay.Dialogue.227": "Je suis heureuse de faire partie de cette communauté avec vous...$4",
+  "Scarlett.Engagement.1": "Difficile de croire que ce n'est pas un rêve. J'ai besoin de respirer profondément !$4",
+  "Scarlett.Engagement.2": "Je sais que j'habite loin... mais je ne laisserai pas cela affecter la connexion que nous avons.$0",
+
+  //1.15 Phone Calls
+  "Phone.Sophia": "Salut toi ! Tu as regardé le dernier épisode de Pink Princess Crusaders ? Je n'arrive pas à croire ce qui s'est passé ! Ça change tout !$1#$e#Bref, il faut que je revoie l'épisode pour être sûre de n'avoir rien raté. Au revoir ! *clic*$9",
+  "Phone.Morgan": "*rire* H-hey... Hey ! @! C'est moi, Morgan ! Je t'appelle depuis une boule de cristal. C'est pas cool ?!#$e#Oh, je dois y aller. Magnus arrive. Au revoir ! $1 *raccroche*",
+  "Phone.Haley": "Oh. Mon. Dieu. Stacie, tu as entendu ce que Brad a fait ? C’est impardonnable. Il est sur ma liste noire maintenant.$3#$b#... Attends. @ ? C’est toi ? Oh non... mauvais numéro !$12#$b#Oublie tout ce que tu as entendu... *clic*$3",
+  "Phone.Camilla": "Bonjour mon chéri, tu dois être surprise d'entendre ma voix. Nous n'avons peut-être pas de téléphone à au Village du Château, mais nous avons des boules de cristal pour communiquer. $1#$b#Les sables cramoisis appellent à ton aide, @. Tu es vraiment unique en ton genre... *coup*$0",
+  "Phone.Andy": "Salut, fermier. Tu t'occupes bien ? La vie de fermier n'est pas toujours facile. Fais des pauses et ne t'épuise pas.$0#$b#N'aie jamais peur de te salir. C'est le signe d'un fermier qui travaille dur ! *clic*$1",
+  "Phone.Susan": "Salut chérie ! Je dois dire que c'est bien plus facile que de t'envoyer une lettre par la poste !#$b#Je voulais juste t'appeler pour prendre de tes nouvelles. Tu travailles tellement dur tous les jours, alors assure-toi de faire des pauses souvent et de rester hydratée.$0#$b#Prends soin de toi, d'accord ? Reviens me voir bientôt ! *clic*$1",
+  "Phone.Olivia": "@, mon chéri ! J'ai été agréablement surprise d'apprendre que tu as un téléphone ! La vie à la maison change dès qu'on peut communiquer avec ses amis.$0#$e#Ne sois pas une étrangère, ma chérie. Mes portes te sont toujours ouvertes. *clic*$6",
+  "Phone.Victor": "@! Je viens de finir de lire un conte d'aventurier épique d'un pays lointain et ça m'a fait penser à toi !$1#$b# Tu es l'une des personnes les plus courageuses que je connaisse. Prends soin de toi ! *clic*$3",
+  "Phone.Morris": "Ah oui, @ ! Bonjour ! Je vous appelle pour vous informer que vous avez été reconnu par les hauts responsables du QG de Joja !$1#$b#Vous avez fait un travail exceptionnel pour ouvrir la voie à un meilleur Stardew Valley.$0#$b#Continuez à faire comme ça et vous serez récompensé !... et moi aussi ! Haha ! *clic*$5",
+  "Phone.Leah": "Salut @ ! Tu savais que le meilleur moment pour cueillir au printemps, c'est entre le 15 et le 18 ? Tu peux trouver plein de baies savoureuses et mûres partout dans la forêt de Sève-Cendre.$0#$b#Tu auras peut-être aussi la chance de voir un arc-en-ciel aux cascades !$1#$b#Bref, il faut que j'y aille. Au revoir ! *clic*$7",
+  "Phone.Alex": "Salut, @. Je viens de finir de manger une douzaine d'œufs et j'en veux encore !$0#$b#Si tu élève des poules à %farm, ça ne me dérangerait pas de te prendre quelques œufs sur les bras !$1#$e#Bon, je dois y aller. À plus ! *clic*$0",
+  "Phone.Lance": "Salutations, @. La vie d'aventurier peut être palpitante et révélatrice, mais aussi dangereuse.#$b#Soyez toujours attentif à votre environnement et préparez-vous. Je vous souhaite le meilleur. *raccroche*",
+  "Phone.Leo": "**sqwak* Waouh... ça a marché ! Ma famille de perroquets m'a dit que je pouvais te parler avec ce truc et ils avaient raison !$3#$b#C'est génial. Je ne sais pas quoi faire maintenant alors...$0#$b#*sqwak* Je te rappellerai peut-être plus tard et on pourra parler de noix dorées ! *clic*$1",
+  "Phone.Evelyn": "Bonjour, mon cher. C’est très gentil de prendre le temps, malgré vos journées chargées, de rendre visite à mon petit-fils, George et moi.$0#$b#N’hésitez pas à passer quand vous voulez. Vous pourriez même trouver un lot de biscuits frais qui vous attend !$1#$b#J’espère que vous passerez une excellente journée, @. Au revoir. *clic*$0",
+
+
+##############################################################################################################################################################
+
+  Ligne 780 - 875 :
+
+  Original :
+
+  //1.15 Henchman Dialogue
+    "Name.Henchman": "Henchman",
+    "Henchman.Gifts.Loved": "*sniff*...*sniff*... It smells good! Gimme it!$1",
+    "Henchman.Gifts.Liked": "Hmm... this is nice. I'll find a spot for it in my home.$0",
+    "Henchman.Gifts.Disliked": "What am I supposed to do with this, human?...$2",
+    "Henchman.Gifts.Hated": "*sniff*...*sniff*... Greee-ah!! I don't like it!$2",
+    "Henchman.Gifts.Neutral": "A gift for me? Thanks.$0",
+    "Henchman.Gifts.StardropTea": "Stardrop Tea!? Gimme it now!$1#$b#*slurp*... *slurp*...$0#$b#It's tasty! Very very TASTY!!$1",
+    "Henchman.Gifts.VoidDelight": "I could smell this delightful void dish on you hoping you'd give it to me!... I can't resist! *munch* *munch*$1",
+    "Henchman.Gifts.VoidShard": "A powerful foreign stone!?... I know of someone who'll appreciate this. Thanks!$1",
+    "Henchman.Gifts.VoidMayo": "Void Mayonnaise!? You spoil me, human! *munch* *munch*$1",
+    "Henchman.Gifts.MarshTonic": "*sniff*... Gweee!! Good job brewing this tonic! I'll take it now.$1",
+    "Henchman.Dialogue.BeforeHomeRepaired": "I don't want to sleep on the dirt anymore...$2",
+    "Henchman.Dialogue.1": "Hello, human. Did you bring me gifts?$0",
+    "Henchman.Dialogue.2": "This home may not be much, but it's mine.$0#$e#For dinner... mushroom soup and mashed swamp flower!! Gwee!$1",
+    "Henchman.Dialogue.3": "My cousin lives in a far away place called 'Castle Village'. His name is Gribble.$0#$e#He works for a witch too. I believe her name is... Camika? Camalla? Camina?... I forget.$0",
+    "Henchman.Dialogue.4": "*sniff*... *sniff*... You have a unique scent. It tells many stories.$0",
+    "Henchman.Dialogue.5": "*snarl* Leave some swamp forage for me! Don't take it all!$1",
+    "Henchman.Dialogue.6": "All kinds of mushrooms call the marshlands their home... They're great potion ingredients!$0#$e#I make good money on the side! Gwahahaha!$1",
+    "Henchman.Dialogue.7": "Sorry about the threats. I didn't know how else to get you to help me.$0#$e#I don't have any friends.$0",
+    "Henchman.Dialogue.8": "My former master provided a good benefits package...$2",
+    "Henchman.Dialogue.9": "I try reading every day. One year I'll finish the red book I 'borrowed'.$0#$e#Humans read, right? Got any pointers?$0",
+    "Henchman.Dialogue.10": "You must be strong to survive the marshlands. Monsters don't like your kind.$0#$e#Oh, me? They leave me alone. It's nice.$0",
+    "Henchman.Dialogue.11": "What business does a human have here anyway? Dangerous place the marshlands are...$0",
+    "Henchman.Dialogue.12": "I hope you find the dark shrines useful... go cause trouble! Gwee!$1",
+    "Henchman.Dialogue.13": "I miss my old job.$2#$e#I need to think of a good idea to get it back.$0",
+    "Henchman.Dialogue.14": "You are a strange human. Your gifts make me judge you differently.$0#$e#I will do something nice for you someday.$0",
+    "Henchman.Dialogue.15": "One day I will leave this place to practice magic.$0#$e#Need more money first!$1",
+    "Henchman.Dialogue.16": "*slurp*...*slurp*...*crunch*...$1#$e#%He's busy eating void mayonnaise while awkwardly making eye contact.",
+    "Henchman.Dialogue.17": "Several jars of void mayonnaise are under my bed - always there incase I need a midnight snack.$0#$e#They aren't for sale! Gwee!!!$1",
+    "Henchman.Dialogue.18": "You have been a good friend. Here... take some of my precious! [308]",
+    "Henchman.Dialogue.19": "I was prepared to move on from my home, but you helped save it. Thanks.$0#$e#If it didn't work out... I'd move in with my cousin.",
+    "Henchman.Dialogue.20": "Many strange structures around here. Remnants of an old civilization...$0#$e#I hope they liked roasted alligator as much as I do!$1",
+    "Henchman.Event.Death": "*sniff*... *sniff*... Human!?$0",
+    "Henchman.Event.Death2": "Henchman saved me and didn't ask for anything in return... ",
+    "Henchman.Questline.01": "A Witch Offering",
+    "Henchman.Questline.02": "The Henchman lost his home and job because of me. To please the witch, I must venture into the Marshlands and collect potion ingredients.",
+    "Henchman.Questline.03": "Drop off 50 swamp flowers to Henchman's home.",
+    "Henchman.Questline.04": "Drop off 12 red mushrooms to Henchman's home.",
+    "Henchman.Questline.05": "Drop off 12 purple mushrooms to Henchman's home.",
+    "Henchman.Questline.06": "Drop off 12 morels to Henchman's home.",
+    "Henchman.Questline.07": "Drop off 12 chanterelles to Henchman's home.",
+    "Henchman.Event.01": "GWAAAAH!!$1",
+    "Henchman.Event.02": "You're much quieter than you appear. I didn't expect you'd actually show up.$0",
+    "Henchman.Event.03": "My boss was furious that I allowed you into her home. I took all the blame for that stolen ink...$2#$b#And now... I sleep on the dirt...$2",
+    "Henchman.Event.04": "You will help me get my house and job back...$0#$b#Or else my friends will pay %farm a... what you humans call... a 'visit'.$1",
+    "Henchman.Event.05": "I need dozens of different mushrooms found here and a large basket of swamp flowers. I'll give you a list.$0#$b#I'm gonna offer these to show my loyalty and get my job and house back! Gwee!$1",
+    "Henchman.Event.06": "Huh. So this is what your place looks like. It's too colorful. Hurts the eyes...$0#$b#Anyway. I just wanted to say thanks for helping me with my home.$0",
+    "Henchman.Event.07": "I didn't get my job back, so I suppose I need to come up with another way to prove my loyalty...$2",
+    "Henchman.Event.08": "Well, don't be a stranger. The land bridge to my home isn't underwater anymore.$0#$b#Visit me sometime with more delicious void mayonnaise! Gwee!$1",
+    "Henchman.Event.09": "*slurp*... *gulp*...$1",
+    "Henchman.Event.10": "Ah, human! Welcome to my humble home. I was just eating food in my special corner.$0",
+    "Henchman.Event.11": "Say, you look famished. I'll fix something up for you!$1",
+    "Henchman.Event.12": "I made you one of my favorites... 'void mayo sandwich'!$0",
+    "Henchman.Event.13": "Now... Eat it!$1",
+    "Henchman.Event.14": "Huh? You don't like it?$2",
+    "Henchman.Event.15": "Oh, yeah. I forget humans can't eat this stuff. I bet some 'void swamp tea' will help wash that down.$0",
+    "Henchman.Event.16": "*snarl* GWAAAAHAA!! No! Not on my floor!$2",
+    "Henchman.Event.17": "That's the last void mayo sandwich I give to you.$2#$e#I do appreciate you stuck around to help... clean up.$0",
+    "Henchman.Event.18": "Sorry about the whole poisoning thing from before... As an apology, I will teach you how to brew a new elixir. This one is edible. Promise!$0#$b#Follow me inside... Gwee!$1",
+    "Henchman.Event.19": "Look closely. This is the only potion I know how to make. It provides great buffs for adventurers.$0",
+    "Henchman.Event.20": "First, add a bunch of slimey goo. You can't find them here so you gotta go somewhere else. Gwee!$1",
+    "Henchman.Event.21": "Then trim the swamp flower petals like this.$0",
+    "Henchman.Event.22": "Gwee! Now take the swamp essence and SMASH them with a HAMMER!!!$1",
+    "Henchman.Event.23": "Sometimes there's a stubborn one. Poor fellow.$0#$b#SMASH IT HARDER!!!$1",
+    "Henchman.Event.24": "And finally... the secret ingredient.$0#$b#SUGAR!!!$1",
+    "Henchman.Event.25": "Drink up, human.$0",
+    "Henchman.Event.26": "Learned how to brew a 'Marsh Tonic'",
+    "Henchman.Event.27": "These potions aren't licensed by the ministry so... don't tell anyone about this, alright?$0",
+    "Henchman.Event.28": "Without sugar, you wouldn't be able to drink the 'marsh tonic'. You'd just make another mess on my floor.$0",
+    "Henchman.Event.29": "Thanks, human. You have a kind heart.$0",
+    "Henchman.Event.30": "...Yes. It's not the smartest thing I've done. I was just curious about potion brewing. I should've asked first.$2",
+    "Henchman.Event.31": "Perhaps you have a point. It isn't good to dawdle on the past...$2",
+    "Henchman.Event.32": "$q -1 null#(What should I say?)#$r -1 0 henchman_event1#I hope you get your job back in the future.#$r -1 0 henchman_event2#You stole books from your employer?#$r -1 0 henchman_event3#Maybe it's time to move on.",
+    "Henchman.Event.33": "Hello, human. I'm gathering swamp flowers. This spot always has the best ones.$0",
+    "Henchman.Event.34": "Life has been challenging since I lost my job. Now, I make a living foraging in the Marshlands. It doesn't bring in much coin but I can make ends meet.$0",
+    "Henchman.Event.35": "*sigh*... I blamed you for my firing, but it's really my own fault. I've made a lot of mistakes while on the job, and I guess it all finally caught up with me..$2#$b#I don't deserve to be a witch's henchman.$2",
+    "Henchman.Event.36": "If I ever get my job back, I promise to be a better employee. I won't accept bribes, be late, leave early, slack off, or steal....$2#$b#Sometimes I 'borrowed' books from work and never returned them. I still have the red one.$0",
+    "Henchman.Event.37": "I'm glad to call you a friend. I don't have conversation with anyone, except for my cousin but it isn't often. It gets lonely out here.$0",
+    "Henchman.Event.38": "Gwee! The locals tracked your scent! You must run, human!$1",
+    "Henchman.Event.39": "Guess it's time to get back to work. And for dinner tonight? Mushroom soup, if I can find more chanterelles and morels!$0#$b#Or maybe alligator jerky if I manage to catch one!$1",
+    "Henchman.Event.40": "Hey, friend. Want to help me forage the rest of these flowers? You'd help me make a living so I can eat.$0",
+    "Henchman.Event.41": "Creatures of the Marshlands don't harm me, but they also won't help out. I suppose you could say we have a 'mutual understanding'. Gwee.$0#$e#Thank you for checking in on me there while I was foraging and letting me express my feelings. Even though I'm a goblin, your compassion shows.$0",
+    "Henchman.Event.42": "Gwee! Your farmland is nicer on the eyes under the cloak of night.$0#$b#I was almost caught by this human wearing leaves for clothes on my way here, but I hid in the shadows!$1",
+    "Henchman.Event.43": "Anyway, I am here to tell you that I finally finished my tribute to my former employer. It only took a month of hard work and my life savings.$0#$b#Visit my home in the Marshlands tomorrow so I may show you!!!$1",
+    "Henchman.Event.44": "Yes, you're here! Gwee!$1#$b#There's a new pathway behind my house. Follow me.$0",
+    "Henchman.Event.45": "Well, what do you think? I summoned new dark shrines using knowledge I learned from the red book.$0#$b#... There were also strange voices in my head telling me what to do. But that isn't important.$0",
+    "Henchman.Event.46": "If you bring the correct offerings to the shrines... weird things can happen!$1#$b#I'm hoping this tribute will prove to my former employer that I-",
+    "Henchman.Event.47": "Gwee! I gotta go! Outta the way, human!$1",
+    "Henchman.Event.48": "There's five new dark shrines, but is it a good idea to interact with them?...",
+    "Henchman.Event.49": "I got my job back and you have new dark shrines to cause chaos with. This couldn't have turned out better.$0#$e#I had to return the red book. I'll be a better employee starting... now! I won't take this second chance for granted.$0",
+    "Henchman.Event.50": "Hello, human. If you wish to pass, you gotta pay the price: one jar of your finest void mayonnaise...$0",
+    "Henchman.Event.51": "Gwahahaha! I jest! I don't take bribes anymore. I am a changed goblin!$1#$b#I'm not allowed to let anyone through here, but my boss has made an exception for you. That could be either a good thing or a bad thing.",
+    "Henchman.Event.52": "Well, come on now.$0",
+    "Henchman.Event.53": "Don't be a stranger, @. I can always use the company and you know where to find me. The Marshlands will always welcome you. Gwee!$0",
+    "Henchman.Event.54": "It seems my boss has taken an interest in you.$0#$e#Oh, why? I can't tell you. I have orders to follow! Wouldn't want to be out of the job again.$0",
+
+  Ligne 780 - 875 :
+
+  Traduction :
+
+  //1.15 Henchman Dialogue
+  "Name.Henchman": "Henchman",
+  "Henchman.Gifts.Loved": "*renifle*...*renifle*... Ça sent bon ! Donne-le-moi !$1",
+  "Henchman.Gifts.Liked": "Hmm... c'est sympa. Je vais lui trouver une place chez moi.$0",
+  "Henchman.Gifts.Disliked": "Que suis-je censé faire avec ça, humain ?...$2",
+  "Henchman.Gifts.Hated": "*renifle*...*renifle*... Génial !! J'aime pas ça !$2",
+  "Henchman.Gifts.Neutral": "Un cadeau pour moi ? Merci.$0",
+  "Henchman.Gifts.StardropTea": "Du thé Stardrop!? Donne-le-moi maintenant!$1#$b#*slurp*... *slurp*...$0#$b#C'est délicieux! Très très délicieux !!$1",
+  "Henchman.Gifts.VoidDelight": "Je pouvais sentir ce délicieux plat du vide sur toi en espérant que tu me le donnerais !... Je ne peux pas résister ! *mâche* *mâche*$1",
+  "Henchman.Gifts.VoidShard": "Une pierre étrangère puissante !?... Je connais quelqu'un qui apprécierait ça. Merci !$1",
+  "Henchman.Gifts.VoidMayo": "De la Mayonnaise du Vide !? Tu me gâtes, humain ! *mâche* *mâche*$1",
+  "Henchman.Gifts.MarshTonic": "*renifle*... Gweee !! Bravo pour ce tonic ! Je le prends tout de suite.$1",
+  "Henchman.Dialogue.BeforeHomeRepaired": "Je ne veux plus dormir sur la terre...$2",
+  "Henchman.Dialogue.1": "Bonjour, humain. M'as-tu apporté des cadeaux ?$0",
+  "Henchman.Dialogue.2": "Cette maison n'est peut-être pas grand-chose, mais elle est à moi.$0#$e#Pour le dîner... soupe aux champignons et purée de fleurs des marais !! Gwee!$1",
+  "Henchman.Dialogue.3": "Mon cousin vit dans un endroit lointain appelé 'Village du Château'. Il s'appelle Gribble.$0#$e#Il travaille aussi pour une sorcière. Je crois qu'elle s'appelle... Camika ? Camalla ? Camina ?... J'ai oublié.$0",
+  "Henchman.Dialogue.4": "*renifle*... *renifle*... Votre odeur est unique. Elle raconte de nombreuses histoires.$0",
+  "Henchman.Dialogue.5": "*grognement* Laissez-moi un peu de fourrage des marais ! Ne prenez pas tout !$1",
+  "Henchman.Dialogue.6": "Toutes sortes de champignons ont élu domicile dans les marais... Ce sont d'excellents ingrédients pour les potions !$0#$e#Je gagne bien ma vie en plus ! Gwahahaha !$1",
+  "Henchman.Dialogue.7": "Désolé pour les menaces. Je ne savais pas comment faire autrement pour que tu m'aides.$0#$e#Je n'ai pas d'amis.$0",
+  "Henchman.Dialogue.8": "Mon ancien maître m'offrait un bon ensemble d'avantages sociaux...$2",
+  "Henchman.Dialogue.9": "J'essaye de lire tous les jours. Un jour, je finirai le livre rouge que j'ai 'emprunté'. Les humains lisent, n'est-ce pas ? Vous avez des conseils ?$0",
+  "Henchman.Dialogue.10": "Il faut être fort pour survivre dans les marais. Les monstres n'aiment pas les gens comme toi.$0#$e#Oh, moi ? Ils me laissent tranquille. C'est gentil.$0",
+  "Henchman.Dialogue.11": "Que fait un humain ici ? Les marais sont un endroit dangereux...$0",
+  "Henchman.Dialogue.12": "J'espère que vous trouverez les sanctuaires sombres utiles... allez semer le trouble ! Gwee !$1",
+  "Henchman.Dialogue.13": "Mon ancien travail me manque.$2#$e#Je dois trouver une bonne idée pour le récupérer.$0",
+  "Henchman.Dialogue.14": "Tu es un être humain étrange. Tes cadeaux me font te juger différemment.$0#$e#Je ferai quelque chose de bien pour toi un jour.$0",
+  "Henchman.Dialogue.15": "Un jour, je quitterai cet endroit pour pratiquer la magie.$0#$e#J'ai d'abord besoin de plus d'argent !$1",
+  "Henchman.Dialogue.16": "*slurp*...*slurp*...*crunch*...$1#$e#%Il est occupé à manger de la mayonnaise du Vide tout en établissant un contact visuel maladroit.",
+  "Henchman.Dialogue.17": "Plusieurs pots de Mayonnaise du Vide sont sous mon lit - toujours là au cas où j'aurais besoin d'une collation de minuit.$0#$e#Ils ne sont pas à vendre ! Gwee !!!$1",
+  "Henchman.Dialogue.18": "Tu as été un bon ami. Tiens... prends un peu de mon précieux ! [308]",
+  "Henchman.Dialogue.19": "J'étais prêt à quitter ma maison, mais vous m'avez aidé à la sauver. Merci.$0#$e#Si ça ne marchait pas... j'emménagerais chez mon cousin.",
+  "Henchman.Dialogue.20": "De nombreuses structures étranges par ici. Vestiges d'une ancienne civilisation...$0#$e#J'espère qu'ils ont aimé l'alligator rôti autant que moi !$1",
+  "Henchman.Event.Death": "*renifle*... *renifle*... Humain!?$0",
+  "Henchman.Event.Death2": "Henchman m'a sauvé et n'a rien demandé en retour... ",
+  "Henchman.Questline.01": "Une offrande de sorcière",
+  "Henchman.Questline.02": "Henchman a perdu sa maison et son travail à cause de moi. Pour faire plaisir à la sorcière, je dois m'aventurer dans les Marais et récupérer les ingrédients d'une potion.",
+  "Henchman.Questline.03": "Déposez 50 fleurs des marais chez Henchman.",
+  "Henchman.Questline.04": "Déposez 12 champignons rouges chez Henchman.",
+  "Henchman.Questline.05": "Déposez 12 champignons violets chez Henchman.",
+  "Henchman.Questline.06": "Déposez 12 morilles chez Henchman.",
+  "Henchman.Questline.07": "Déposez 12 girolles chez Henchman.",
+  "Henchman.Event.01": "GWAAAAH!!$1",
+  "Henchman.Event.02": "Tu es bien plus silencieux que tu n'en as l'air. Je ne m'attendais pas à ce que tu viennes.$0",
+  "Henchman.Event.03": "Ma patronne était furieuse que je t'aie laissé entrer chez elle. J'ai pris toute la responsabilité du vol d'encre...$2#$b#Et maintenant... je dors à même le sol... $2",
+  "Henchman.Event.04": "Vous m'aiderez à récupérer ma maison et mon travail... $0#$b# Sinon mes amis paieront à %farm une... ce que vous, les humains, appelez... une 'visite'..$1",
+  "Henchman.Event.05": "J'ai besoin de douzaines de champignons différents trouvés ici et d'un grand panier de fleurs des marais. Je vais vous donner une liste.$0#$b#Je vais vous les offrir pour montrer ma loyauté et récupérer mon travail et ma maison ! Gwee !$1",
+  "Henchman.Event.06": "Hein. Voilà à quoi ressemble ton appartement. C'est trop coloré. Ça fait mal aux yeux... $0#$b#Bref. Je voulais juste te remercier de m'avoir aidé avec ma maison.$0",
+  "Henchman.Event.07": "Je n'ai pas récupéré mon travail, donc je suppose que je dois trouver un autre moyen de prouver ma loyauté... $2",
+  "Henchman.Event.08": "Eh bien, ne soyez pas un inconnu. Le pont terrestre menant à chez moi n'est plus sous l'eau.$0#$b#Rendez-moi visite un de ces jours avec encore plus de délicieuse mayonnaise du vide ! Gwee !$1",
+  "Henchman.Event.09": "*slurp*... *gulp*...$1",
+  "Henchman.Event.10": "Ah, humain ! Bienvenue dans mon humble demeure. Je mangeais justement dans mon coin.$0",
+  "Henchman.Event.11": "Dis, tu as l'air affamé. Je vais te préparer quelque chose !$1",
+  "Henchman.Event.12": "Je t'ai fait un de mes préférés... 'sandwich à la Mayonnaise du Vide' !$0",
+  "Henchman.Event.13": "Maintenant... Mange-le !$1",
+  "Henchman.Event.14": "Hein ? Tu n'aimes pas ça ?$2",
+  "Henchman.Event.15": "Oh, oui. J'avais oublié que les humains ne peuvent pas manger ça. Je parie qu'un peu de thé des marais du Néant fera passer ça.$0",
+  "Henchman.Event.16": "*grognement* GWAAAAHAA !! Non ! Pas sur mon sol !$2",
+  "Henchman.Event.17": "C'est le dernier sandwich à la mayonnaise vide que je te donne.$2#$e#J'apprécie que tu sois resté pour aider... à nettoyer.$0",
+  "Henchman.Event.18": "Désolé pour l'histoire d'empoisonnement de tout à l'heure... Pour m'excuser, je vais t'apprendre à préparer un nouvel élixir. Celui-ci est comestible. Promis !$0#$b#Suis-moi à l'intérieur... Gwee!$1",
+  "Henchman.Event.19": "Regardez attentivement. C'est la seule potion que je sais préparer. Elle procure de formidables bonus aux aventuriers.$0",
+  "Henchman.Event.20": "D'abord, ajoute un tas de matière visqueuse. Tu n'en trouves pas ici, alors vas-y. Gwee !$1",
+  "Henchman.Event.21": "Ensuite, coupez les pétales de fleurs des marais comme ceci.$0",
+  "Henchman.Event.22": "Gwee ! Maintenant, prenez l'essence du marais et ÉCRASEZ-les avec un MARTEAU !!!$1",
+  "Henchman.Event.23": "Parfois, il y en a un têtu. Pauvre gars.$0#$b#ÉCRASE-LE PLUS FORT !!!$1",
+  "Henchman.Event.24": "Et enfin... l'ingrédient secret.$0#$b#DU SUCRE!!$1",
+  "Henchman.Event.25": "Bois, humain.$0",
+  "Henchman.Event.26": "J'ai appris à préparer un 'Tonique des Marais'",
+  "Henchman.Event.27": "Ces potions ne sont pas autorisées par le ministère, alors... n'en parlez à personne, d'accord ?$0",
+  "Henchman.Event.28": "Sans sucre, tu ne pourrais pas boire le 'Tonique des marais'. Tu ne ferais que salir encore une fois mon sol.$0",
+  "Henchman.Event.29": "Merci, humain. Tu as bon cœur.$0",
+  "Henchman.Event.30": "...Oui. Ce n'est pas la chose la plus intelligente que j'ai faite. J'étais juste curieux de savoir comment préparer des potions. J'aurais dû demander d'abord.$2",
+  "Henchman.Event.31": "Vous avez peut-être raison. Il n'est pas bon de s'attarder sur le passé...$2",
+  "Henchman.Event.32": "$q -1 null#(Que dois-je dire ?)#$r -1 0 henchman_event1#J'espère que tu retrouveras ton travail à l'avenir.#$r -1 0 henchman_event2#Tu vole des livres à ton employeur ?#$r -1 0 henchman_event3#Il est peut-être temps de passer à autre chose.",
+  "Henchman.Event.33": "Bonjour, humain. Je cueille des fleurs des marais. C'est toujours ici qu'il y en a les plus belles.$0",
+  "Henchman.Event.34": "La vie est difficile depuis que j'ai perdu mon emploi. Maintenant, je gagne ma vie en cueillant dans les Marais. Ça ne rapporte pas beaucoup d'argent, mais j'arrive à joindre les deux bouts.$0",
+  "Henchman.Event.35": "*soupir*... Je t'ai reproché mon licenciement, mais c'est vraiment de ma faute. J'ai fait beaucoup d'erreurs au travail, et je crois que tout ça m'a finalement rattrapé...$2#$b#Je ne mérite pas d'être l'homme de main d'une sorcière.$2",
+  "Henchman.Event.36": "Si jamais je récupère mon travail, je promets d'être un meilleur employé. Je n'accepterai pas de pots-de-vin, je ne serai pas en retard, je ne partirai pas plus tôt, je ne me relâcherai pas et je ne volerai pas...$2#$b#Parfois, j'empruntais des livres au travail et je ne les rendais jamais. J'ai toujours le rouge.$0",
+  "Henchman.Event.37": "Je suis heureux de vous compter parmi mes amis. Je ne parle à personne, sauf à mon cousin, mais ce n'est pas fréquent. On se sent seul ici.$0",
+  "Henchman.Event.38": "Gwee ! Les habitants ont repéré ton odeur ! Tu dois courir, humain !$1",
+  "Henchman.Event.39": "Je suppose qu'il est temps de retourner au travail. Et pour le dîner ce soir ? Une soupe aux champignons, si je trouve plus de girolles et de morilles ! $0#$b# Ou peut-être de la viande séchée d'alligator si j'arrive à en attraper un !$1",
+  "Henchman.Event.40": "Dis donc, l'ami. Tu veux m'aider à cueillir le reste de ces fleurs ? Tu m'aiderais à gagner ma vie pour pouvoir manger.$0",
+  "Henchman.Event.41": "Les créatures des Marais ne me font aucun mal, mais elles ne m'aident pas non plus. On pourrait dire qu'on a une 'compréhension mutuelle'. Gwee.$0#$e#Merci d'être venu me voir pendant que je fouillais et de m'avoir laissé exprimer mes sentiments. Même si je suis un gobelin, ta compassion est palpable.$0",
+  "Henchman.Event.42": "Gwee!  Vos terres agricoles sont plus belles à regarder sous le manteau de la nuit.$0#$b#J'ai failli me faire surprendre par cet humain vêtu de feuilles en chemin, mais je me suis caché dans l'ombre !$1",
+  "Henchman.Event.43": "Bref, je suis là pour vous annoncer que j'ai enfin terminé mon hommage à mon ancien employeur. Il ne m'a fallu qu'un mois de travail acharné et toutes mes économies.$0#$b#Viens visiter ma maison dans les Marais demain pour que je te la montre !!!$1",
+  "Henchman.Event.44": "Oui, vous êtes là ! Gwee !$1#$b#Il y a un nouveau chemin derrière ma maison.$0",
+  "Henchman.Event.45": "Eh bien, qu'en penses-tu ? J'ai invoqué de nouveaux sanctuaires obscurs grâce aux connaissances du livre rouge.$0#$b#... Il y avait aussi d'étranges voix dans ma tête qui me disaient quoi faire. Mais ce n'est pas important.$0",
+  "Henchman.Event.46": "Si vous apportez les bonnes offrandes aux sanctuaires... des choses étranges peuvent arriver !$1#$b#J'espère que cet hommage prouvera à mon ancien employeur que je-",
+  "Henchman.Event.47": "Gwee ! Je dois y aller ! Dégage, humain !$1",
+  "Henchman.Event.48": "Il y a cinq nouveaux sanctuaires sombres, mais est-ce une bonne idée d'interagir avec eux ?...",
+  "Henchman.Event.49": "J'ai récupéré mon travail et vous avez de nouveaux sanctuaires sombres pour semer le chaos. Ça n'aurait pas pu mieux se passer.$0#$e#J'ai dû rendre le livre rouge. Je serai un meilleur employé dès maintenant ! Je ne prendrai pas cette seconde chance pour acquise.$0",
+  "Henchman.Event.50": "Bonjour, humain. Si tu veux passer, tu dois payer le prix : un pot de ta meilleure Mayonnaise du Vide...$0",
+  "Henchman.Event.51": "Gwahahaha ! Je plaisante ! Je n'accepte plus de pots-de-vin. Je suis un gobelin transformé !$1#$b#Je n'ai pas le droit de laisser passer qui que ce soit ici, mais mon patron a fait une exception pour vous. Ça pourrait être une bonne ou une mauvaise chose.",
+  "Henchman.Event.52": "Eh bien, allez maintenant.$0",
+  "Henchman.Event.53": "Ne sois pas un inconnu, @. Je peux toujours avoir besoin de ta compagnie et tu sais où me trouver. Les Marais t'accueilleront toujours avec plaisir. Gwee!$0",
+  "Henchman.Event.54": "On dirait que mon patron s'intéresse à vous.$0#$e#Oh, pourquoi ? Je ne peux pas vous le dire. J'ai des ordres à suivre ! Je ne voudrais pas me retrouver à nouveau sans emploi.$0",
+
+##############################################################################################################################################################
+
+  Ligne 877 - 886 :
+
+  Original :
+
+  //1.15 Dark Shrines
+  "DarkShrine.Money.01": "-Dark Shrine of Money-^Offer 20 supernatural goo in exchange for 1 tree coin, which grows into a money tree.",
+  "DarkShrine.Money.02": "-Dark Shrine of Money-^Offer 20 supernatural goo in exchange for 1 tree coin, which grows into a money tree.",
+  "DarkShrine.Life.01": "-Dark Shrine of Life-^Offer 15 sludge in exchange for 1 life elixir.",
+  "DarkShrine.Life.02": "-Dark Shrine of Life-^Offer 15 sludge in exchange for 1 life elixir.",
+  "DarkShrine.Invasion.01": "-Dark Shrine of Invasion-^Armies of monsters invade the valley at night...^Make an offering of one Ornate Treasure Chest?",
+  "DarkShrine.Moss.01": "-Dark Shrine of Moss-^Removes and prevents moss from growing on all trees in the entire world.^Make an offering of one Gold Carrot?",
+  "DarkShrine.Betrayal.01": "-Dark Shrine of Betrayal-^Break the truce between you and the shadow people, turning them hostile again.^Make an offering of one Void Shard?",
+  "DarkShrine.Betrayal.02": "-Dark Shrine of Betrayal-^The statue stares through you...",
+  "DarkShrine.OfferingRejected": "You don't have the necessary offering.",
+
+  Ligne 877 - 886 :
+
+  Traduction :
+
+  //1.15 Dark Shrines
+  "DarkShrine.Money.01": "-Dark Shrine of Money-^Offrez 20 substances gluantes surnaturelles en échange de 1 pièce d'arbre, qui se transforme en arbre à argent.",
+  "DarkShrine.Money.02": "-Dark Shrine of Money-^Offrez 20 substances gluantes surnaturelles en échange de 1 pièce d'arbre, qui se transforme en arbre à argent.",
+  "DarkShrine.Life.01": "-Dark Shrine of Life-^Offrez 15 boues en échange de 1 élixir de vie.",
+  "DarkShrine.Life.02": "-Dark Shrine of Life-^Offrez 15 boues en échange de 1 élixir de vie.",
+  "DarkShrine.Invasion.01": "-Dark Shrine of Invasion-^Des armées de monstres envahissent la vallée la nuit...^Faire une offrande de 1 Coffre au Trésor Orné ?",
+  "DarkShrine.Moss.01": "-Dark Shrine of Moss-^Supprime et empêche la mousse de pousser sur tous les arbres du monde entier.^Faire une offrande d'une Carotte D'Or ?",
+  "DarkShrine.Betrayal.01": "-Dark Shrine of Betrayal-^Briser la trêve entre vous et le peuple de l'ombre, les rendant à nouveau hostiles.^Faire une offrande d'un Éclat du Vide?",
+  "DarkShrine.Betrayal.02": "-Dark Shrine of Betrayal-^La statue vous regarde à travers...",
+  "DarkShrine.OfferingRejected": "Vous n'avez pas l'offrande nécessaire.",
+
+##############################################################################################################################################################
+
+  Ligne 888 - 896 :
+
+  Original :
+
+  //1.15 Lance 14 heart Event
+  "Lance.14HeartEvent.01": "Hello, my love. Come join me on the shore.$1",
+  "Lance.14HeartEvent.02": "There's an island not far from here that's home to dinosaurs. Have you ever been there?$0",
+  "Lance.14HeartEvent.03": "*chuckle* I can already feel your anticipation for adventure.$5#$b#Hold onto me, and I shall take us there.$1",
+  "Lance.14HeartEvent.04": "The inhabitants of this island are peaceful and will pose no threat to us.$0#$b#However, it might be best to avoid that one.$6",
+  "Lance.14HeartEvent.05": "I want this to be your journey! Lead the way.$1",
+  "Lance.14HeartEvent.06": "Ah... now this scene brings back memories of when I first laid my eyes on you.$5",
+  "Lance.14HeartEvent.07": "Is it just me, or is it getting hot in here?...$4",
+  "Lance.14HeartEvent.08": "*chuckle* I wonder what other adventures await us in the future.$5",
+
+  Ligne 888 - 896 :
+
+  Traduction :
+
+  //1.15 Lance 14 heart Event
+  "Lance.14HeartEvent.01": "Salut mon amour. Viens me rejoindre sur le rivage.$1",
+  "Lance.14HeartEvent.02": "Il y a une île non loin d'ici qui abrite des dinosaures. Y êtes-tu déjà allé ?$0",
+  "Lance.14HeartEvent.03": "*rire* Je peux déjà sentir votre impatience pour l'aventure.$5#$b#Accroche-toi à moi, et je nous y emmènerai.$1",
+  "Lance.14HeartEvent.04": "Les habitants de cette île sont pacifiques et ne représenteront aucune menace pour nous.$0#$b#Cependant, il serait peut-être préférable d'éviter celle-là.$6",
+  "Lance.14HeartEvent.05": "Je veux que ce soit ton voyage ! Montre la voie.$1",
+  "Lance.14HeartEvent.06": "Ah... maintenant cette scène me rappelle la première fois où j'ai posé les yeux sur toi.$5",
+  "Lance.14HeartEvent.07": "C'est moi, ou il fait chaud ici ?...$4",
+  "Lance.14HeartEvent.08": "*rire* Je me demande quelles autres aventures nous attendent dans le futur.$5",
+
+
+##############################################################################################################################################################
+
+  Ligne 898 - 925 :
+
+  Original :
+
+  //1.15 Sebastian Event
+  "Sebastian.Event.01": "Hi!",
+  "Sebastian.Event.02": "Hey @! We're about to have dinner.$0#$b#Why don't you join us?$0",
+  "Sebastian.Event.03": "It's taco night!$0",
+  "Sebastian.Event.04": "Honey, can you go grab Sebastian downstairs?$5#$b#He needs to join the family tonight at the table. No excuses.$6",
+  "Sebastian.Event.05": "I'll try my best to persuade him, but no promises.$3",
+  "Sebastian.Event.06": "What is it?$0",
+  "Sebastian.Event.07": "It's just me! Dinner is ready upstairs. We're having tacos tonight.$0",
+  "Sebastian.Event.08": "Cool. I'll be up later to grab some food.$0",
+  "Sebastian.Event.09": "Your room has changed since I was last down here. Is that rug over there new?$1",
+  "Sebastian.Event.10": "Didn't you see the 'Do Not Enter' sign on my door?$0",
+  "Sebastian.Event.11": "Come on now. You don't need to be like that...$5#$b#Join us upstairs at the kitchen table.$0",
+  "Sebastian.Event.12": "I'm just going to eat down here. I'll be up later.$0",
+  "Sebastian.Event.13": "Don't you want to spend time with your family? We haven't had a conversation in a while. I'd like to catch up with you.$0",
+  "Sebastian.Event.14": "Can't you get a clue? I don't want to. I'd rather stay down here.$5",
+  "Sebastian.Event.15": "...$2#$b#Sorry. I didn't mean to come off that way.$2",
+  "Sebastian.Event.16": "Sebastian, sitting together at the table is one of the few times out of the day I see you.$2#$b#And it would really mean a lot to me if you joined us. Even @ is here too.$2",
+  "Sebastian.Event.17": "*sigh* I suppose I'll eat upstairs tonight.$0",
+  "Sebastian.Event.18": "I'm happy to hear that. Why don't you tell me about your coding project over dinner?$0",
+  "Sebastian.Event.19": "Look who I brought!$0",
+  "Sebastian.Event.20": "There he is!$1",
+  "Sebastian.Event.21": "Hey, sit down with us!$0",
+  "Sebastian.Event.22": "...$1",
+  "Sebastian.Event.23": "I ate fish tacos with good company. There was a lot of fun conversation and laughs!",
+  "Sebastian.Event.24": "It isn't healthy for my son to spend so much time in front of that computer of his.$6#$e#He should join us at the table more often.$0",
+  "Sebastian.Event.25": "I can't remember the last time I held a conversation with Sebastian for that long.$0#$e#It was a pleasure having you over for dinner, @.$0",
+  "Sebastian.Event.26": "Sebastian actually sat at the table with us. He never does that!$0",
+  "Sebastian.Event.27": "My mom probably put him up to that didn't she...$0#$b#Well, I'm kinda glad in a weird that way she did. Having dinner with the family was nice.$1#$e#It's easy for me to get wrapped up in my work down there.$0",
+
+  Ligne 898 - 925 :
+
+  Traduction :
+
+  //1.15 Sebastian Event
+  "Sebastian.Event.01": "Salut !",
+  "Sebastian.Event.02": "Salut @! On est sur le point de dîner.$0#$b#Pourquoi ne te joins-tu pas à nous ?$0",
+  "Sebastian.Event.03": "C'est la soirée tacos !$0",
+  "Sebastian.Event.04": "Chéri, peux-tu aller chercher Sebastian en bas ?$5#$b#Il doit rejoindre la famille à table ce soir. Pas d'excuses.$6",
+  "Sebastian.Event.05": "Je ferai de mon mieux pour le persuader, mais sans promesse.$3",
+  "Sebastian.Event.06": "Qu'est-ce que c'est ?$0",
+  "Sebastian.Event.07": "Je suis seul ! Le dîner est prêt à l'étage. On mange des tacos ce soir.$0",
+  "Sebastian.Event.08": "Cool. Je viendrai plus tard chercher à manger.$0",
+  "Sebastian.Event.09": "Ta chambre a changé depuis ma dernière visite. Ce tapis là-bas est-il neuf ?$1",
+  "Sebastian.Event.10": "N'as-tu pas vu le panneau « Ne pas entrer » sur ma porte ?$0",
+  "Sebastian.Event.11": "Allez, viens. Tu n'as pas besoin d'être comme ça...$5#$b#Rejoins-nous à l'étage à la table de la cuisine.$0",
+  "Sebastian.Event.12": "Je vais juste manger ici. Je viendrai plus tard. $0",
+  "Sebastian.Event.13": "Tu ne veux pas passer du temps avec ta famille ? On n'a pas discuté depuis un moment. J'aimerais te revoir.$0",
+  "Sebastian.Event.14": "Tu ne comprends pas ? Je ne veux pas. Je préfère rester ici.$5",
+  "Sebastian.Event.15": "...$2#$b#Désolé. Je ne voulais pas être perçu comme ça.$2",
+  "Sebastian.Event.16": "Sebastian, être assis ensemble à table est l'un des rares moments de la journée où je te vois.$2#$b#Et ça me ferait vraiment plaisir si tu te joignais à nous. Même @ est là aussi.$2",
+  "Sebastian.Event.17": "*soupir* Je suppose que je mangerai à l'étage ce soir.$0",
+  "Sebastian.Event.18": "Je suis ravi de l'entendre. Pourquoi ne pas me parler de ton projet de codage pendant le dîner ?$0",
+  "Sebastian.Event.19": "Regardez qui j'ai amené !$0",
+  "Sebastian.Event.20": "Le voilà !$1",
+  "Sebastian.Event.21": "Hé, asseyez-vous avec nous !$0",
+  "Sebastian.Event.22": "...$1",
+  "Sebastian.Event.23": "J'ai mangé des tacos au poisson en bonne compagnie. On a beaucoup discuté et ri !",
+  "Sebastian.Event.24": "Ce n'est pas sain pour mon fils de passer autant de temps devant son ordinateur.$6#$e#Il devrait se joindre à nous à table plus souvent.$0",
+  "Sebastian.Event.25": "Je ne me souviens pas de la dernière fois où j'ai eu une conversation aussi longue avec Sebastian.$0#$e#C'était un plaisir de t'avoir invité à dîner @.$0",
+  "Sebastian.Event.26": "Sebastian s'est assis à table avec nous. Il ne fait jamais ça !$0",
+  "Sebastian.Event.27": "Ma mère l'a probablement poussé à faire ça, n'est-ce pas...$0#$b#Eh bien, je suis plutôt content, bizarrement, qu'elle l'ait fait. Dîner en famille était sympa.$1#$e#C'est facile pour moi de me laisser absorber par mon travail là-bas.$0",
+
+
+##############################################################################################################################################################
+
+  Ligne 927 - 945 :
+
+  Original :
+
+  //1.15 Legendary Trio Questline
+  "LegendaryTrio.Questline.01": "The Legendary Trio",
+  "LegendaryTrio.Questline.02": "Rare and unusual monsters have appeared in the following locations: highlands, marshlands, and crimson badlands. I must defeat them and deliver to Marlon their spoils.",
+  "LegendaryTrio.Questline.03": "Find and defeat the 'Legendary Purple Mushroom Crab' at the marshlands. Deliver 'Mega Purple Mushroom' to Marlon.",
+  "LegendaryTrio.Questline.04": "Find and defeat the 'Legendary Gold Slime' at the highlands. Deliver 'Gold Slime Egg' to Marlon.",
+  "LegendaryTrio.Questline.05": "Find and defeat the 'Legendary Sand Scorpion' at the crimson badlands. Deliver 'Magic Lamp' to Marlon.",
+  "LegendaryTrio.Questline.06": "Morning, @. I apologize for the short notice. I'm convening an important meeting at midnight at the guild.$0#$b#I expect you to be present. Others will be attending. I will explain all the details then.$0",
+  "LegendaryTrio.Questline.07": "Thank you everyone for attending this meeting on such short notice. I'll get right to it.#$b#There have been sightings of 'legendary monsters' in several regions that we must investigate.",
+  "LegendaryTrio.Questline.08": "Legendary monsters? What do you mean?$0",
+  "LegendaryTrio.Questline.09": "Flamboyant ancient creatures possessing incredible power but are few in number and hide themselves.#$b#There's three legendaries: a purple mushroom crab at the marshlands, a golden slime at the highlands, and a diamond sand scorpion at the crimson badlands.",
+  "LegendaryTrio.Questline.10": "*chuckle* They sound fascinating. I can't say I've ever seen a gold slime.$5",
+  "LegendaryTrio.Questline.11": "We're hunting them down. Where do we start?$0",
+  "LegendaryTrio.Questline.12": "Alesia and Isaac, search for the diamond scorpion in the badlands. Lance, the golden slime at the highlands. I will search the marshlands for the purple mushroom crab.#$b#@ will assist with all regions.$0",
+  "LegendaryTrio.Questline.13": "My bow is ready.$0",
+  "LegendaryTrio.Questline.14": "We don't have a moment to lose.$0",
+  "LegendaryTrio.Questline.15": "This is where the fun begins.$0",
+  "LegendaryTrio.Questline.16": "Report back if you find anything. Good luck, and be safe.$0",
+  "LegendaryTrio.Questline.17": "We've never faced monsters like these before. Hopefully, examining their spoils will teach us something valuable.$0",
+  "LegendaryTrio.Questline.18": "Great work hunting down those legendary monsters.$0#$b#Your reward is waiting for you at the Castle Village Outpost.$0",
+
+  Ligne 927 - 945 :
+
+  Traduction :
+
+  //1.15 Legendary Trio Questline
+  "LegendaryTrio.Questline.01": "Le Trio Légendaire",
+  "LegendaryTrio.Questline.02": "Des monstres rares et inhabituels sont apparus dans les lieux suivants : Les Hautes Terres, Les Marais, et Les Sables Écarlates. Je dois les vaincre et remettre leur butin à Marlon.",
+  "LegendaryTrio.Questline.03": "Trouvez et battez le « Crabe Champignon Violet Légendaire » dans Les Marais. Apportez le « Méga Champignon Violet » à Marlon.",
+  "LegendaryTrio.Questline.04": "Trouvez et battez le « Slime d'or légendaire » dans Les Hautes Terres. Apportez l'« œuf de Slime d'or » à Marlon.",
+  "LegendaryTrio.Questline.05": "Trouvez et battez le « Scorpion des Sables Légendaire » dans Les Sables Écarlates. Apportez la « Lampe Magique » à Marlon.",
+  "LegendaryTrio.Questline.06": "Bonjour, @. Veuillez m'excuser pour le court préavis. J'ai une réunion importante à minuit à la guilde.$0#$b#J'attends votre présence. D'autres personnes seront présentes. Je vous expliquerai tous les détails à ce moment-là.$0",
+  "LegendaryTrio.Questline.07": "Merci à tous d'être venus à cette réunion dans un délai aussi court. Je vais m'y mettre tout de suite.#$b#Des « Monstres Légendaires » ont été aperçus dans plusieurs régions, et nous devons enquêter.",
+  "LegendaryTrio.Questline.08": "Des monstres légendaires ? Que voulez-vous dire ?$0",
+  "LegendaryTrio.Questline.09": "Des créatures anciennes flamboyantes possédant un pouvoir incroyable ! Mais étant peu nombreuses, elles se cachent.#$b#Il existe trois créatures légendaires : un crabe champignon violet dans Les Marais, une vase dorée dans Les Hautes Terres et un scorpion des sables diamantés dans les Les Sables Écarlates.",
+  "LegendaryTrio.Questline.10": "*rire* Ils ont l'air fascinants. Je ne peux pas dire que j'aie déjà vu un slime doré.$5",
+  "LegendaryTrio.Questline.11": "Nous les traquons! Par où commencer ?$0",
+  "LegendaryTrio.Questline.12": "Alesia et Isaac, cherchez le scorpion diamant dans les Terres Écarlates. Lance, le slime doré dans Les Hautes Terres. Je vais fouiller Les Marais à la recherche du crabe champignon violet.#$b#@ vous aidera dans toutes les régions.$0",
+  "LegendaryTrio.Questline.13": "Mon arc est prêt.$0",
+  "LegendaryTrio.Questline.14": "Nous n'avons pas un instant à perdre.$0",
+  "LegendaryTrio.Questline.15": "C'est ici que le plaisir commence.$0",
+  "LegendaryTrio.Questline.16": "Revenez nous voir si vous trouvez quelque chose. Bonne chance et soyez prudent.$0",
+  "LegendaryTrio.Questline.17": "Nous n'avons jamais affronté de monstres comme ceux-ci. Espérons que la fouille de leurs butins nous apprendra quelque chose de précieux.$0",
+  "LegendaryTrio.Questline.18": "Excellent travail pour traquer ces monstres légendaires.$0#$b#Votre récompense vous attend à l'Avant-Poste du Village du Château.$0",
+
+##############################################################################################################################################################
+
+  Ligne 947 - 973 :
+
+  Original :
+
+  //1.15 Winery Unlocked
+  "Winery.Unlocked.1": "Good morning, @. %farm has produced a lot of wine over the seasons! You should consider building a 'Winery'.$0#$b#I took the liberty of procuring the building blueprint for Robin. But be warned - it's quite pricey!$1",
+  "Winery.Unlocked.2": "A winery is an expensive investment, @. It could take years before you start seeing any positive returns.$0",
+
+  //1.15 Bear Dialogue
+  "Bear.Event.09": "Hey there, Chungus. Just had a chat with the nice lady in there.$3#$b#My friends are ready to help out on your farm, but only if you got one of those new fancy premium barns!$0#$b#A bear could rest up nice in one of those...$2",
+  "Bear.Event.10": "Well, this maple syrup won't sleep itself off. Have a nice one.$1",
+  "Bear.Event.11": "There was a bear in my house!$4#$b#It wrote something... in my order ledger...$4#$e#I need to go lie down...$4",
+
+  //1.15 Boots
+  "boots.galdoran-knight-boots.name": "Galdoran Knight Boots",
+  "boots.galdoran-knight-boots.description": "It's made out of enchanted steel.",
+  "boots.galdoran-mage-boots.name": "Galdoran Mage Boots",
+  "boots.galdoran-mage-boots.description": "Makes the wearer immune to negative effects.",
+
+  //1.15 Wizard quest dialogue edits when dating or married to be less of a jerk to the player
+  "Wizard.SpecialOrder.01": "Ah, it's brimming with the energy of forgotten souls... perfect.$h#$b#Thank you, dear. I shall now require perfect silence to discern the true nature of this substance.",
+  "Wizard.SpecialOrder.02": "Ah... you've returned from the hunt. I sense that you were successful!$h#$b#This miraculous jelly hides many secrets I shall unveil. Thank you, dear.$1",
+
+  //1.15 marsh tonic gift reactions
+  "Lance.Gift.MarshTonic": "Hmm? This is not a sanctioned potion. I'll have to dump the contents right away. You don't have any more of these do you, @?$3",
+  "Marlon.Gift.MarshTonic": "@, you could get in serious trouble if someone from the ministry caught wind of you dabbling with these tonics. I would reconsider brewing these in the future.$1",
+  "Magnus.Gift.MarshTonic": "My ex-wife used to concoct potions like this one... equally powerful and just as illegal.$2",
+
+  //1.15 Misc
+  "Dusty.DisplayName": "Dusty",
+  "AdventureGuild.Hours": "Open 12:00PM to 2:00AM",
+
+  Ligne 947 - 973 :
+
+  Traduction :
+
+  //1.15 Winery Unlocked
+  "Winery.Unlocked.1": "Bonjour, @. %farm a produit beaucoup de vin au fil des saisons ! Vous devriez envisager de construire un 'Domaine Viticole'.$0#$b#J'ai pris la liberté de fournir le plan de construction à Robin. Mais attention, c'est assez cher !$1",
+  "Winery.Unlocked.2": "Un Domaine Viticole est un investissement coûteux, @. Il faudra peut-être des années avant de commencer à voir des rendements positifs.$0",
+
+  //1.15 Bear Dialogue
+  "Bear.Event.09": "Salut Chungus. Je viens de discuter avec la gentille dame là-bas.$3#$b#Mes amis sont prêts à vous aider à la ferme, mais seulement si vous avez une de ces nouvelles granges haut de gamme !$0#$b#Un ours pourrait se reposer tranquillement dans l'une d'elles...$2",
+  "Bear.Event.10": "Eh bien, ce sirop d'érable ne s'évapore pas tout seul. Bon appétit.$2",
+  "Bear.Event.11": "Il y avait un ours dans ma maison !$4#$b#Il a écrit quelque chose... dans mon registre de commandes...$4#$e#Je dois aller me coucher...$4",
+
+  //1.15 Boots
+  "boots.galdoran-knight-boots.name": "Bottes de Chevalier Galdoran",
+  "boots.galdoran-knight-boots.description": "Il est fait d'acier enchanté.",
+  "boots.galdoran-mage-boots.name": "Bottes de Mage Galdoran",
+  "boots.galdoran-mage-boots.description": "Rend le porteur immunisé contre les effets négatifs.",
+
+  //1.15 Wizard quest dialogue edits when dating or married to be less of a jerk to the player
+  "Wizard.SpecialOrder.01": "Ah, il déborde de l'énergie des Âmes Oubliées... parfait.$h#$b#Merci, ma chère. Je vais maintenant exiger un silence parfait pour discerner la véritable nature de cette substance.",
+  "Wizard.SpecialOrder.02": "Ah... vous êtes de retour de la chasse. Je sens que vous avez réussi !$h#$b#Cette gelée miraculeuse cache de nombreux secrets que je vais vous dévoiler. Merci, ma chère.$1",
+
+  //1.15 marsh tonic gift reactions
+  "Lance.Gift.MarshTonic": "Hmm ? Ce n’est pas une potion autorisée. Je vais devoir vider le contenu immédiatement. Tu n’en as plus, n’est-ce pas, @?$3",
+  "Marlon.Gift.MarshTonic": "@, tu pourrais avoir de sérieux ennuis si quelqu'un du ministère apprenait que tu consommes ces toniques. Je reconsidérerais la possibilité d'en préparer à l'avenir.$1",
+  "Magnus.Gift.MarshTonic": "Mon ex-femme avait l'habitude de concocter des potions comme celle-ci... tout aussi puissantes et tout aussi illégales.$2",
+
+  //1.15 Misc
+  "Dusty.DisplayName": "Dusty",
+  "AdventureGuild.Hours": "Ouvert de 12h00 à 2h00",
