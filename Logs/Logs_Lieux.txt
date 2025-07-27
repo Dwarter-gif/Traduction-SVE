@@ -688,6 +688,25 @@ Ligne 8754 : [...] "Ohé. On jette un coup d'œil à la Gem Sea, n'est-ce pas ?$
 Ligne 9610 : [...] "La vue sur la Gem Sea est incroyablement belle depuis cette hauteur !$1",
           => [...] "La vue sur la Mer de Gemme est incroyablement belle depuis cette hauteur !$1",
 
+//Beach
+Ligne 9964 : [...] "Vous voyez à peine les îles Fern à travers la mer Gem.",
+          => [...] "Vous voyez à peine les îles Fern à travers la Mer de Gemme.",
+
+//SusanHouse
+Ligne 10167 : [...] "Il s'agit d'une réplique du modèle du navire J.R. Forsont. Il était célèbre pour avoir cartographié l'ensemble de la mer Gem.",
+           => [...] "Il s'agit d'une réplique du modèle du navire J.R. Forsont. Il était célèbre pour avoir cartographié l'ensemble de la Mer de Gemme.",
+
+//JenkinsHouse
+Ligne 10261 : [...] "\"Mer Gem - La vie océanique\"",
+           => [...] "\"Mer de Gemme - La vie océanique\"",
+
+Ligne 10282 : [...] "\"The First Slash - Clan des chasseur de monstres des îles Fern\"^^L'image de couverture de ce livre montre cinq personnes avec des capes bleues. Ce doivent être les aventuriers de la Mer Gem..",
+           => [...] "\"The First Slash - Clan des chasseur de monstres des îles Fern\"^^L'image de couverture de ce livre montre cinq personnes avec des capes bleues. Ce doivent être les aventuriers de la Mer de Gemme..",
+
+//Festivals
+Ligne 10972 : [...] "Ouah, regarde tous ces œufs !$h#$b#Maintenant, si seulement je pouvais vous faire ramasser les déchets avec autant d'efficacité, nous aurions la ville la plus propre de ce côté de la Mer Gem ! *rigole*$h",
+           => [...] "Ouah, regarde tous ces œufs !$h#$b#Maintenant, si seulement je pouvais vous faire ramasser les déchets avec autant d'efficacité, nous aurions la ville la plus propre de ce côté de la Mer de Gemme ! *rigole*$h",
+
 Le mot est aussi présent dans les autres fichiers Logs aux lignes suivants :
 //1.15 Animals (Ligne 452)
 //1.15 Scarlett Marriage Schedule Dialogue (Ligne 689)

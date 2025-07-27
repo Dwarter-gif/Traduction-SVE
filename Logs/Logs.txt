@@ -2538,6 +2538,10 @@ Axe d'amélioration futur => Certains mots me pose des doutes voici une liste de
   Ligne 9957 : [...] "@ Vignoble Blue Moon^> Plage",
             => [...] "@ Vignoble Lune Bleu^> Plage",
 
+  //Beach
+  Ligne 9964 : [...] "Vous voyez à peine les îles Fern à travers la mer Gem.",
+            => [...] "Vous voyez à peine les îles Fern à travers la Mer de Gemme.",
+
   //BluemoonVineyard
   Ligne 10028 && 10029 && 10033 && 10040 : [...] "> Pélican Vile^@ Vignoble Blue Moon^@ Forêt Sève-Cendrée^= Plage", / "-Résidence de Sophia-^-Vignoble Blue Moon-", / "Le Vignoble Blue Moon transforme tous les raisins en vin.", / "'VIGNOBLE BLUE MOON'",
                                         => [...] "> Pélican Vile^@ Vignoble Lune Bleu^@ Forêt Sève-Cendrée^= Plage", / "-Résidence de Sophia-^-Vignoble Lune Bleu-", / "Le Vignoble Lune Bleu transforme tous les raisins en vin.", / "'VIGNOBLE LUNE BLEU'",
@@ -2551,12 +2555,23 @@ Axe d'amélioration futur => Certains mots me pose des doutes voici une liste de
   Ligne 10156 : [...] "Sophia produit le vin de raisin de qualité iridium du vignoble Blue Moon.",
              => [...] "Sophia produit le vin de raisin de qualité iridium du vignoble Lune Bleu.",
 
+  //SusanHouse
+  Ligne 10167 : [...] "Il s'agit d'une réplique du modèle du navire J.R. Forsont. Il était célèbre pour avoir cartographié l'ensemble de la mer Gem.",
+             => [...] "Il s'agit d'une réplique du modèle du navire J.R. Forsont. Il était célèbre pour avoir cartographié l'ensemble de la Mer de Gemme.",
+
   //JenkinsHouse
+  Ligne 10261 : [...] "\"Mer Gem - La vie océanique\"",
+             => [...] "\"Mer de Gemme - La vie océanique\"",
+
   Ligne 10263 : [...] "\"Legends of Monsters - Contes de Castle Village\"^^Ce livre vous intéresse particulièrement. Vous jetez un œil à plusieurs pages ... Hmm. Il parle de nombreux aventuriers et de leurs exploits en tuant des monstres, protégeant les sables du désert.",
              => [...] "\"Legends of Monsters - Contes du Village du Château\"^^Ce livre vous intéresse particulièrement. Vous jetez un œil à plusieurs pages ... Hmm. Il parle de nombreux aventuriers et de leurs exploits en tuant des monstres, protégeant les sables du désert.",
 
   Ligne 10276 : [...] "\"Succès du Vignoble Blue Moon - by Jason Taylor\"",
              => [...] "\"Succès du Vignoble Lune Bleu - by Jason Taylor\"",
+
+  Ligne 10282 : [...] "\"The First Slash - Clan des chasseur de monstres des îles Fern\"^^L'image de couverture de ce livre montre cinq personnes avec des capes bleues. Ce doivent être les aventuriers de la Mer Gem..",
+             => [...] "\"The First Slash - Clan des chasseur de monstres des îles Fern\"^^L'image de couverture de ce livre montre cinq personnes avec des capes bleues. Ce doivent être les aventuriers de la Mer de Gemme..",
+
 
   //ForestWest
   Ligne 10343 : [...] "@ {{FarmName}} Farm^> Pelican Town", / "{{FarmName}} Farm",
@@ -2611,6 +2626,10 @@ Axe d'amélioration futur => Certains mots me pose des doutes voici une liste de
   //GuntherRoom
   Ligne 10741 : [...] "'Origines des monstres - Résultats de Castle Village'",
              => [...] "'Origines des monstres - Résultats du Village du Château'",
+
+  //Festivals
+  Ligne 10972 : [...] "Ouah, regarde tous ces œufs !$h#$b#Maintenant, si seulement je pouvais vous faire ramasser les déchets avec autant d'efficacité, nous aurions la ville la plus propre de ce côté de la Mer Gem ! *rigole*$h",
+             => [...] "Ouah, regarde tous ces œufs !$h#$b#Maintenant, si seulement je pouvais vous faire ramasser les déchets avec autant d'efficacité, nous aurions la ville la plus propre de ce côté de la Mer de Gemme ! *rigole*$h",
 
   //JojaDay
   Ligne 11058 : [...] "Bonjour, @. Je voulais passer et te dire que « Le Jour Joja » sera demain au Joja Mart !$1#$b#Il y aura des décorations exclusives à vendre et jusqu'à 20 % de réduction sur les graines jusqu'à 20h !$4#$b#Ce serait un plaisir si tu y assistais !$1",
