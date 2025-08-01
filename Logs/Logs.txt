@@ -50,57 +50,12 @@
 
   - [Tous les noms des jeux-vidéos et séries parodiques]
 
-##############################################################################################################################################################
-
-  *Liste des lieux qui ont été traduit ailleurs dans le fichier et que j'ai rectifier aux lignes concernés
-
-   - Aurora Vineyard => Vignoble d'Aurora (correction du nom anglais basée sur la traduction à la ligne 1700)
-
-   - Blue Moon Vineyard => Vignoble de la Lune Bleue (correction du nom anglais basée sur la traduction à la ligne 1986)
-
-   - Crimson Badlands => Les Terres Écarlates (correction du nom anglais basée sur la traduction à la ligne 1023)
-
-   - EmeraldFarm => Ferme Émeraude [OK] (correction du nom anglais basée sur la traduction à la ligne 1993)
-
-   - Gem Sea => Mer de Gemme (correction du nom anglais basée sur la traduction à la ligne 2270)
-
-   - Ginger Island => Île Gingembre (correction du nom anglais basée sur la traduction à la ligne 1214)
-
-   - GrandpasShed / Grandpa's Shed => Hangar de Grand-père [OK] (correction du nom anglais basée sur la traduction à la ligne 2010)
-
-   - Grenville Falls => Les Chutes de Greenville (correction du nom anglais basée sur la traduction à la ligne 2010)
-
-  *Cas de la quête du Trio Légendaire : Pour garder une cohérence avec les quêtes du trio légendaire (lignes 927-945) et éviter d'avoir des lieux anglais et français, j'ai préféré tous les traduires
-
-  - Castle Village => Village du Château
-
-  - Highlands => Les Hautes Terres (ou Les Terres Hautes ?)
-
-  - Marshlands => Les Marais [OK]
-
-  *Liste des autres lieux que j'ai pris la liberté de traduire en plus
-
-  - Cindersap Forest => Forêt Sève-Cendreuse (wiki)
-  - Fable Reef => Récif des Fables
-  - Forbidden Maze => Labyrinthe Interdit [OK]
-  - Go Goat Ranch => Ranch des Chèvres [OK]
-  - Joja Mart => Marché Joja (wiki)
-  - Luau day => Fête Hawaïenne (wiki) [OK]
-  - Pelican Town => Pelican Ville (wiki)
-
-  *Lieux inchangés
-
-  - Fireplace
-  - Grampleton
-  - Guilde First Slash
-  - Pine-Mesa city
-  - Shearwater
-  - Sautine City
-  - Zuzu City
 
 ##############################################################################################################################################################
 
-Axe d'amélioration futur => Certains mots me pose des doutes voici une liste de ces fameux mots :
+  Axe d'amélioration futur =>
+
+  - Certains mots me pose des doutes voici une liste de ces fameux mots :
 
   "the best" => la meilleure / le meilleur ou juste traduire par 'le best' ?
 
@@ -115,6 +70,10 @@ Axe d'amélioration futur => Certains mots me pose des doutes voici une liste de
   => mon cher / ma chère / mon ami / mon amie / le meilleur / la meilleure / mon tendre / ma tendre / ma puce (/ mon chaton / mon chou ?) / mon copain / ma copine / mon champion / ma championne
 
   Solution : écrire le masculin en premier - mettre un ^ - et écrire le féminin (ex : Ligne 1202 ou 1275) - A tester
+
+  - *Utopique* mais réussir à faire les distinctions masculins et féminins de TOUS les dialogues du fichier
+
+  Solution : Écrire le masculin en premier puis rajouter '$0^' et coller la phrase au féminin après cette expression
 
 ##############################################################################################################################################################
 ##############################################################################################################################################################
